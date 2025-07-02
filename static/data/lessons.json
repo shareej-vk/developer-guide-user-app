@@ -1,0 +1,262 @@
+[
+  {
+    "id": 828,
+    "unit_id": 83,
+    "title": "Lesson 1: What is the DOM and It's connection with Javascript?",
+    "video": null,
+    "slug": "lesson_1:_what_is_the_dom_and_it's_connection_with_javascript?",
+    "display_order": 1,
+    "created_at": "2025-06-29 16:06:32",
+    "updated_at": "2025-06-30 12:16:46"
+  },
+  {
+    "id": 829,
+    "unit_id": 83,
+    "title": "Lesson 2: DOM vs HTML - Understanding the Difference",
+    "video": null,
+    "slug": "lesson_2_dom_vs_html_-_understanding_the_difference",
+    "display_order": 2,
+    "created_at": "2025-06-29 16:06:32",
+    "updated_at": "2025-06-30 15:54:30"
+  },
+  {
+    "id": 830,
+    "unit_id": 83,
+    "title": "Lesson 3: DOM Tree Structure",
+    "video": null,
+    "slug": "lesson_3:_dom_tree_structure",
+    "display_order": 3,
+    "created_at": "2025-06-29 16:06:32",
+    "updated_at": "2025-06-30 16:05:55"
+  },
+  {
+    "id": 831,
+    "unit_id": 83,
+    "title": "Lesson 4: The Window and Document Objects",
+    "video": null,
+    "slug": "lesson_4_the_window_and_document_objects",
+    "display_order": 4,
+    "created_at": "2025-06-29 16:06:32",
+    "updated_at": "2025-06-30 16:22:23"
+  },
+  {
+    "id": 832,
+    "unit_id": 83,
+    "title": "Lesson 5: Accessing Elements with getElementById",
+    "video": null,
+    "slug": "lesson_5_accessing_elements_with_getelementbyid",
+    "display_order": 5,
+    "created_at": "2025-06-29 16:06:32",
+    "updated_at": "2025-06-30 16:40:54"
+  },
+  {
+    "id": 833,
+    "unit_id": 83,
+    "title": "Lesson 6: Accessing Elements with querySelector and querySelectorAll",
+    "video": null,
+    "slug": "lesson_6_accessing_elements_with_queryselector_and_queryselectorall",
+    "display_order": 6,
+    "created_at": "2025-06-29 16:06:32",
+    "updated_at": "2025-07-01 01:49:23"
+  },
+  {
+    "id": 834,
+    "unit_id": 83,
+    "title": "Lesson 7: Accessing Elements with getElementsByClassName and getElementsByTagName",
+    "video": null,
+    "slug": "lesson_7_accessing_elements_with_getelementsbyclassname_and_getelementsbytagname",
+    "display_order": 7,
+    "created_at": "2025-06-29 16:06:32",
+    "updated_at": "2025-07-01 01:56:04"
+  },
+  {
+    "id": 835,
+    "unit_id": 83,
+    "title": "Lesson 8: Traversing the DOM (Parent, Child, Siblings)",
+    "video": null,
+    "slug": "lesson_8_traversing_the_dom_parent_child_siblings",
+    "display_order": 8,
+    "created_at": "2025-06-29 16:06:32",
+    "updated_at": "2025-07-01 02:03:20"
+  },
+  {
+    "id": 836,
+    "unit_id": 83,
+    "title": "Lesson 9: Reading and Changing Element Content (textContent, innerText, innerHTML)",
+    "video": null,
+    "slug": "lesson_9_reading_and_changing_element_content_textcontent_innertext_innerhtml",
+    "display_order": 9,
+    "created_at": "2025-06-29 16:06:33",
+    "updated_at": "2025-07-01 02:06:31"
+  },
+  {
+    "id": 837,
+    "unit_id": 83,
+    "title": "Lesson 10: Changing Element Attributes (setAttribute, getAttribute, removeAttribute)",
+    "video": null,
+    "slug": "lesson_10_changing_element_attributes_setattribute_getattribute_removeattribute",
+    "display_order": 10,
+    "created_at": "2025-06-29 16:06:33",
+    "updated_at": "2025-07-01 02:09:24"
+  },
+  {
+    "id": 838,
+    "unit_id": 83,
+    "title": "Lesson 11: Working with Classes (classList, className)",
+    "video": null,
+    "slug": "lesson_11_working_with_classes_classlist_classname",
+    "display_order": 11,
+    "created_at": "2025-06-29 16:06:33",
+    "updated_at": "2025-07-01 02:15:27"
+  },
+  {
+    "id": 839,
+    "unit_id": 83,
+    "title": "Lesson 12: Styling Elements with style Property",
+    "video": null,
+    "slug": "lesson_12_styling_elements_with_style_property",
+    "display_order": 12,
+    "created_at": "2025-06-29 16:06:33",
+    "updated_at": "2025-07-01 02:17:35"
+  },
+  {
+    "id": 840,
+    "unit_id": 83,
+    "title": "Lesson 13: Creating and Appending Elements (createElement, appendChild, prepend)",
+    "video": null,
+    "slug": "lesson_13_creating_and_appending_elements_createelement_appendchild_prepend",
+    "display_order": 13,
+    "created_at": "2025-06-29 16:06:33",
+    "updated_at": "2025-06-30 08:22:20"
+  },
+  {
+    "id": 841,
+    "unit_id": 83,
+    "title": "Lesson 14: Removing and Replacing Elements (remove, removeChild, replaceChild)",
+    "video": null,
+    "slug": "lesson_14_removing_and_replacing_elements_remove_removechild_replacechild",
+    "display_order": 14,
+    "created_at": "2025-06-29 16:06:33",
+    "updated_at": "2025-06-30 08:25:27"
+  },
+  {
+    "id": 842,
+    "unit_id": 83,
+    "title": "Lesson 15: Understanding the DOMContentLoaded Event",
+    "video": null,
+    "slug": "lesson_15_understanding_the_domcontentloaded_event",
+    "display_order": 15,
+    "created_at": "2025-06-29 16:06:33",
+    "updated_at": "2025-06-30 08:28:42"
+  },
+  {
+    "id": 843,
+    "unit_id": 83,
+    "title": "Lesson 16: Performance Considerations with DOM Manipulation",
+    "video": null,
+    "slug": "lesson_16_performance_considerations_with_dom_manipulation",
+    "display_order": 16,
+    "created_at": "2025-06-29 16:06:33",
+    "updated_at": "2025-06-30 08:32:16"
+  },
+  {
+    "id": 844,
+    "unit_id": 83,
+    "title": "Lesson 17: Practical Examples: Build a Dynamic List with JavaScript",
+    "video": null,
+    "slug": "lesson_17_practical_examples_build_a_dynamic_list_with_javascript",
+    "display_order": 17,
+    "created_at": "2025-06-29 16:06:33",
+    "updated_at": "2025-06-30 08:35:40"
+  },
+  {
+    "id": 845,
+    "unit_id": 84,
+    "title": "Lesson 1: The Role of JavaScript: The Brain of the Web",
+    "video": null,
+    "slug": "lesson_1_the_role_of_javascript_the_brain_of_the_web",
+    "display_order": 1,
+    "created_at": "2025-07-01 13:03:46",
+    "updated_at": "2025-07-01 13:09:03"
+  },
+  {
+    "id": 846,
+    "unit_id": 84,
+    "title": "Lesson 2: What JavaScript Can Do: From Static to Dynamic",
+    "video": null,
+    "slug": "lesson_2_what_javascript_can_do_from_static_to_dynamic",
+    "display_order": 2,
+    "created_at": "2025-07-01 13:03:46",
+    "updated_at": "2025-07-01 13:03:46"
+  },
+  {
+    "id": 847,
+    "unit_id": 84,
+    "title": "Lesson 3: Introduction to the Browser Developer Console",
+    "video": null,
+    "slug": "lesson_3_introduction_to_the_browser_developer_console",
+    "display_order": 3,
+    "created_at": "2025-07-01 13:03:46",
+    "updated_at": "2025-07-01 13:03:46"
+  },
+  {
+    "id": 848,
+    "unit_id": 84,
+    "title": "Lesson 4: How to Add JavaScript to an HTML File",
+    "video": null,
+    "slug": "lesson_4_how_to_add_javascript_to_an_html_file",
+    "display_order": 4,
+    "created_at": "2025-07-01 13:03:46",
+    "updated_at": "2025-07-01 13:03:46"
+  },
+  {
+    "id": 849,
+    "unit_id": 84,
+    "title": "Lesson 5: Linking an External JavaScript File: The Professional Method",
+    "video": null,
+    "slug": "lesson_5_linking_an_external_javascript_file_the_professional_method",
+    "display_order": 5,
+    "created_at": "2025-07-01 13:03:46",
+    "updated_at": "2025-07-01 13:03:46"
+  },
+  {
+    "id": 850,
+    "unit_id": 84,
+    "title": "Lesson 6: Where to Place Your <script> Tag and Why",
+    "video": null,
+    "slug": "lesson_6_where_to_place_your_script_tag_and_why",
+    "display_order": 6,
+    "created_at": "2025-07-01 13:03:46",
+    "updated_at": "2025-07-01 13:03:46"
+  },
+  {
+    "id": 851,
+    "unit_id": 84,
+    "title": "Lesson 7: Writing Your First Line of Code with `console.log()`",
+    "video": null,
+    "slug": "lesson_7_writing_your_first_line_of_code_with_consolelog",
+    "display_order": 7,
+    "created_at": "2025-07-01 13:03:46",
+    "updated_at": "2025-07-01 13:03:46"
+  },
+  {
+    "id": 852,
+    "unit_id": 84,
+    "title": "Lesson 8: Understanding How a Browser Executes JavaScript",
+    "video": null,
+    "slug": "lesson_8_understanding_how_a_browser_executes_javascript",
+    "display_order": 8,
+    "created_at": "2025-07-01 13:03:46",
+    "updated_at": "2025-07-01 13:03:46"
+  },
+  {
+    "id": 853,
+    "unit_id": 84,
+    "title": "Lesson 9: Looking Ahead: The Need for Memory (Variables)",
+    "video": null,
+    "slug": "lesson_9_looking_ahead_the_need_for_memory_variables",
+    "display_order": 9,
+    "created_at": "2025-07-01 13:03:46",
+    "updated_at": "2025-07-01 13:03:46"
+  }
+]

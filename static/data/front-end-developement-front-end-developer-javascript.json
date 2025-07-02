@@ -1,0 +1,118 @@
+{
+  "subject": {
+    "id": 8,
+    "name": "javascript",
+    "label": "JAVASCRIPT"
+  },
+  "units": [
+    {
+      "id": 83,
+      "name": "understanding_document_object_model_(dom)",
+      "label": "Understanding Document Object Model (DOM)",
+      "lessons": [
+        {
+          "id": 828,
+          "title": "Lesson 1: What is the DOM?",
+          "slug": "lesson_1_what_is_the_dom",
+          "display_order": 1
+        },
+        {
+          "id": 829,
+          "title": "Lesson 2: DOM vs HTML - Understanding the Difference",
+          "slug": "lesson_2_dom_vs_html_-_understanding_the_difference",
+          "display_order": 2
+        },
+        {
+          "id": 830,
+          "title": "Lesson 3: DOM Tree Structure and Node Types",
+          "slug": "lesson_3_dom_tree_structure_and_node_types",
+          "display_order": 3
+        },
+        {
+          "id": 831,
+          "title": "Lesson 4: The Window and Document Objects",
+          "slug": "lesson_4_the_window_and_document_objects",
+          "display_order": 4
+        },
+        {
+          "id": 832,
+          "title": "Lesson 5: Accessing Elements with getElementById",
+          "slug": "lesson_5_accessing_elements_with_getelementbyid",
+          "display_order": 5
+        },
+        {
+          "id": 833,
+          "title": "Lesson 6: Accessing Elements with querySelector and querySelectorAll",
+          "slug": "lesson_6_accessing_elements_with_queryselector_and_queryselectorall",
+          "display_order": 6
+        },
+        {
+          "id": 834,
+          "title": "Lesson 7: Accessing Elements with getElementsByClassName and getElementsByTagName",
+          "slug": "lesson_7_accessing_elements_with_getelementsbyclassname_and_getelementsbytagname",
+          "display_order": 7
+        },
+        {
+          "id": 835,
+          "title": "Lesson 8: Traversing the DOM (Parent, Child, Siblings)",
+          "slug": "lesson_8_traversing_the_dom_parent_child_siblings",
+          "display_order": 8
+        },
+        {
+          "id": 836,
+          "title": "Lesson 9: Reading and Changing Element Content (textContent, innerText, innerHTML)",
+          "slug": "lesson_9_reading_and_changing_element_content_textcontent_innertext_innerhtml",
+          "display_order": 9
+        },
+        {
+          "id": 837,
+          "title": "Lesson 10: Changing Element Attributes (setAttribute, getAttribute, removeAttribute)",
+          "slug": "lesson_10_changing_element_attributes_setattribute_getattribute_removeattribute",
+          "display_order": 10
+        },
+        {
+          "id": 838,
+          "title": "Lesson 11: Working with Classes (classList, className)",
+          "slug": "lesson_11_working_with_classes_classlist_classname",
+          "display_order": 11
+        },
+        {
+          "id": 839,
+          "title": "Lesson 12: Styling Elements with style Property",
+          "slug": "lesson_12_styling_elements_with_style_property",
+          "display_order": 12
+        },
+        {
+          "id": 840,
+          "title": "Lesson 13: Creating and Appending Elements (createElement, appendChild, prepend)",
+          "slug": "lesson_13_creating_and_appending_elements_createelement_appendchild_prepend",
+          "display_order": 13
+        },
+        {
+          "id": 841,
+          "title": "Lesson 14: Removing and Replacing Elements (remove, removeChild, replaceChild)",
+          "slug": "lesson_14_removing_and_replacing_elements_remove_removechild_replacechild",
+          "display_order": 14
+        },
+        {
+          "id": 842,
+          "title": "Lesson 15: Understanding the DOMContentLoaded Event",
+          "slug": "lesson_15_understanding_the_domcontentloaded_event",
+          "display_order": 15
+        },
+        {
+          "id": 843,
+          "title": "Lesson 16: Performance Considerations with DOM Manipulation",
+          "slug": "lesson_16_performance_considerations_with_dom_manipulation",
+          "display_order": 16
+        },
+        {
+          "id": 844,
+          "title": "Lesson 17: Practical Examples: Build a Dynamic List with JavaScript",
+          "slug": "lesson_17_practical_examples_build_a_dynamic_list_with_javascript",
+          "display_order": 17
+        }
+      ]
+    }
+  ]
+}
