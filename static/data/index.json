@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2025-07-01T13:09:34.355Z",
+  "exportedAt": "2025-07-11T02:49:50.266Z",
   "tables": [
     {
       "name": "boards",
@@ -7,7 +7,7 @@
     },
     {
       "name": "classes",
-      "count": 1
+      "count": 0
     },
     {
       "name": "subjects",
@@ -15,7 +15,7 @@
     },
     {
       "name": "units",
-      "count": 2
+      "count": 10
     },
     {
       "name": "content",
@@ -23,12 +23,12 @@
     },
     {
       "name": "lessons",
-      "count": 26
+      "count": 101
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "generatedBy": "export-db.js",
-    "database": "developer-guide.db"
+    "database": "exam-guide.db"
   }
 }

@@ -3,18 +3,18 @@
     "id": 828,
     "unit_id": 83,
     "title": "Lesson 1: What is the DOM and It's connection with Javascript?",
-    "video": null,
     "slug": "lesson_1:_what_is_the_dom_and_it's_connection_with_javascript?",
+    "video": null,
     "display_order": 1,
     "created_at": "2025-06-29 16:06:32",
-    "updated_at": "2025-06-30 12:16:46"
+    "updated_at": "2025-07-03 09:58:48"
   },
   {
     "id": 829,
     "unit_id": 83,
     "title": "Lesson 2: DOM vs HTML - Understanding the Difference",
-    "video": null,
     "slug": "lesson_2_dom_vs_html_-_understanding_the_difference",
+    "video": null,
     "display_order": 2,
     "created_at": "2025-06-29 16:06:32",
     "updated_at": "2025-06-30 15:54:30"
@@ -23,8 +23,8 @@
     "id": 830,
     "unit_id": 83,
     "title": "Lesson 3: DOM Tree Structure",
-    "video": null,
     "slug": "lesson_3:_dom_tree_structure",
+    "video": null,
     "display_order": 3,
     "created_at": "2025-06-29 16:06:32",
     "updated_at": "2025-06-30 16:05:55"
@@ -33,8 +33,8 @@
     "id": 831,
     "unit_id": 83,
     "title": "Lesson 4: The Window and Document Objects",
-    "video": null,
     "slug": "lesson_4_the_window_and_document_objects",
+    "video": null,
     "display_order": 4,
     "created_at": "2025-06-29 16:06:32",
     "updated_at": "2025-06-30 16:22:23"
@@ -43,8 +43,8 @@
     "id": 832,
     "unit_id": 83,
     "title": "Lesson 5: Accessing Elements with getElementById",
-    "video": null,
     "slug": "lesson_5_accessing_elements_with_getelementbyid",
+    "video": null,
     "display_order": 5,
     "created_at": "2025-06-29 16:06:32",
     "updated_at": "2025-06-30 16:40:54"
@@ -53,8 +53,8 @@
     "id": 833,
     "unit_id": 83,
     "title": "Lesson 6: Accessing Elements with querySelector and querySelectorAll",
-    "video": null,
     "slug": "lesson_6_accessing_elements_with_queryselector_and_queryselectorall",
+    "video": null,
     "display_order": 6,
     "created_at": "2025-06-29 16:06:32",
     "updated_at": "2025-07-01 01:49:23"
@@ -63,8 +63,8 @@
     "id": 834,
     "unit_id": 83,
     "title": "Lesson 7: Accessing Elements with getElementsByClassName and getElementsByTagName",
-    "video": null,
     "slug": "lesson_7_accessing_elements_with_getelementsbyclassname_and_getelementsbytagname",
+    "video": null,
     "display_order": 7,
     "created_at": "2025-06-29 16:06:32",
     "updated_at": "2025-07-01 01:56:04"
@@ -73,8 +73,8 @@
     "id": 835,
     "unit_id": 83,
     "title": "Lesson 8: Traversing the DOM (Parent, Child, Siblings)",
-    "video": null,
     "slug": "lesson_8_traversing_the_dom_parent_child_siblings",
+    "video": null,
     "display_order": 8,
     "created_at": "2025-06-29 16:06:32",
     "updated_at": "2025-07-01 02:03:20"
@@ -83,8 +83,8 @@
     "id": 836,
     "unit_id": 83,
     "title": "Lesson 9: Reading and Changing Element Content (textContent, innerText, innerHTML)",
-    "video": null,
     "slug": "lesson_9_reading_and_changing_element_content_textcontent_innertext_innerhtml",
+    "video": null,
     "display_order": 9,
     "created_at": "2025-06-29 16:06:33",
     "updated_at": "2025-07-01 02:06:31"
@@ -93,8 +93,8 @@
     "id": 837,
     "unit_id": 83,
     "title": "Lesson 10: Changing Element Attributes (setAttribute, getAttribute, removeAttribute)",
-    "video": null,
     "slug": "lesson_10_changing_element_attributes_setattribute_getattribute_removeattribute",
+    "video": null,
     "display_order": 10,
     "created_at": "2025-06-29 16:06:33",
     "updated_at": "2025-07-01 02:09:24"
@@ -103,8 +103,8 @@
     "id": 838,
     "unit_id": 83,
     "title": "Lesson 11: Working with Classes (classList, className)",
-    "video": null,
     "slug": "lesson_11_working_with_classes_classlist_classname",
+    "video": null,
     "display_order": 11,
     "created_at": "2025-06-29 16:06:33",
     "updated_at": "2025-07-01 02:15:27"
@@ -113,8 +113,8 @@
     "id": 839,
     "unit_id": 83,
     "title": "Lesson 12: Styling Elements with style Property",
-    "video": null,
     "slug": "lesson_12_styling_elements_with_style_property",
+    "video": null,
     "display_order": 12,
     "created_at": "2025-06-29 16:06:33",
     "updated_at": "2025-07-01 02:17:35"
@@ -123,8 +123,8 @@
     "id": 840,
     "unit_id": 83,
     "title": "Lesson 13: Creating and Appending Elements (createElement, appendChild, prepend)",
-    "video": null,
     "slug": "lesson_13_creating_and_appending_elements_createelement_appendchild_prepend",
+    "video": null,
     "display_order": 13,
     "created_at": "2025-06-29 16:06:33",
     "updated_at": "2025-06-30 08:22:20"
@@ -133,8 +133,8 @@
     "id": 841,
     "unit_id": 83,
     "title": "Lesson 14: Removing and Replacing Elements (remove, removeChild, replaceChild)",
-    "video": null,
     "slug": "lesson_14_removing_and_replacing_elements_remove_removechild_replacechild",
+    "video": null,
     "display_order": 14,
     "created_at": "2025-06-29 16:06:33",
     "updated_at": "2025-06-30 08:25:27"
@@ -143,8 +143,8 @@
     "id": 842,
     "unit_id": 83,
     "title": "Lesson 15: Understanding the DOMContentLoaded Event",
-    "video": null,
     "slug": "lesson_15_understanding_the_domcontentloaded_event",
+    "video": null,
     "display_order": 15,
     "created_at": "2025-06-29 16:06:33",
     "updated_at": "2025-06-30 08:28:42"
@@ -153,8 +153,8 @@
     "id": 843,
     "unit_id": 83,
     "title": "Lesson 16: Performance Considerations with DOM Manipulation",
-    "video": null,
     "slug": "lesson_16_performance_considerations_with_dom_manipulation",
+    "video": null,
     "display_order": 16,
     "created_at": "2025-06-29 16:06:33",
     "updated_at": "2025-06-30 08:32:16"
@@ -163,8 +163,8 @@
     "id": 844,
     "unit_id": 83,
     "title": "Lesson 17: Practical Examples: Build a Dynamic List with JavaScript",
-    "video": null,
     "slug": "lesson_17_practical_examples_build_a_dynamic_list_with_javascript",
+    "video": null,
     "display_order": 17,
     "created_at": "2025-06-29 16:06:33",
     "updated_at": "2025-06-30 08:35:40"
@@ -173,90 +173,840 @@
     "id": 845,
     "unit_id": 84,
     "title": "Lesson 1: The Role of JavaScript: The Brain of the Web",
-    "video": null,
     "slug": "lesson_1_the_role_of_javascript_the_brain_of_the_web",
+    "video": null,
     "display_order": 1,
     "created_at": "2025-07-01 13:03:46",
-    "updated_at": "2025-07-01 13:09:03"
+    "updated_at": "2025-07-03 04:33:07"
   },
   {
     "id": 846,
     "unit_id": 84,
     "title": "Lesson 2: What JavaScript Can Do: From Static to Dynamic",
-    "video": null,
     "slug": "lesson_2_what_javascript_can_do_from_static_to_dynamic",
+    "video": null,
     "display_order": 2,
     "created_at": "2025-07-01 13:03:46",
-    "updated_at": "2025-07-01 13:03:46"
+    "updated_at": "2025-07-03 04:33:57"
   },
   {
     "id": 847,
     "unit_id": 84,
     "title": "Lesson 3: Introduction to the Browser Developer Console",
-    "video": null,
     "slug": "lesson_3_introduction_to_the_browser_developer_console",
+    "video": null,
     "display_order": 3,
     "created_at": "2025-07-01 13:03:46",
-    "updated_at": "2025-07-01 13:03:46"
+    "updated_at": "2025-07-03 04:35:36"
   },
   {
     "id": 848,
     "unit_id": 84,
     "title": "Lesson 4: How to Add JavaScript to an HTML File",
-    "video": null,
     "slug": "lesson_4_how_to_add_javascript_to_an_html_file",
+    "video": null,
     "display_order": 4,
     "created_at": "2025-07-01 13:03:46",
-    "updated_at": "2025-07-01 13:03:46"
+    "updated_at": "2025-07-03 10:29:05"
   },
   {
     "id": 849,
     "unit_id": 84,
     "title": "Lesson 5: Linking an External JavaScript File: The Professional Method",
-    "video": null,
     "slug": "lesson_5_linking_an_external_javascript_file_the_professional_method",
+    "video": null,
     "display_order": 5,
     "created_at": "2025-07-01 13:03:46",
-    "updated_at": "2025-07-01 13:03:46"
+    "updated_at": "2025-07-03 08:14:00"
   },
   {
     "id": 850,
     "unit_id": 84,
     "title": "Lesson 6: Where to Place Your <script> Tag and Why",
-    "video": null,
     "slug": "lesson_6_where_to_place_your_script_tag_and_why",
+    "video": null,
     "display_order": 6,
     "created_at": "2025-07-01 13:03:46",
-    "updated_at": "2025-07-01 13:03:46"
+    "updated_at": "2025-07-03 10:29:54"
   },
   {
     "id": 851,
     "unit_id": 84,
     "title": "Lesson 7: Writing Your First Line of Code with `console.log()`",
-    "video": null,
     "slug": "lesson_7_writing_your_first_line_of_code_with_consolelog",
+    "video": null,
     "display_order": 7,
     "created_at": "2025-07-01 13:03:46",
-    "updated_at": "2025-07-01 13:03:46"
+    "updated_at": "2025-07-03 04:37:15"
   },
   {
     "id": 852,
     "unit_id": 84,
     "title": "Lesson 8: Understanding How a Browser Executes JavaScript",
-    "video": null,
     "slug": "lesson_8_understanding_how_a_browser_executes_javascript",
+    "video": null,
     "display_order": 8,
     "created_at": "2025-07-01 13:03:46",
-    "updated_at": "2025-07-01 13:03:46"
+    "updated_at": "2025-07-03 04:37:55"
   },
   {
     "id": 853,
     "unit_id": 84,
     "title": "Lesson 9: Looking Ahead: The Need for Memory (Variables)",
-    "video": null,
     "slug": "lesson_9_looking_ahead_the_need_for_memory_variables",
+    "video": null,
     "display_order": 9,
     "created_at": "2025-07-01 13:03:46",
-    "updated_at": "2025-07-01 13:03:46"
+    "updated_at": "2025-07-03 04:38:35"
+  },
+  {
+    "id": 854,
+    "unit_id": 85,
+    "title": "Lesson 1: Introduction to Variables",
+    "slug": "lesson_1_introduction_to_variables",
+    "video": null,
+    "display_order": 1,
+    "created_at": "2025-07-03 04:57:34",
+    "updated_at": "2025-07-03 06:04:59"
+  },
+  {
+    "id": 855,
+    "unit_id": 85,
+    "title": "Lesson 2: Declaring Variables with let and const",
+    "slug": "lesson_2_declaring_variables_with_let_and_const",
+    "video": null,
+    "display_order": 2,
+    "created_at": "2025-07-03 04:57:34",
+    "updated_at": "2025-07-03 06:14:35"
+  },
+  {
+    "id": 856,
+    "unit_id": 85,
+    "title": "Lesson 3: Understanding var and Why It’s Legacy",
+    "slug": "lesson_3_understanding_var_and_why_its_legacy",
+    "video": null,
+    "display_order": 3,
+    "created_at": "2025-07-03 04:57:34",
+    "updated_at": "2025-07-03 06:22:19"
+  },
+  {
+    "id": 857,
+    "unit_id": 85,
+    "title": "Lesson 4: JavaScript Data Types Overview",
+    "slug": "lesson_4_javascript_data_types_overview",
+    "video": null,
+    "display_order": 4,
+    "created_at": "2025-07-03 04:57:34",
+    "updated_at": "2025-07-03 06:32:36"
+  },
+  {
+    "id": 858,
+    "unit_id": 85,
+    "title": "Lesson 5: Working with Strings",
+    "slug": "lesson_5_working_with_strings",
+    "video": null,
+    "display_order": 5,
+    "created_at": "2025-07-03 04:57:34",
+    "updated_at": "2025-07-03 06:39:23"
+  },
+  {
+    "id": 859,
+    "unit_id": 85,
+    "title": "Lesson 6: Working with Numbers",
+    "slug": "lesson_6_working_with_numbers",
+    "video": null,
+    "display_order": 6,
+    "created_at": "2025-07-03 04:57:34",
+    "updated_at": "2025-07-03 06:46:13"
+  },
+  {
+    "id": 860,
+    "unit_id": 85,
+    "title": "Lesson 7: Understanding Booleans",
+    "slug": "lesson_7_understanding_booleans",
+    "video": null,
+    "display_order": 7,
+    "created_at": "2025-07-03 04:57:34",
+    "updated_at": "2025-07-03 06:52:45"
+  },
+  {
+    "id": 861,
+    "unit_id": 85,
+    "title": "Lesson 8: Null and Undefined",
+    "slug": "lesson_8_null_and_undefined",
+    "video": null,
+    "display_order": 8,
+    "created_at": "2025-07-03 04:57:34",
+    "updated_at": "2025-07-03 07:05:44"
+  },
+  {
+    "id": 862,
+    "unit_id": 85,
+    "title": "Lesson 9: typeof Operator and Basic Type Checking",
+    "slug": "lesson_9_typeof_operator_and_basic_type_checking",
+    "video": null,
+    "display_order": 9,
+    "created_at": "2025-07-03 04:57:34",
+    "updated_at": "2025-07-03 07:13:37"
+  },
+  {
+    "id": 863,
+    "unit_id": 85,
+    "title": "Lesson 10: Basic Type Conversion Examples",
+    "slug": "lesson_10_basic_type_conversion_examples",
+    "video": null,
+    "display_order": 10,
+    "created_at": "2025-07-03 04:57:34",
+    "updated_at": "2025-07-03 07:34:42"
+  },
+  {
+    "id": 864,
+    "unit_id": 86,
+    "title": "Lesson 1: Introduction to Functions",
+    "slug": "lesson_1_introduction_to_functions",
+    "video": null,
+    "display_order": 1,
+    "created_at": "2025-07-03 10:49:27",
+    "updated_at": "2025-07-03 11:29:19"
+  },
+  {
+    "id": 865,
+    "unit_id": 86,
+    "title": "Lesson 2: Declaring and Calling Functions",
+    "slug": "lesson_2_declaring_and_calling_functions",
+    "video": null,
+    "display_order": 2,
+    "created_at": "2025-07-03 10:49:27",
+    "updated_at": "2025-07-03 17:25:55"
+  },
+  {
+    "id": 866,
+    "unit_id": 86,
+    "title": "Lesson 3: Function Parameters and Return Values",
+    "slug": "lesson_3_function_parameters_and_return_values",
+    "video": null,
+    "display_order": 3,
+    "created_at": "2025-07-03 10:49:27",
+    "updated_at": "2025-07-03 17:33:12"
+  },
+  {
+    "id": 867,
+    "unit_id": 86,
+    "title": "Lesson 4: Function Expressions",
+    "slug": "lesson_4_function_expressions",
+    "video": null,
+    "display_order": 4,
+    "created_at": "2025-07-03 10:49:27",
+    "updated_at": "2025-07-03 17:39:06"
+  },
+  {
+    "id": 868,
+    "unit_id": 86,
+    "title": "Lesson 5: Arrow Functions Basics",
+    "slug": "lesson_5_arrow_functions_basics",
+    "video": null,
+    "display_order": 5,
+    "created_at": "2025-07-03 10:49:27",
+    "updated_at": "2025-07-03 17:45:13"
+  },
+  {
+    "id": 869,
+    "unit_id": 86,
+    "title": "Lesson 6: Function Scope vs Global Scope",
+    "slug": "lesson_6_function_scope_vs_global_scope",
+    "video": null,
+    "display_order": 6,
+    "created_at": "2025-07-03 10:49:27",
+    "updated_at": "2025-07-03 17:52:40"
+  },
+  {
+    "id": 870,
+    "unit_id": 86,
+    "title": "Lesson 7: Understanding Block Scope with let and const",
+    "slug": "lesson_7_understanding_block_scope_with_let_and_const",
+    "video": null,
+    "display_order": 7,
+    "created_at": "2025-07-03 10:49:27",
+    "updated_at": "2025-07-03 18:01:30"
+  },
+  {
+    "id": 871,
+    "unit_id": 86,
+    "title": "Lesson 8: Nested Functions and Scope Chain",
+    "slug": "lesson_8_nested_functions_and_scope_chain",
+    "video": null,
+    "display_order": 8,
+    "created_at": "2025-07-03 10:49:27",
+    "updated_at": "2025-07-03 18:12:29"
+  },
+  {
+    "id": 872,
+    "unit_id": 86,
+    "title": "Lesson 9: Variable Hoisting in Functions",
+    "slug": "lesson_9_variable_hoisting_in_functions",
+    "video": null,
+    "display_order": 9,
+    "created_at": "2025-07-03 10:49:28",
+    "updated_at": "2025-07-03 18:19:11"
+  },
+  {
+    "id": 873,
+    "unit_id": 86,
+    "title": "Lesson 10: Best Practices for Writing Functions",
+    "slug": "lesson_10_best_practices_for_writing_functions",
+    "video": null,
+    "display_order": 10,
+    "created_at": "2025-07-03 10:49:28",
+    "updated_at": "2025-07-03 18:39:55"
+  },
+  {
+    "id": 874,
+    "unit_id": 87,
+    "title": "Lesson 1: What is an Array?",
+    "slug": "lesson_1_what_is_an_array",
+    "video": null,
+    "display_order": 1,
+    "created_at": "2025-07-05 11:10:43",
+    "updated_at": "2025-07-05 11:59:09"
+  },
+  {
+    "id": 875,
+    "unit_id": 87,
+    "title": "Lesson 2: Creating Arrays with Literals",
+    "slug": "lesson_2_creating_arrays_with_literals",
+    "video": null,
+    "display_order": 2,
+    "created_at": "2025-07-05 11:10:43",
+    "updated_at": "2025-07-05 12:07:28"
+  },
+  {
+    "id": 876,
+    "unit_id": 87,
+    "title": "Lesson 3: Accessing and Modifying Array Elements",
+    "slug": "lesson_3_accessing_and_modifying_array_elements",
+    "video": null,
+    "display_order": 3,
+    "created_at": "2025-07-05 11:10:43",
+    "updated_at": "2025-07-05 12:18:54"
+  },
+  {
+    "id": 877,
+    "unit_id": 87,
+    "title": "Lesson 4: Array Length and Index Basics",
+    "slug": "lesson_4_array_length_and_index_basics",
+    "video": null,
+    "display_order": 4,
+    "created_at": "2025-07-05 11:10:43",
+    "updated_at": "2025-07-05 12:25:48"
+  },
+  {
+    "id": 878,
+    "unit_id": 87,
+    "title": "Lesson 5: Adding and Removing Elements (push, pop)",
+    "slug": "lesson_5_adding_and_removing_elements_push_pop",
+    "video": null,
+    "display_order": 5,
+    "created_at": "2025-07-05 11:10:43",
+    "updated_at": "2025-07-05 12:31:15"
+  },
+  {
+    "id": 879,
+    "unit_id": 87,
+    "title": "Lesson 6: Iterating with for and for...of",
+    "slug": "lesson_6_iterating_with_for_and_forof",
+    "video": null,
+    "display_order": 6,
+    "created_at": "2025-07-05 11:10:43",
+    "updated_at": "2025-07-05 12:37:55"
+  },
+  {
+    "id": 880,
+    "unit_id": 87,
+    "title": "Lesson 7: Using forEach for Simple Loops",
+    "slug": "lesson_7_using_foreach_for_simple_loops",
+    "video": null,
+    "display_order": 7,
+    "created_at": "2025-07-05 11:10:43",
+    "updated_at": "2025-07-05 12:43:27"
+  },
+  {
+    "id": 881,
+    "unit_id": 87,
+    "title": "Lesson 8: Intro to Common Methods (slice, splice, includes)",
+    "slug": "lesson_8_intro_to_common_methods_slice_splice_includes",
+    "video": null,
+    "display_order": 8,
+    "created_at": "2025-07-05 11:10:43",
+    "updated_at": "2025-07-05 13:05:28"
+  },
+  {
+    "id": 882,
+    "unit_id": 88,
+    "title": "Lesson 1: What is an Object?",
+    "slug": "lesson_1_what_is_an_object",
+    "video": null,
+    "display_order": 1,
+    "created_at": "2025-07-05 11:15:48",
+    "updated_at": "2025-07-05 13:20:57"
+  },
+  {
+    "id": 883,
+    "unit_id": 88,
+    "title": "Lesson 2: Creating Objects with Literal Syntax",
+    "slug": "lesson_2_creating_objects_with_literal_syntax",
+    "video": null,
+    "display_order": 2,
+    "created_at": "2025-07-05 11:15:48",
+    "updated_at": "2025-07-11 02:13:16"
+  },
+  {
+    "id": 884,
+    "unit_id": 88,
+    "title": "Lesson 3: Understanding Key-Value Pairs",
+    "slug": "lesson_3_understanding_key-value_pairs",
+    "video": null,
+    "display_order": 3,
+    "created_at": "2025-07-05 11:15:48",
+    "updated_at": "2025-07-05 19:17:53"
+  },
+  {
+    "id": 885,
+    "unit_id": 88,
+    "title": "Lesson 4: Accessing Properties (Dot and Bracket Notation)",
+    "slug": "lesson_4_accessing_properties_dot_and_bracket_notation",
+    "video": null,
+    "display_order": 4,
+    "created_at": "2025-07-05 11:15:48",
+    "updated_at": "2025-07-05 14:01:30"
+  },
+  {
+    "id": 886,
+    "unit_id": 88,
+    "title": "Lesson 5: Adding and Updating Properties",
+    "slug": "lesson_5_adding_and_updating_properties",
+    "video": null,
+    "display_order": 5,
+    "created_at": "2025-07-05 11:15:48",
+    "updated_at": "2025-07-05 16:45:28"
+  },
+  {
+    "id": 887,
+    "unit_id": 88,
+    "title": "Lesson 6: Deleting Object Properties",
+    "slug": "lesson_6_deleting_object_properties",
+    "video": null,
+    "display_order": 6,
+    "created_at": "2025-07-05 11:15:48",
+    "updated_at": "2025-07-05 17:58:20"
+  },
+  {
+    "id": 888,
+    "unit_id": 88,
+    "title": "Lesson 7: Nesting Arrays and Functions in Objects",
+    "slug": "lesson_7_nesting_arrays_and_functions_in_objects",
+    "video": null,
+    "display_order": 7,
+    "created_at": "2025-07-05 11:15:48",
+    "updated_at": "2025-07-05 18:56:36"
+  },
+  {
+    "id": 889,
+    "unit_id": 88,
+    "title": "Lesson 8: Intro to Object Methods and the this Keyword",
+    "slug": "lesson_8_intro_to_object_methods_and_the_this_keyword",
+    "video": null,
+    "display_order": 8,
+    "created_at": "2025-07-05 11:15:48",
+    "updated_at": "2025-07-05 19:18:16"
+  },
+  {
+    "id": 890,
+    "unit_id": 89,
+    "title": "Lesson 1: Introduction to DOM — Is the DOM a JavaScript Object-Like Structure?",
+    "slug": "lesson_1_introduction_to_dom_is_the_dom_a_javascript_object-like_structure",
+    "video": null,
+    "display_order": 1,
+    "created_at": "2025-07-05 12:20:11",
+    "updated_at": "2025-07-11 02:20:09"
+  },
+  {
+    "id": 891,
+    "unit_id": 89,
+    "title": "Lesson 2: The DOM Tree and Nested Structure",
+    "slug": "lesson_2_the_dom_tree_and_nested_structure",
+    "video": null,
+    "display_order": 2,
+    "created_at": "2025-07-05 12:20:11",
+    "updated_at": "2025-07-11 02:47:50"
+  },
+  {
+    "id": 892,
+    "unit_id": 89,
+    "title": "Lesson 3: Accessing Elements Like Object Properties",
+    "slug": "lesson_3_accessing_elements_like_object_properties",
+    "video": null,
+    "display_order": 3,
+    "created_at": "2025-07-05 12:20:11",
+    "updated_at": "2025-07-05 12:20:11"
+  },
+  {
+    "id": 893,
+    "unit_id": 89,
+    "title": "Lesson 4: Selecting Elements with getElementById and querySelector",
+    "slug": "lesson_4_selecting_elements_with_getelementbyid_and_queryselector",
+    "video": null,
+    "display_order": 4,
+    "created_at": "2025-07-05 12:20:11",
+    "updated_at": "2025-07-05 12:20:11"
+  },
+  {
+    "id": 894,
+    "unit_id": 89,
+    "title": "Lesson 5: Selecting Multiple Elements with querySelectorAll",
+    "slug": "lesson_5_selecting_multiple_elements_with_queryselectorall",
+    "video": null,
+    "display_order": 5,
+    "created_at": "2025-07-05 12:20:11",
+    "updated_at": "2025-07-05 12:20:11"
+  },
+  {
+    "id": 895,
+    "unit_id": 89,
+    "title": "Lesson 6: Reading and Modifying Content (textContent, innerHTML)",
+    "slug": "lesson_6_reading_and_modifying_content_textcontent_innerhtml",
+    "video": null,
+    "display_order": 6,
+    "created_at": "2025-07-05 12:20:11",
+    "updated_at": "2025-07-05 12:20:11"
+  },
+  {
+    "id": 896,
+    "unit_id": 89,
+    "title": "Lesson 7: Updating Element Attributes Like Object Keys",
+    "slug": "lesson_7_updating_element_attributes_like_object_keys",
+    "video": null,
+    "display_order": 7,
+    "created_at": "2025-07-05 12:20:11",
+    "updated_at": "2025-07-05 12:20:11"
+  },
+  {
+    "id": 897,
+    "unit_id": 89,
+    "title": "Lesson 8: Styling Elements via the style Object",
+    "slug": "lesson_8_styling_elements_via_the_style_object",
+    "video": null,
+    "display_order": 8,
+    "created_at": "2025-07-05 12:20:12",
+    "updated_at": "2025-07-05 12:20:12"
+  },
+  {
+    "id": 898,
+    "unit_id": 89,
+    "title": "Lesson 9: Creating and Nesting Elements Dynamically",
+    "slug": "lesson_9_creating_and_nesting_elements_dynamically",
+    "video": null,
+    "display_order": 9,
+    "created_at": "2025-07-05 12:20:12",
+    "updated_at": "2025-07-05 12:20:12"
+  },
+  {
+    "id": 899,
+    "unit_id": 89,
+    "title": "Lesson 10: Removing Elements and Updating Structure",
+    "slug": "lesson_10_removing_elements_and_updating_structure",
+    "video": null,
+    "display_order": 10,
+    "created_at": "2025-07-05 12:20:12",
+    "updated_at": "2025-07-05 12:20:12"
+  },
+  {
+    "id": 900,
+    "unit_id": 89,
+    "title": "Lesson 11: DOMContentLoaded and Script Placement in HTML",
+    "slug": "lesson_11_domcontentloaded_and_script_placement_in_html",
+    "video": null,
+    "display_order": 11,
+    "created_at": "2025-07-05 12:20:12",
+    "updated_at": "2025-07-05 12:20:12"
+  },
+  {
+    "id": 901,
+    "unit_id": 90,
+    "title": "Lesson 1: What Are Events in the Browser?",
+    "slug": "lesson_1_what_are_events_in_the_browser",
+    "video": null,
+    "display_order": 1,
+    "created_at": "2025-07-05 12:21:24",
+    "updated_at": "2025-07-05 12:21:24"
+  },
+  {
+    "id": 902,
+    "unit_id": 90,
+    "title": "Lesson 2: Common DOM Events (Click, Input, Submit, etc.)",
+    "slug": "lesson_2_common_dom_events_click_input_submit_etc",
+    "video": null,
+    "display_order": 2,
+    "created_at": "2025-07-05 12:21:24",
+    "updated_at": "2025-07-05 12:21:24"
+  },
+  {
+    "id": 903,
+    "unit_id": 90,
+    "title": "Lesson 3: The addEventListener Method",
+    "slug": "lesson_3_the_addeventlistener_method",
+    "video": null,
+    "display_order": 3,
+    "created_at": "2025-07-05 12:21:24",
+    "updated_at": "2025-07-05 12:21:24"
+  },
+  {
+    "id": 904,
+    "unit_id": 90,
+    "title": "Lesson 4: Writing Event Handler Functions",
+    "slug": "lesson_4_writing_event_handler_functions",
+    "video": null,
+    "display_order": 4,
+    "created_at": "2025-07-05 12:21:24",
+    "updated_at": "2025-07-05 12:21:24"
+  },
+  {
+    "id": 905,
+    "unit_id": 90,
+    "title": "Lesson 5: Accessing the Event Object",
+    "slug": "lesson_5_accessing_the_event_object",
+    "video": null,
+    "display_order": 5,
+    "created_at": "2025-07-05 12:21:24",
+    "updated_at": "2025-07-05 12:21:24"
+  },
+  {
+    "id": 906,
+    "unit_id": 90,
+    "title": "Lesson 6: Handling Form Events",
+    "slug": "lesson_6_handling_form_events",
+    "video": null,
+    "display_order": 6,
+    "created_at": "2025-07-05 12:21:24",
+    "updated_at": "2025-07-05 12:21:24"
+  },
+  {
+    "id": 907,
+    "unit_id": 90,
+    "title": "Lesson 7: Preventing Default Behavior",
+    "slug": "lesson_7_preventing_default_behavior",
+    "video": null,
+    "display_order": 7,
+    "created_at": "2025-07-05 12:21:24",
+    "updated_at": "2025-07-05 12:21:24"
+  },
+  {
+    "id": 908,
+    "unit_id": 90,
+    "title": "Lesson 8: Using Anonymous vs Named Functions in Events",
+    "slug": "lesson_8_using_anonymous_vs_named_functions_in_events",
+    "video": null,
+    "display_order": 8,
+    "created_at": "2025-07-05 12:21:24",
+    "updated_at": "2025-07-05 12:21:24"
+  },
+  {
+    "id": 909,
+    "unit_id": 90,
+    "title": "Lesson 9: Removing Event Listeners",
+    "slug": "lesson_9_removing_event_listeners",
+    "video": null,
+    "display_order": 9,
+    "created_at": "2025-07-05 12:21:24",
+    "updated_at": "2025-07-05 12:21:24"
+  },
+  {
+    "id": 910,
+    "unit_id": 90,
+    "title": "Lesson 10: Best Practices for Organizing Event Code",
+    "slug": "lesson_10_best_practices_for_organizing_event_code",
+    "video": null,
+    "display_order": 10,
+    "created_at": "2025-07-05 12:21:24",
+    "updated_at": "2025-07-05 12:21:24"
+  },
+  {
+    "id": 911,
+    "unit_id": 91,
+    "title": "Lesson 1: What is Event Propagation?",
+    "slug": "lesson_1_what_is_event_propagation",
+    "video": null,
+    "display_order": 1,
+    "created_at": "2025-07-05 12:23:25",
+    "updated_at": "2025-07-05 12:23:25"
+  },
+  {
+    "id": 912,
+    "unit_id": 91,
+    "title": "Lesson 2: Understanding the Event Flow Model",
+    "slug": "lesson_2_understanding_the_event_flow_model",
+    "video": null,
+    "display_order": 2,
+    "created_at": "2025-07-05 12:23:25",
+    "updated_at": "2025-07-05 12:23:25"
+  },
+  {
+    "id": 913,
+    "unit_id": 91,
+    "title": "Lesson 3: Event Bubbling Explained",
+    "slug": "lesson_3_event_bubbling_explained",
+    "video": null,
+    "display_order": 3,
+    "created_at": "2025-07-05 12:23:25",
+    "updated_at": "2025-07-05 12:23:25"
+  },
+  {
+    "id": 914,
+    "unit_id": 91,
+    "title": "Lesson 4: Event Capturing Explained",
+    "slug": "lesson_4_event_capturing_explained",
+    "video": null,
+    "display_order": 4,
+    "created_at": "2025-07-05 12:23:25",
+    "updated_at": "2025-07-05 12:23:25"
+  },
+  {
+    "id": 915,
+    "unit_id": 91,
+    "title": "Lesson 5: Stopping Propagation with stopPropagation",
+    "slug": "lesson_5_stopping_propagation_with_stoppropagation",
+    "video": null,
+    "display_order": 5,
+    "created_at": "2025-07-05 12:23:25",
+    "updated_at": "2025-07-05 12:23:25"
+  },
+  {
+    "id": 916,
+    "unit_id": 91,
+    "title": "Lesson 6: Controlling Listeners with useCapture Option",
+    "slug": "lesson_6_controlling_listeners_with_usecapture_option",
+    "video": null,
+    "display_order": 6,
+    "created_at": "2025-07-05 12:23:25",
+    "updated_at": "2025-07-05 12:23:25"
+  },
+  {
+    "id": 917,
+    "unit_id": 91,
+    "title": "Lesson 7: Combining Bubbling and Capturing Wisely",
+    "slug": "lesson_7_combining_bubbling_and_capturing_wisely",
+    "video": null,
+    "display_order": 7,
+    "created_at": "2025-07-05 12:23:25",
+    "updated_at": "2025-07-05 12:23:25"
+  },
+  {
+    "id": 918,
+    "unit_id": 91,
+    "title": "Lesson 8: Real-World Use Cases of Event Propagation",
+    "slug": "lesson_8_real-world_use_cases_of_event_propagation",
+    "video": null,
+    "display_order": 8,
+    "created_at": "2025-07-05 12:23:25",
+    "updated_at": "2025-07-05 12:23:25"
+  },
+  {
+    "id": 919,
+    "unit_id": 92,
+    "title": "Lesson 1: Introduction to Logical Thinking in Code",
+    "slug": "lesson_1_introduction_to_logical_thinking_in_code",
+    "video": null,
+    "display_order": 1,
+    "created_at": "2025-07-05 12:24:30",
+    "updated_at": "2025-07-05 12:24:30"
+  },
+  {
+    "id": 920,
+    "unit_id": 92,
+    "title": "Lesson 2: Using if, else if, and else",
+    "slug": "lesson_2_using_if_else_if_and_else",
+    "video": null,
+    "display_order": 2,
+    "created_at": "2025-07-05 12:24:30",
+    "updated_at": "2025-07-05 12:24:30"
+  },
+  {
+    "id": 921,
+    "unit_id": 92,
+    "title": "Lesson 3: Comparison Operators (==, ===, !=, >, <)",
+    "slug": "lesson_3_comparison_operators",
+    "video": null,
+    "display_order": 3,
+    "created_at": "2025-07-05 12:24:30",
+    "updated_at": "2025-07-05 12:24:30"
+  },
+  {
+    "id": 922,
+    "unit_id": 92,
+    "title": "Lesson 4: Logical Operators (&&, ||, !)",
+    "slug": "lesson_4_logical_operators",
+    "video": null,
+    "display_order": 4,
+    "created_at": "2025-07-05 12:24:30",
+    "updated_at": "2025-07-05 12:24:30"
+  },
+  {
+    "id": 923,
+    "unit_id": 92,
+    "title": "Lesson 5: The Ternary Operator",
+    "slug": "lesson_5_the_ternary_operator",
+    "video": null,
+    "display_order": 5,
+    "created_at": "2025-07-05 12:24:30",
+    "updated_at": "2025-07-05 12:24:30"
+  },
+  {
+    "id": 924,
+    "unit_id": 92,
+    "title": "Lesson 6: Introduction to Loops",
+    "slug": "lesson_6_introduction_to_loops",
+    "video": null,
+    "display_order": 6,
+    "created_at": "2025-07-05 12:24:30",
+    "updated_at": "2025-07-05 12:24:30"
+  },
+  {
+    "id": 925,
+    "unit_id": 92,
+    "title": "Lesson 7: Using the for Loop",
+    "slug": "lesson_7_using_the_for_loop",
+    "video": null,
+    "display_order": 7,
+    "created_at": "2025-07-05 12:24:30",
+    "updated_at": "2025-07-05 12:24:30"
+  },
+  {
+    "id": 926,
+    "unit_id": 92,
+    "title": "Lesson 8: The while and do...while Loops",
+    "slug": "lesson_8_the_while_and_dowhile_loops",
+    "video": null,
+    "display_order": 8,
+    "created_at": "2025-07-05 12:24:30",
+    "updated_at": "2025-07-05 12:24:30"
+  },
+  {
+    "id": 927,
+    "unit_id": 92,
+    "title": "Lesson 9: break and continue in Loops",
+    "slug": "lesson_9_break_and_continue_in_loops",
+    "video": null,
+    "display_order": 9,
+    "created_at": "2025-07-05 12:24:30",
+    "updated_at": "2025-07-05 12:24:30"
+  },
+  {
+    "id": 928,
+    "unit_id": 92,
+    "title": "Lesson 10: Choosing the Right Loop for the Task",
+    "slug": "lesson_10_choosing_the_right_loop_for_the_task",
+    "video": null,
+    "display_order": 10,
+    "created_at": "2025-07-05 12:24:30",
+    "updated_at": "2025-07-05 12:24:30"
   }
 ]

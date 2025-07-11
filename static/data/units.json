@@ -12,5 +12,61 @@
     "label": "Chapter 1: Introduction to JavaScript — The Brain of the Web",
     "name": "chapter_1:_introduction_to_javascript_—_the_brain_of_the_web",
     "created_at": "2025-07-01 12:57:04"
+  },
+  {
+    "id": 85,
+    "subject_id": 11,
+    "label": "Chapter 2: Variables and Data Types – Fundamentals",
+    "name": "chapter_2:_variables_and_data_types_–_fundamentals",
+    "created_at": "2025-07-03 04:55:22"
+  },
+  {
+    "id": 86,
+    "subject_id": 11,
+    "label": "Chapter 3: Functions and Scope – Fundamentals",
+    "name": "chapter_3:_functions_and_scope_–_fundamentals",
+    "created_at": "2025-07-03 10:48:08"
+  },
+  {
+    "id": 87,
+    "subject_id": 11,
+    "label": "Chapter 4: Arrays and Array Methods – Fundamentals",
+    "name": "chapter_4:_arrays_and_array_methods_–_fundamentals",
+    "created_at": "2025-07-05 11:07:37"
+  },
+  {
+    "id": 88,
+    "subject_id": 11,
+    "label": "Chapter 5: JavaScript Object Fundamentals",
+    "name": "chapter_5:_javascript_object_fndamentals",
+    "created_at": "2025-07-05 11:08:32"
+  },
+  {
+    "id": 89,
+    "subject_id": 11,
+    "label": "Chapter 6: Understanding DOM and its connections with Javascript.",
+    "name": "chapter_6:_understanding_dom_and_its_connections_with_javascript.",
+    "created_at": "2025-07-05 12:11:11"
+  },
+  {
+    "id": 90,
+    "subject_id": 11,
+    "label": "Chapter 7: Events and Event Handling",
+    "name": "chapter_7:_events_and_event_handling",
+    "created_at": "2025-07-05 12:11:39"
+  },
+  {
+    "id": 91,
+    "subject_id": 11,
+    "label": "Chapter 8: Event Propagation (Bubbling and Capturing)",
+    "name": "chapter_8:_event_propagation_(bubbling_and_capturing)",
+    "created_at": "2025-07-05 12:11:52"
+  },
+  {
+    "id": 92,
+    "subject_id": 11,
+    "label": "Chapter 9: Logic and Loops",
+    "name": "chapter_9:_logic_and_loops",
+    "created_at": "2025-07-05 12:12:04"
   }
 ]
