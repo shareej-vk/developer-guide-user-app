@@ -2,7 +2,7 @@
   import { page } from '$app/state';
   import { lessonStateDB } from '$lib/db/lessonStateDB';
   import { courseDataStore } from "$lib/stores/courseStore.svelte";
-
+import { codeToHtml } from "shiki";
   import { onMount, onDestroy, tick } from 'svelte';
   import IntroSlides from '$lib/components/IntroSlides.svelte';
     import { goto } from '$app/navigation';
@@ -127,6 +127,17 @@ iframeContainer.appendChild(closeButton);
 }
 
 
+async function hilightCode(){
+  var codes = document.querySelectorAll('.prose code');
+  for (const code of codes) {
+    let codeHtml = await codeToHtml(code.textContent, {
+      lang: 'javascript',
+      theme: 'dark-plus',
+    });
+    code.parentElement.outerHTML = codeHtml;
+  }
+}
+
 $effect(()=>{
   if(page.params.id){
     loadGames(localStorage.getItem('selectedUnitId'));
@@ -202,10 +213,10 @@ goto(`/courses/${data.board}/${data.class}/${data.subject}/lesson/${nextPrevLess
     };
   });
   
-  // Set the active tab to 'notes' if there's no introduction content
+  // Set the active tab to 'content' if there's no introduction content
   $effect(() => {
     if (data.lesson && !data.lesson.intros) {
-      activeTab = 'notes';
+      activeTab = 'content';
       isModalOpen = false;    
     }
   });
@@ -348,11 +359,13 @@ async function handleExercisesShowHide() {
 }
 
 
-  async function selectTab(tab: string) {
+  async function selectTab(tab: string) {    
+  
     activeTab = tab;
     isModalOpen = false;
     window.scrollTo({ top: 0 });
     await tick();
+    hilightCode();
     if(tab === 'questions') {
       handleQuestionsShowHide();
     }
@@ -448,8 +461,8 @@ async function handleExercisesShowHide() {
             </button>
             
             <button
-              class="px-6 py-4 text-sm font-medium border-b-2 transition-colors duration-200 cursor-pointer {activeTab === 'notes' ? 'border-blue-500 text-blue-600' : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}"
-              onclick={()=>{selectTab('notes')}}
+              class="px-6 py-4 text-sm font-medium border-b-2 transition-colors duration-200 cursor-pointer {activeTab === 'content' ? 'border-blue-500 text-blue-600' : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}"
+              onclick={()=>{selectTab('content')}}
             >
               <span class="flex items-center">
                 <svg class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -533,14 +546,14 @@ async function handleExercisesShowHide() {
 </div>
        {/if}
        {#if !isLoading}
-        <div class="p-6 bg-white" style="margin-top:34px; max-height: calc(100vh - 60px);">
+        <div class="p-6 bg-white" style="margin-top:34px; max-height: calc(100vh - 140px);">
           {#if activeTab === 'introduction'}
             <div class="prose max-w-none intro-container">
               <IntroSlides slides={data.lesson.slides} />
             </div>
           
-          {:else if activeTab === 'notes'}
-          <div class="prose max-w-none">
+          {:else if activeTab === 'content'}
+          <div class="prose max-w-none" style="height: calc(100vh - 60px);">          
             {@html data.lesson.content}
           </div>
           

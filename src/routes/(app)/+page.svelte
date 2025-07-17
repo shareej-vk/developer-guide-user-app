@@ -70,54 +70,77 @@
       </div>
 
       <div class="course-card">
-        <a href="/courses/front-end-developement/front-end-developer/javascript-part-i">
+        <a href="/courses/front-end-developement/front-end-developer/javascript_part_ii_from_fundamentals_to_advanced_application">
           <img src="/images/js-fundamentals-part-2.webp" alt="Hero Image">
           </a>
           <div class="course-content">
-          <a href="/courses/front-end-developement/front-end-developer/javascript-part-i" class="btn btn-outline btn-sm">Explore</a>
+          <a href="/courses/front-end-developement/front-end-developer/javascript_part_ii_from_fundamentals_to_advanced_application" class="btn btn-outline btn-sm">Explore</a>
           </div>
       </div>
       
 
       <div class="course-card">
-        <a href="/courses/front-end-developement/front-end-developer/javascript-part-i">
+        <a href="/courses/front-end-developement/front-end-developer/html-the-practical-lessons">
           <img src="/images/html-practical-lessons.webp" alt="Hero Image">
           </a>
           <div class="course-content">
-          <a href="/courses/front-end-developement/front-end-developer/javascript-part-i" class="btn btn-outline btn-sm">Explore</a>
+          <a href="/courses/front-end-developement/front-end-developer/html-the-practical-lessons" class="btn btn-outline btn-sm">Explore</a>
           </div>
       </div>
       <!-- Course Card 2 -->
       <div class="course-card">
-        <a href="/courses/front-end-developement/front-end-developer/javascript-part-i">
+        <a href="/courses/front-end-developement/front-end-developer/css-the-practical-lessons">
           <img src="/images/css-practical-lessons.webp" alt="Hero Image">
           </a>
           <div class="course-content">
-          <a href="/courses/front-end-developement/front-end-developer/javascript-part-i" class="btn btn-outline btn-sm">Explore</a>
+          <a href="/courses/front-end-developement/front-end-developer/css-the-practical-lessons" class="btn btn-outline btn-sm">Explore</a>
           </div>
       </div>
 
       <div class="course-card">
-        <a href="/courses/front-end-developement/front-end-developer/javascript-part-i">
+        <a href="/courses/front-end-developement/front-end-developer/tailwind-css-the-essentials">
           <img src="/images/tail-wind-css-essentials.webp" alt="Hero Image">
           </a>
           <div class="course-content">
-          <a href="/courses/front-end-developement/front-end-developer/javascript-part-i" class="btn btn-outline btn-sm">Explore</a>
+          <a href="/courses/front-end-developement/front-end-developer/tailwind-css-the-essentials" class="btn btn-outline btn-sm">Explore</a>
           </div>
       </div>
       
       <!-- Course Card 4 -->
       <div class="course-card">
-        <a href="/courses/front-end-developement/front-end-developer/javascript-part-i">
+        <a href="/courses/front-end-developement/front-end-developer/front-end-development-core-100-projects">
           <img src="/images/core-front-end.webp" alt="Hero Image">
           </a>
           <div class="course-content">
-          <a href="/courses/front-end-developement/front-end-developer/javascript-part-i" class="btn btn-outline btn-sm">Explore</a>
+          <a href="/courses/front-end-developement/front-end-developer/front-end-development-core-100-projects" class="btn btn-outline btn-sm">Explore</a>
           </div>
       </div>
     </div>
   </div>
 </section>
+
+<section class="featured-courses">
+  <div class="container" style="padding-left: 10%; padding-right: 10%;">
+    <div class="section-header">
+      <h2>The Begniner </h2>
+      <a href="/courses" class="view-all">View All</a>
+    </div>
+    
+    <div class="courses-grid">
+      
+      <!-- Course Card 1 -->
+      <div class="course-card">
+        <a href="/courses/front-end-developement/front-end-developer/getting_started_with_web_development	">
+          <img src="/images/web-dev-begner.webp" alt="Hero Image">
+          </a>
+          <div class="course-content">
+          <a href="/courses/front-end-developement/front-end-developer/getting_started_with_web_development	" class="btn btn-outline btn-sm">Explore</a>
+          </div>
+      </div>
+      </div>
+      </div>
+      </section>
+      
 
 <!-- Features Section -->
 <section class="features">

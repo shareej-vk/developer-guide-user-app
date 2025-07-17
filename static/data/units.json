@@ -68,5 +68,355 @@
     "label": "Chapter 9: Logic and Loops",
     "name": "chapter_9:_logic_and_loops",
     "created_at": "2025-07-05 12:12:04"
+  },
+  {
+    "id": 93,
+    "subject_id": 12,
+    "label": "Chapter 1: Data and Variables – The Full Story",
+    "name": "chapter-1-data-and-variables--the-full-story",
+    "created_at": "2025-07-12 04:24:59"
+  },
+  {
+    "id": 94,
+    "subject_id": 12,
+    "label": "Chapter 2: Functions and Execution Context – Behind the Scenes",
+    "name": "chapter-2-functions-and-execution-context--behind-the-scenes",
+    "created_at": "2025-07-12 04:25:00"
+  },
+  {
+    "id": 95,
+    "subject_id": 12,
+    "label": "Chapter 3: The `this` Keyword – Demystified",
+    "name": "chapter-3-the-this-keyword--demystified",
+    "created_at": "2025-07-12 04:25:01"
+  },
+  {
+    "id": 96,
+    "subject_id": 12,
+    "label": "Chapter 4: Data Structures – Advanced Techniques",
+    "name": "chapter-4-data-structures--advanced-techniques",
+    "created_at": "2025-07-12 04:25:02"
+  },
+  {
+    "id": 97,
+    "subject_id": 12,
+    "label": "Chapter 5: Asynchronous JavaScript – From Callbacks to Promises",
+    "name": "chapter-5-asynchronous-javascript--from-callbacks-to-promises",
+    "created_at": "2025-07-12 04:25:02"
+  },
+  {
+    "id": 98,
+    "subject_id": 12,
+    "label": "Chapter 6: Modern Asynchronous Patterns and APIs",
+    "name": "chapter-6-modern-asynchronous-patterns-and-apis",
+    "created_at": "2025-07-12 04:25:03"
+  },
+  {
+    "id": 99,
+    "subject_id": 12,
+    "label": "Chapter 7: Object-Oriented Programming (OOP)",
+    "name": "chapter-7-object-oriented-programming-oop",
+    "created_at": "2025-07-12 04:25:04"
+  },
+  {
+    "id": 100,
+    "subject_id": 12,
+    "label": "Chapter 8: Functional Programming Concepts",
+    "name": "chapter-8-functional-programming-concepts",
+    "created_at": "2025-07-12 04:25:05"
+  },
+  {
+    "id": 101,
+    "subject_id": 12,
+    "label": "Chapter 9: Modules and Code Organization",
+    "name": "chapter-9-modules-and-code-organization",
+    "created_at": "2025-07-12 04:25:06"
+  },
+  {
+    "id": 102,
+    "subject_id": 12,
+    "label": "Chapter 10: Essential Browser APIs and Storage",
+    "name": "chapter-10-essential-browser-apis-and-storage",
+    "created_at": "2025-07-12 04:25:06"
+  },
+  {
+    "id": 103,
+    "subject_id": 12,
+    "label": "Chapter 11: Advanced Patterns and Error Handling",
+    "name": "chapter-11-advanced-patterns-and-error-handling",
+    "created_at": "2025-07-12 04:25:07"
+  },
+  {
+    "id": 104,
+    "subject_id": 12,
+    "label": "Chapter 12: Professional Practices: Debugging and Clean Code",
+    "name": "chapter-12-professional-practices-debugging-and-clean-code",
+    "created_at": "2025-07-12 04:25:07"
+  },
+  {
+    "id": 105,
+    "subject_id": 13,
+    "label": "Chapter 1: Getting Started with HTML",
+    "name": "chapter-1-getting-started-with-html",
+    "created_at": "2025-07-12 07:08:36"
+  },
+  {
+    "id": 106,
+    "subject_id": 13,
+    "label": "Chapter 2: Core Content: Text and Headings",
+    "name": "chapter-2-core-content-text-and-headings",
+    "created_at": "2025-07-12 07:08:36"
+  },
+  {
+    "id": 107,
+    "subject_id": 13,
+    "label": "Chapter 3: Lists and Links: The Core of Navigation",
+    "name": "chapter-3-lists-and-links-the-core-of-navigation",
+    "created_at": "2025-07-12 07:08:36"
+  },
+  {
+    "id": 108,
+    "subject_id": 13,
+    "label": "Chapter 4: The Developer's Hooks: class and id",
+    "name": "chapter-4-the-developers-hooks-class-and-id",
+    "created_at": "2025-07-12 07:08:36"
+  },
+  {
+    "id": 109,
+    "subject_id": 13,
+    "label": "Chapter 5: Semantic Layout: Building a Modern Web Page Structure",
+    "name": "chapter-5-semantic-layout-building-a-modern-web-page-structure",
+    "created_at": "2025-07-12 07:08:36"
+  },
+  {
+    "id": 110,
+    "subject_id": 13,
+    "label": "Chapter 6: Working with Images and Media",
+    "name": "chapter-6-working-with-images-and-media",
+    "created_at": "2025-07-12 07:08:36"
+  },
+  {
+    "id": 111,
+    "subject_id": 13,
+    "label": "Chapter 7: Displaying Data with Tables",
+    "name": "chapter-7-displaying-data-with-tables",
+    "created_at": "2025-07-12 07:08:37"
+  },
+  {
+    "id": 112,
+    "subject_id": 13,
+    "label": "Chapter 8: Building Your First Form",
+    "name": "chapter-8-building-your-first-form",
+    "created_at": "2025-07-12 07:08:37"
+  },
+  {
+    "id": 113,
+    "subject_id": 13,
+    "label": "Chapter 9: Advanced Form Elements and Validation",
+    "name": "chapter-9-advanced-form-elements-and-validation",
+    "created_at": "2025-07-12 07:08:37"
+  },
+  {
+    "id": 114,
+    "subject_id": 13,
+    "label": "Chapter 10: Finalizing Your Project",
+    "name": "chapter-10-finalizing-your-project",
+    "created_at": "2025-07-12 07:08:37"
+  },
+  {
+    "id": 115,
+    "subject_id": 14,
+    "label": "Chapter 1: Getting Started with CSS",
+    "name": "chapter-1-getting-started-with-css",
+    "created_at": "2025-07-12 07:12:00"
+  },
+  {
+    "id": 116,
+    "subject_id": 14,
+    "label": "Chapter 2: Core Concepts: Sizing, Spacing, and Specificity",
+    "name": "chapter-2-core-concepts-sizing-spacing-and-specificity",
+    "created_at": "2025-07-12 07:12:00"
+  },
+  {
+    "id": 117,
+    "subject_id": 14,
+    "label": "Chapter 3: Styling Text and Fonts",
+    "name": "chapter-3-styling-text-and-fonts",
+    "created_at": "2025-07-12 07:12:00"
+  },
+  {
+    "id": 118,
+    "subject_id": 14,
+    "label": "Chapter 4: Flexbox: The Workhorse of 1D Layout",
+    "name": "chapter-4-flexbox-the-workhorse-of-1d-layout",
+    "created_at": "2025-07-12 07:12:00"
+  },
+  {
+    "id": 119,
+    "subject_id": 14,
+    "label": "Chapter 5: CSS Grid: Mastering 2D Page Layouts",
+    "name": "chapter-5-css-grid-mastering-2d-page-layouts",
+    "created_at": "2025-07-12 07:12:00"
+  },
+  {
+    "id": 120,
+    "subject_id": 14,
+    "label": "Chapter 6: Positioning Content",
+    "name": "chapter-6-positioning-content",
+    "created_at": "2025-07-12 07:12:00"
+  },
+  {
+    "id": 121,
+    "subject_id": 14,
+    "label": "Chapter 7: Responsive Design with Media Queries",
+    "name": "chapter-7-responsive-design-with-media-queries",
+    "created_at": "2025-07-12 07:12:00"
+  },
+  {
+    "id": 122,
+    "subject_id": 14,
+    "label": "Chapter 8: Advanced Backgrounds, Shadows, and Images",
+    "name": "chapter-8-advanced-backgrounds-shadows-and-images",
+    "created_at": "2025-07-12 07:12:00"
+  },
+  {
+    "id": 123,
+    "subject_id": 14,
+    "label": "Chapter 9: Advanced Selection and Dynamic Content",
+    "name": "chapter-9-advanced-selection-and-dynamic-content",
+    "created_at": "2025-07-12 07:12:00"
+  },
+  {
+    "id": 124,
+    "subject_id": 14,
+    "label": "Chapter 10: Transitions and Animations",
+    "name": "chapter-10-transitions-and-animations",
+    "created_at": "2025-07-12 07:12:00"
+  },
+  {
+    "id": 125,
+    "subject_id": 14,
+    "label": "Chapter 11: Writing Maintainable CSS",
+    "name": "chapter-11-writing-maintainable-css",
+    "created_at": "2025-07-12 07:12:01"
+  },
+  {
+    "id": 126,
+    "subject_id": 14,
+    "label": "Chapter 12: Specific Component Styling and Final Project",
+    "name": "chapter-12-specific-component-styling-and-final-project",
+    "created_at": "2025-07-12 07:12:01"
+  },
+  {
+    "id": 127,
+    "subject_id": 15,
+    "label": "Chapter 1: The Utility-First Mindset",
+    "name": "chapter-1-the-utility-first-mindset",
+    "created_at": "2025-07-12 07:33:12"
+  },
+  {
+    "id": 128,
+    "subject_id": 15,
+    "label": "Chapter 2: Setup and Configuration",
+    "name": "chapter-2-setup-and-configuration",
+    "created_at": "2025-07-12 07:33:12"
+  },
+  {
+    "id": 129,
+    "subject_id": 15,
+    "label": "Chapter 3: Sizing, Spacing, and the Box Model",
+    "name": "chapter-3-sizing-spacing-and-the-box-model",
+    "created_at": "2025-07-12 07:33:12"
+  },
+  {
+    "id": 130,
+    "subject_id": 15,
+    "label": "Chapter 4: Colors and Typography",
+    "name": "chapter-4-colors-and-typography",
+    "created_at": "2025-07-12 07:33:12"
+  },
+  {
+    "id": 131,
+    "subject_id": 15,
+    "label": "Chapter 5: Mastering Layout with Flexbox and Grid",
+    "name": "chapter-5-mastering-layout-with-flexbox-and-grid",
+    "created_at": "2025-07-12 07:33:12"
+  },
+  {
+    "id": 132,
+    "subject_id": 15,
+    "label": "Chapter 6: Responsive Design Made Easy",
+    "name": "chapter-6-responsive-design-made-easy",
+    "created_at": "2025-07-12 07:33:12"
+  },
+  {
+    "id": 133,
+    "subject_id": 15,
+    "label": "Chapter 7: Handling States and Interactivity",
+    "name": "chapter-7-handling-states-and-interactivity",
+    "created_at": "2025-07-12 07:33:13"
+  },
+  {
+    "id": 134,
+    "subject_id": 15,
+    "label": "Chapter 8: Customizing Your Design System",
+    "name": "chapter-8-customizing-your-design-system",
+    "created_at": "2025-07-12 07:33:13"
+  },
+  {
+    "id": 135,
+    "subject_id": 15,
+    "label": "Chapter 9: Organizing Your Code and Dark Mode",
+    "name": "chapter-9-organizing-your-code-and-dark-mode",
+    "created_at": "2025-07-12 07:33:13"
+  },
+  {
+    "id": 136,
+    "subject_id": 15,
+    "label": "Chapter 10: Final Project and Next Steps",
+    "name": "chapter-10-final-project-and-next-steps",
+    "created_at": "2025-07-12 07:33:13"
+  },
+  {
+    "id": 137,
+    "subject_id": 16,
+    "label": "Projects 1-15: Core Logic and DOM Events",
+    "name": "projects-1-15-core-logic-and-dom-events",
+    "created_at": "2025-07-12 08:00:04"
+  },
+  {
+    "id": 138,
+    "subject_id": 16,
+    "label": "Projects 16-40: Thinking in Data Structures",
+    "name": "projects-16-40-thinking-in-data-structures",
+    "created_at": "2025-07-12 08:00:04"
+  },
+  {
+    "id": 139,
+    "subject_id": 16,
+    "label": "Projects 41-60: The Logic of User Input",
+    "name": "projects-41-60-the-logic-of-user-input",
+    "created_at": "2025-07-12 08:00:04"
+  },
+  {
+    "id": 140,
+    "subject_id": 16,
+    "label": "Projects 61-80: Interacting with the Web",
+    "name": "projects-61-80-interacting-with-the-web",
+    "created_at": "2025-07-12 08:00:04"
+  },
+  {
+    "id": 141,
+    "subject_id": 16,
+    "label": "Projects 81-100: Capstone Logic Challenges",
+    "name": "projects-81-100-capstone-logic-challenges",
+    "created_at": "2025-07-12 08:00:05"
+  },
+  {
+    "id": 142,
+    "subject_id": 17,
+    "label": "Introduction",
+    "name": "introduction",
+    "created_at": "2025-07-15 07:25:54"
   }
 ]

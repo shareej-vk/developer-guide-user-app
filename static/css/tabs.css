@@ -133,3 +133,29 @@
 .intro-title{
     display:none;
 }
+
+
+.selector-color { color: #db2777 !important; } /* Tailwind pink-600 */
+.property-color { color: #16a34a !important; } /* Tailwind green-600 */
+.value-color { color: #ca8a04 !important; }    /* Tailwind yellow-600 */
+
+.shiki code {
+    font-size: 18px !important;
+  }
+
+  span.strong{
+    font-weight: 600 !important;
+    font-size: 25px !important;
+    color: #f13608 !important;
+  }
+
+  span.quoted{
+    font-style: italic !important;
+    font-size: 25px !important;
+    color: #1b68f5 !important;
+    font-weight: 600 !important;
+  }
+
+  p{
+    text-align: left !important;
+  }
