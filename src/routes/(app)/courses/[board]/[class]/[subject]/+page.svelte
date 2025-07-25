@@ -2,7 +2,7 @@
   import { page } from "$app/state";
   import type { PageData } from "./$types";
   import { onMount } from "svelte";
-
+import { BASE_PATH } from '$lib/app.config.js';
   // Define interfaces for our data structures
   interface Lesson {
     id: string;
@@ -60,7 +60,7 @@
 
     // For unit labels, remove the 'Unit X: ' prefix if it exists
     if (isUnitLabel) {
-      text = text.replace(/^Chapter\s+\d+:\s*/i, "");
+      text = text.replace(/^Unit\s+\d+:\s*/i, "");
     }
 
     return text
@@ -139,9 +139,10 @@
               <ul class="space-y-1">
                 {#if data.courseData?.units?.length > 0}
                   {#each data.courseData.units as unit ,unitIndex (unit.id)}
-                    <li class="line-height-2" >
+                    <li>
+                     
                       <button
-                        class="w-full text-left px-4 py-3 rounded-md hover:bg-gray-100 transition-colors duration-200 cursor-pointer flex items-center justify-between {selectedUnitId ===
+                        class="w-full text-left p-0 rounded-md hover:bg-gray-100 transition-colors duration-200 cursor-pointer flex items-center justify-between {selectedUnitId ===
                         unit.id
                           ? 'bg-blue-50 text-blue-700'
                           : 'text-gray-700'}"
@@ -151,15 +152,18 @@
                           : "false"}
                         aria-label={`${unit.order}: ${unit.name}`}
                       >
-                        <span class="font-medium text-sm " style="line-height: 1.7rem !important;  text-align: left !important;">
-                          <span class="text-gray-500 mr-2" >{unit.order}</span>
+                      <img  class="rounded-md chapter-thumb {selectedUnitId ===
+                        unit.id
+                          ? 'selected-invert'
+                          : ''}" src={`${BASE_PATH}/data/svgs/ch-${unit.id}.svg`} alt="" />                        <!-- <span class="font-medium text-sm truncate">
+                          <span class="text-gray-500 mr-2">{unit.order}</span>
                         {unitIndex + 1}.  {formatText(unit.label || unit.name, true)}
                         </span>
                         <span
                           class="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded-full shrink-0"
                         >
                           {unit.lessons?.length || 0}
-                        </span>
+                        </span> -->
                       </button>
                     </li>
                   {/each}
@@ -177,20 +181,18 @@
       <!-- Main Content -->
       <div class="flex-1 min-w-0">
         <div class="max-w-4xl mx-auto">
-          <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
-            <div class="p-6 sm:p-8">
+          <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8 p-0">
+            <div class="p-2 sm:p-8" style="padding: 6px;">
               <div
-                class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6"
+                class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 p-4"
               >
                 <div>
-                  <h1 class="text-2xl md:text-3xl font-bold text-gray-900">
-                    {formatText(data.subject)} - Class {data.class}
-                  </h1>
-                  <p class="text-gray-500 mt-1">
+                 
+                  <h3 class="text-gray-500 mt-1">
                     {selectedUnit
                       ? formatText(selectedUnit.name)
                       : "Select a unit to view lessons"}
-                  </p>
+                  </h3>
                 </div>
                 <div class="flex items-center space-x-2">
                   <span
@@ -203,57 +205,38 @@
               </div>
 
               {#if selectedUnit?.lessons?.length > 0}
-                <ul class="space-y-3">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {#each selectedUnit.lessons as lesson, i (lesson.id)}
-                    <li class="group" onmouseover={() => setScrollTop()}>
+                    <div 
+                      role="button"
+                      tabindex="0"
+                      onmouseover={setScrollTop}
+                      onfocus={setScrollTop}
+                      class="group outline-none"
+                    >
                       <a
-                        href={`/courses/${data.board}/${data.class}/${data.subject}/lesson/${lesson.id}`}
-                        class={`block p-4 rounded-lg border transition-colors duration-150 ${
+                        href={`${BASE_PATH}/courses/${data.board}/${data.class}/${data.subject}/lesson/${lesson.id}`}
+                        class={`block h-full p-4 rounded-lg border transition-colors duration-150 ${
                           selectedLessonId === lesson.id
-                            ? "border-blue-300 bg-blue-50"
+                            ? "border-blue-300 bg-blue-50 lesson-select"
                             : "border-gray-200 hover:border-blue-300 hover:bg-blue-50"
                         }`}
                         data-lesson-id={lesson.id}
                       >
-                        <div class="flex items-start">
-                          <div
-                            class="flex-shrink-0 h-10 w-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-medium"
-                          >
-                            {i + 1}
-                          </div>
-                          <div class="ml-4">
-                            <h3
-                              class="text-base font-medium text-gray-900 group-hover:text-blue-600"
-                            >
-                              {formatText(lesson.title)}
-                            </h3>
-                            {#if lesson.description}
-                              <p class="mt-1 text-sm text-gray-500">
-                                {lesson.description}
-                              </p>
-                            {/if}
-                          </div>
-                          <div class="ml-auto flex items-center">
-                            <svg
-                              class="h-5 w-5 text-gray-400 group-hover:text-blue-500"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke="currentColor"
-                            >
-                              <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M9 5l7 7-7 7"
-                              />
-                            </svg>
-                          </div>
-                        </div>
+                       
+                       <!-- <img style="width:100%     border: 1px solid #eae6e6;
+    border-radius: 6px;
+    box-shadow: 1px 3px 11px -2px #c9c9c9;" src={`/front-end/data/svgs/${lesson.id}.webp`} alt="" /> -->
+
+    <img  style="width:100%     border: 1px solid #eae6e6;
+    border-radius: 6px;
+    box-shadow: 1px 3px 11px -2px #c9c9c9;" src={`${BASE_PATH}/data/svgs/${lesson.id}.webp`} alt="" />
                       </a>
-                    </li>
+                    </div>
                   {/each}
-                </ul>
-              {:else if selectedUnit}
+                </div>
+              {/if}
+              {#if selectedUnit?.lessons?.length === 0}
                 <div class="text-center py-12">
                   <svg
                     class="mx-auto h-12 w-12 text-gray-400"
@@ -277,7 +260,7 @@
                   </p>
                 </div>
               {:else}
-                <div class="text-center py-12">
+                <!-- <div class="text-center py-12">
                   <svg
                     class="mx-auto h-12 w-12 text-gray-400"
                     fill="none"
@@ -298,11 +281,11 @@
                     This course doesn't have any content yet. Please check back
                     later.
                   </p>
-                </div>
+                </div> -->
               {/if}
             </div>
           </div>
-          <div class="bg-white rounded-xl shadow-sm overflow-hidden mt-6">
+          <!-- <div class="bg-white rounded-xl shadow-sm overflow-hidden mt-6">
             <div class="p-6 sm:p-8">
               <h2 class="text-lg font-semibold text-gray-900 mb-4">
                 About This Course
@@ -320,7 +303,7 @@
                 {/if}
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -340,5 +323,20 @@
 
   .prose p:not(:last-child) {
     margin-bottom: 1em;
+  }
+  .selected-invert{
+    filter: invert(100%);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .lesson-select{
+    border: 3px solid #000000;
+  }
+  .chapter-thumb:hover{
+    box-shadow: 0px 1px 9px 0px #FF5722;
+    transition: all 0.2s ease-in-out;
+  }
+  .chapter-thumb:hover{
+   box-sizing: border-box;
   }
 </style>

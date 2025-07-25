@@ -18,7 +18,7 @@
 
 <svelte:head>
     <link rel="stylesheet" href="/css/tabs.css"> 
-	<script src="/js/custom.js"></script>    
+	<!-- <script src="/js/custom.js"></script>     -->
 </svelte:head>
 
 <header class:scrolled={isScrolled}>

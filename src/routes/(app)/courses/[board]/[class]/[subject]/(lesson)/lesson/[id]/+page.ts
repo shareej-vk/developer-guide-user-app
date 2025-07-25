@@ -1,6 +1,7 @@
 import type { PageLoad } from './$types';
 import init, { decrypt_json } from "$lib/pkg/wasm_encryptor.js";
 import { courseDataStore } from "$lib/stores/courseStore.svelte";
+import { BASE_PATH } from '$lib/app.config.js';
     import { codeToHtml , } from "shiki";
 
 interface ParsedContent {
@@ -88,7 +89,8 @@ function markdownToHtml(markdown) {
   return markdown  
     .replace(/\*\*(.*?)\*\*/gim, '<span class="strong">$1</span>').
     replace(/\*(.*?)\*/gim, '<span class="strong">$1</span>')
-    .replace(/__(.*?)__/gim, '<span class="strong">$1</span>')  
+    .replace(/__(.*?)__/gim, '<span class="strong">$1</span>') 
+    .replace(/\`(.*?)\`/gim, '<span class="hilight">$1</span>') 
 }
 
 function wrapQuotesInSpan(htmlString) {
@@ -146,7 +148,7 @@ function encodeHtmlInTextNodes(str: string | undefined): string {
     let parsedString3 = markdownToHtml(prsedString2);
     let parsedString4 = wrapQuotesInSpan(parsedString3);
     
-  return parsedString4;
+  return str;
  // return str;
 
 }
@@ -195,7 +197,7 @@ export const load: PageLoad = async ({ params, fetch }) => {
 
 if(courseDataStore.courseData == null){
 
-    const jsonFilePath = `/data/${params.board}-${params.class}-${params.subject}.json`;
+    const jsonFilePath = `${BASE_PATH}/data/${params.board}-${params.class}-${params.subject}.json`;
     // console.log('Loading data from:', jsonFilePath);
      
      // Fetch the JSON file
@@ -216,7 +218,7 @@ if(courseDataStore.courseData == null){
 
     courseDataStore.isLoading = true;
     // Construct the path to the lesson JSON file
-    const lessonPath = `/data/lessons/${params.id}.json`;
+    const lessonPath = `${BASE_PATH}/data/lessons/${params.id}.json`;
     console.log('Loading lesson from:', lessonPath);    
     // Fetch the lesson data
     const response = await fetch(lessonPath);    
@@ -230,19 +232,19 @@ if(courseDataStore.courseData == null){
     let lessonData = JSON.parse(lessonDataDecrypted);
     //  console.log(lessonData.content, "BEFORE SANITIZE LESSON CONTENT");
 
-    lessonData.content = encodeHtmlInTextNodes(lessonData.content);
+   // lessonData.content = markdownToHtml(lessonData.content);
 
-    lessonData.questions = encodeHtmlInTextNodes(lessonData.questions);
+  //  lessonData.questions = encodeHtmlInTextNodes(lessonData.questions);
  //   console.log(lessonData.content, "AFTER SANITIZE LESSON CONTENT");
-    lessonData.exercises = encodeHtmlInTextNodes(lessonData.exercises);
-    lessonData.summary = encodeHtmlInTextNodes(lessonData.summary);
+  //  lessonData.exercises = encodeHtmlInTextNodes(lessonData.exercises);
+  //  lessonData.summary = encodeHtmlInTextNodes(lessonData.summary);
     
     
     // Parse HTML content if intros exist
-    if (lessonData.intros) {
-      const parsedIntros = parseHtmlContent(lessonData.intros);
-      lessonData.slides = parsedIntros;
-    }
+   // if (lessonData.intros) {
+    //  const parsedIntros = parseHtmlContent(lessonData.intros);
+      //lessonData.slides = parsedIntros;
+   // }
     //let introset1Response = await fetch(`/data/intros/lesson-${params.id}-intros-intros-set1.json`);
     //let introset2Response = await fetch(`/data/intros/lesson-${params.id}-intros-intros-set2.json`);
 

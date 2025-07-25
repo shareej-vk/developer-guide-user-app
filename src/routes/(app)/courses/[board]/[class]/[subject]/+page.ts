@@ -1,6 +1,7 @@
 import type { PageLoad } from './$types';
 import init, { decrypt_json } from "$lib/pkg/wasm_encryptor.js";
 import { courseDataStore } from "$lib/stores/courseStore.svelte";
+import { BASE_PATH } from '$lib/app.config.js';
 export const ssr = false;
 export const csr = true;
 
@@ -41,7 +42,7 @@ export const load: PageLoad = async ({ params, fetch }): Promise<{
   
   try {
     // Construct the path to the JSON file based on the route parameters
-    const jsonFilePath = `/data/${params.board}-${params.class}-${params.subject}.json`;
+    const jsonFilePath = `${BASE_PATH}/data/${params.board}-${params.class}-${params.subject}.json`;
    // console.log('Loading data from:', jsonFilePath);
     
     // Fetch the JSON file

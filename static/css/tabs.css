@@ -159,3 +159,13 @@
   p{
     text-align: left !important;
   }
+  svg.w-7 {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .hilight{
+    color: #0285ff !important;
+    font-weight: 600 !important;
+    
+  }

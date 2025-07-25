@@ -7,6 +7,7 @@ import { codeToHtml } from "shiki";
   import IntroSlides from '$lib/components/IntroSlides.svelte';
     import { goto } from '$app/navigation';
     import { derived } from 'svelte/store';
+    import { BASE_PATH } from '$lib/app.config.js';
   interface LessonContent {
     id: string;
     title: string;
@@ -34,7 +35,7 @@ import { codeToHtml } from "shiki";
   localStorage.setItem('selectedLessonId', page.params.id);
   console.log(courseDataStore.courseData, "COURSE DATA");
   
-  let activeTab = $state('introduction');
+  let activeTab = $state('content');
   let isModalOpen = $state(true);
   console.log("LESSSON", page)
 let nextPrevLessons = $derived.by(()=>{
@@ -128,13 +129,16 @@ iframeContainer.appendChild(closeButton);
 
 
 async function hilightCode(){
-  var codes = document.querySelectorAll('.prose code');
+  var codes = document.querySelectorAll('.prose pre');
   for (const code of codes) {
+    if(code.textContent.length > 20){
     let codeHtml = await codeToHtml(code.textContent, {
       lang: 'javascript',
       theme: 'dark-plus',
     });
     code.parentElement.outerHTML = codeHtml;
+    }
+    
   }
 }
 
@@ -146,12 +150,7 @@ $effect(()=>{
     setTimeout(async() => {
     isLoading = false;
     await tick();
-    if(activeTab === 'questions') {
-      handleQuestionsShowHide();
-    }
-    if(activeTab === 'exercises') {
-      handleExercisesShowHide();
-    }    
+    hilightCode();   
   }, 600);
   }
    
@@ -163,7 +162,7 @@ $effect(()=>{
   let lessonGameList = [];
 
 async function loadGames(unitId:any) {
- let gamesListData = await fetch(`/data/games/units/${unitId}.json`);
+ let gamesListData = await fetch(`${BASE_PATH}/data/games/units/${unitId}.json`);
   gamesList = await gamesListData.json();
   console.log(page.params.id, gamesList.units[0].lessons);
 lessonGameList = gamesList.units[0].lessons.find((lesson:any) => parseInt(lesson.id) === parseInt(page.params.id));
@@ -182,7 +181,7 @@ console.log(lessonGameList, "lessonGameList");
 function gotoNextLesson(){
 isLoading = true; 
 if(nextPrevLessons.next.id){  
-goto(`/courses/${data.board}/${data.class}/${data.subject}/lesson/${nextPrevLessons.next.id}`)
+goto(`${BASE_PATH}/courses/${data.board}/${data.class}/${data.subject}/lesson/${nextPrevLessons.next.id}`)
 }
   
 }
@@ -194,7 +193,7 @@ goto(`/courses/${data.board}/${data.class}/${data.subject}/lesson/${nextPrevLess
 function gotoPreviousLesson(){
 isLoading = true; 
 if(nextPrevLessons.prev.id){
-goto(`/courses/${data.board}/${data.class}/${data.subject}/lesson/${nextPrevLessons.prev.id}`)
+goto(`${BASE_PATH}/courses/${data.board}/${data.class}/${data.subject}/lesson/${nextPrevLessons.prev.id}`)
 }
 
 }
@@ -359,13 +358,22 @@ async function handleExercisesShowHide() {
 }
 
 
-  async function selectTab(tab: string) {    
+async function goToSegment(segment: string) {
+
+  let targetElement = document.getElementById(segment);
+  if (targetElement) {
+    targetElement.scrollIntoView({ behavior: 'smooth' });
+  }
+}
   
+
+
+  async function selectTab(tab: string) {    
     activeTab = tab;
     isModalOpen = false;
     window.scrollTo({ top: 0 });
     await tick();
-    hilightCode();
+   // hilightCode();
     if(tab === 'questions') {
       handleQuestionsShowHide();
     }
@@ -387,7 +395,7 @@ async function handleExercisesShowHide() {
 
   
   // Generate the back URL to the subject page
-  const backToChaptersUrl = $derived(`/courses/${data.board}/${data.class}/${data.subject}`);
+  const backToChaptersUrl = $derived(`/front-end/courses/${data.board}/${data.class}/${data.subject}`);
 </script>
 
 
@@ -396,7 +404,7 @@ async function handleExercisesShowHide() {
 	<script src="/js/custom.js"></script>    
 </svelte:head>
 
-<div class="min-h-screen bg-white" style="margin:0 auto">
+<div class="min-h-screen bg-white" style="margin:0 auto;">
 <h1>IS LOADING  {courseDataStore.isLoading}</h1>
   <div class="container mx-auto px-4 max-w-6xl py-6">
     <!-- Removed standalone back button as it's now in the tabs -->
@@ -448,7 +456,7 @@ async function handleExercisesShowHide() {
               Chapters
             </a>
             
-            <button
+            <!-- <button
               class="px-6 py-4 text-sm font-medium border-b-2 transition-colors duration-200 cursor-pointer {activeTab === 'introduction' ? 'border-blue-500 text-blue-600' : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}"
               onclick={()=>{selectTab('introduction')}}
             >
@@ -459,7 +467,7 @@ async function handleExercisesShowHide() {
                 Thoughts
               </span>
             </button>
-            
+             -->
             <button
               class="px-6 py-4 text-sm font-medium border-b-2 transition-colors duration-200 cursor-pointer {activeTab === 'content' ? 'border-blue-500 text-blue-600' : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}"
               onclick={()=>{selectTab('content')}}
@@ -474,7 +482,7 @@ async function handleExercisesShowHide() {
             
             <button
               class="px-6 py-4 text-sm font-medium border-b-2 transition-colors duration-200 cursor-pointer {activeTab === 'questions' ? 'border-blue-500 text-blue-600' : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}"
-              onclick={()=>{selectTab('questions')}}
+              onclick={()=>{goToSegment('questions-and-answers')}}
             >
               <span class="flex items-center">
                 <svg class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -486,7 +494,7 @@ async function handleExercisesShowHide() {
             
             <button
               class="px-6 py-4 text-sm font-medium border-b-2 transition-colors duration-200 cursor-pointer {activeTab === 'exercises' ? 'border-blue-500 text-blue-600' : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}"
-              onclick={()=>{selectTab('exercises')}}
+              onclick={()=>{goToSegment('exercises')}}
             >
               <span class="flex items-center">
                 <svg class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -496,9 +504,9 @@ async function handleExercisesShowHide() {
               </span>
             </button>
 
-            <button
+            <button 
             class="px-6 py-4 text-sm font-medium border-b-2 transition-colors duration-200 cursor-pointer {activeTab === 'summary' ? 'border-blue-500 text-blue-600' : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}"
-            onclick={()=>{selectTab('summary')}}
+            onclick={()=>{goToSegment('summary')}}
           >
             <span class="flex items-center">
               <svg class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -546,7 +554,11 @@ async function handleExercisesShowHide() {
 </div>
        {/if}
        {#if !isLoading}
-        <div class="p-6 bg-white" style="margin-top:34px; max-height: calc(100vh - 140px);">
+        <div class="p-6 bg-white" style="margin-top:34px; padding-bottom:50px; max-height: calc(100vh - 140px);">
+         
+        
+         
+         
           {#if activeTab === 'introduction'}
             <div class="prose max-w-none intro-container">
               <IntroSlides slides={data.lesson.slides} />
@@ -678,5 +690,7 @@ async function handleExercisesShowHide() {
     font-weight: bold;
     transition: all 0.3s ease;
   }
+
+
 
 </style>
