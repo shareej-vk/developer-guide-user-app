@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "svelteSchool";
+    src: url("/fonts/svelteSchool.woff2");
+  }
+
+  @font-face {
+    font-family: "Roboto Regular";
+    src: url("/fonts/Roboto-Regular.woff2");
+  }
+
+  @font-face {
+    font-family: "Futura Regular";
+    src: url("/fonts/Futura.woff2");
+  }
+
+  p.first-para{
+    font-family: svelteSchool !important; 
+    font-size: 20px !important;
+    font-weight: 400 !important; 
+
+} 
+
+h1.intro-question{
+    font-family: svelteSchool !important; 
+    
+}
+
+.prose p {
+    font-family: Roboto Regular !important; 
+    font-size: 19px !important;
+    font-weight: 400 !important; 
+} 
+
+.prose {
+  :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::before {
+      content: "";
+  }
+  :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::after {
+      content: "";
+  }
+}

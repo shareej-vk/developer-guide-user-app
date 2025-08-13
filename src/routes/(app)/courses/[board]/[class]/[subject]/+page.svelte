@@ -1,8 +1,93 @@
 <script lang="ts">
   import { page } from "$app/state";
   import type { PageData } from "./$types";
+  import { goto } from "$app/navigation";
   import { onMount } from "svelte";
-import { BASE_PATH } from '$lib/app.config.js';
+  import { BASE_PATH,API_URL } from "$lib/app.config.js";
+  import init, { decrypt_json } from "$lib/pkg/wasm_encryptor.js";
+  let user_email = $state("");
+  let password = $state("");
+  let isShowLogin = $state(false);
+
+  async function handleSubmit(event) {
+    let lessonId = localStorage.getItem("selectedLessonId");
+    event.preventDefault();
+    const response = await fetch(API_URL+"/api/tempUserLogin", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ user_email, password }),
+    });
+
+    const result = await response.json();
+
+    if (result.status === "success") {
+      console.log("Login successful:", result);
+      if (result.userData) {
+        localStorage.setItem("userData", JSON.stringify(result.userData));
+      }
+
+      if (result.token) {
+        localStorage.setItem("studentToken", result.token);
+      }
+
+     let isAuthorized = validateUser();  
+      if( isAuthorized ) {
+       goto(
+        `${BASE_PATH}/courses/${page.params.board}/${page.params.class}/${page.params.subject}/lesson/${lessonId}`,
+      );
+      } else {
+        alert("Login failed, please try again.");
+      }
+
+
+
+    } else {
+      alert("Login failed");
+    }
+  }
+
+  function validateUser() {
+    let studentToken = localStorage.getItem("studentToken");
+    if (!studentToken) {
+      return false;
+    } else {
+      // Decrypt the token
+      try {
+        let token: any = decrypt_json(studentToken);
+        const now = new Date(token.nowDate);
+        const expiry = new Date(token.expiryDate);
+        const isExpired = now > expiry;
+        if (isExpired) {        
+          return false;
+        } else {
+          return true;
+        }
+      } catch (error) {
+        return false;
+      }
+    }
+  }
+
+  function gotoLesson(lessonId: string) {
+    localStorage.setItem("selectedLessonId", lessonId);
+    localStorage.setItem("scrollTop", window.scrollY.toString());
+    localStorage.setItem(
+      "gotoLocation",
+      `${BASE_PATH}/courses/${page.params.board}/${page.params.class}/${page.params.subject}/lesson/${lessonId}`,
+    );
+    let isAuthorized = validateUser();  
+
+    if (!isAuthorized) {
+      isShowLogin = true;
+      return;
+    } else {
+      goto(
+        `${BASE_PATH}/courses/${page.params.board}/${page.params.class}/${page.params.subject}/lesson/${lessonId}`,
+      );
+    }
+  }
   // Define interfaces for our data structures
   interface Lesson {
     id: string;
@@ -43,9 +128,7 @@ import { BASE_PATH } from '$lib/app.config.js';
     if (page.params) {
       if (localStorage.getItem("selectedLessonId")) {
         setTimeout(() => {
-          selectedLessonId = parseInt(
-            localStorage.getItem("selectedLessonId"),
-          );
+          selectedLessonId = parseInt(localStorage.getItem("selectedLessonId"));
           window.scrollTo({
             top: parseInt(localStorage.getItem("scrollTop")),
           });
@@ -71,19 +154,24 @@ import { BASE_PATH } from '$lib/app.config.js';
   }
   function selectUnit(unitId: string) {
     localStorage.setItem("selectedUnitId", unitId);
-    selectedUnitId = unitId;    
+    selectedUnitId = unitId;
     selectedLessonId = "";
     selectedUnit =
       data.courseData?.units.find((unit: Unit) => unit.id === unitId) || null;
-   
   }
-
 
   function setScrollTop() {
     localStorage.setItem("scrollTop", window.scrollY.toString());
   }
 
+  async function initWasm() {
+    if (typeof window !== "undefined" && !window.wasmInitialized) {
+      await init();
+    }
+  }
+
   onMount(() => {
+    initWasm();
     console.log(
       data.courseData?.units[0].id,
       "deault id",
@@ -97,6 +185,53 @@ import { BASE_PATH } from '$lib/app.config.js';
     }
   });
 </script>
+
+{#if isShowLogin}
+<div class="login-popup fixed z-50 inset-0 flex items-center justify-center">
+  <div class="relative border p-8 rounded-lg shadow-xl w-full max-w-md bg-white bg-opacity-75">
+    <button
+      onclick={() => isShowLogin = false}
+      class="absolute top-2 right-3 text-red-600 hover:text-red-800 text-4xl font-bold cursor-pointer"
+      aria-label="Close"
+    >
+      &times;
+    </button>
+    <h3 class="text-2xl font-bold mb-6 text-center text-gray-900">
+      Login
+    </h3>
+    <form onsubmit={handleSubmit} class="space-y-6">
+      <div>
+        <label for="email" class="text-sm font-medium text-gray-700">Email</label>
+        <input
+          type="email"
+          id="email"
+          bind:value={user_email}
+          class="w-full px-4 py-2 mt-2 text-gray-700 bg-gray-200 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          required
+        />
+      </div>
+      <div>
+        <label for="password" class="text-sm font-medium text-gray-700">Password</label>
+        <input
+          type="password"
+          id="password"
+          bind:value={password}
+          class="w-full px-4 py-2 mt-2 text-gray-700 bg-gray-200 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          required
+        />
+      </div>
+      <div>
+        <button
+          type="submit"
+          class="cursor-pointer w-full px-4 py-2 font-bold text-white bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+        >
+          Login
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+{/if}
 
 <div class="min-h-screen bg-gray-50">
   <div class="container mx-auto px-4 py-6 max-w-6xl">
@@ -127,6 +262,7 @@ import { BASE_PATH } from '$lib/app.config.js';
 
     <div class="flex flex-col md:flex-row gap-6">
       <!-- Units List (Left Sidebar) -->
+      {#if data.courseData?.units?.length > 1}
       <div class="md:w-72 lg:w-80 flex-shrink-0">
         <div class="sticky top-4">
           <aside
@@ -138,9 +274,8 @@ import { BASE_PATH } from '$lib/app.config.js';
             <div class="flex-1 overflow-y-auto p-2">
               <ul class="space-y-1">
                 {#if data.courseData?.units?.length > 0}
-                  {#each data.courseData.units as unit ,unitIndex (unit.id)}
+                  {#each data.courseData.units as unit, unitIndex (unit.id)}
                     <li>
-                     
                       <button
                         class="w-full text-left p-0 rounded-md hover:bg-gray-100 transition-colors duration-200 cursor-pointer flex items-center justify-between {selectedUnitId ===
                         unit.id
@@ -152,10 +287,15 @@ import { BASE_PATH } from '$lib/app.config.js';
                           : "false"}
                         aria-label={`${unit.order}: ${unit.name}`}
                       >
-                      <img  class="rounded-md chapter-thumb {selectedUnitId ===
-                        unit.id
-                          ? 'selected-invert'
-                          : ''}" src={`${BASE_PATH}/data/svgs/ch-${unit.id}.svg`} alt="" />                        <!-- <span class="font-medium text-sm truncate">
+                        <img
+                          class="rounded-md chapter-thumb {selectedUnitId ===
+                          unit.id
+                            ? 'selected-invert'
+                            : ''}"
+                          src={`${BASE_PATH}/data/svgs/ch-${unit.id}.svg`}
+                          alt=""
+                        />
+                        <!-- <span class="font-medium text-sm truncate">
                           <span class="text-gray-500 mr-2">{unit.order}</span>
                         {unitIndex + 1}.  {formatText(unit.label || unit.name, true)}
                         </span>
@@ -177,6 +317,7 @@ import { BASE_PATH } from '$lib/app.config.js';
           </aside>
         </div>
       </div>
+      {/if}
 
       <!-- Main Content -->
       <div class="flex-1 min-w-0">
@@ -187,7 +328,6 @@ import { BASE_PATH } from '$lib/app.config.js';
                 class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 p-4"
               >
                 <div>
-                 
                   <h3 class="text-gray-500 mt-1">
                     {selectedUnit
                       ? formatText(selectedUnit.name)
@@ -207,15 +347,16 @@ import { BASE_PATH } from '$lib/app.config.js';
               {#if selectedUnit?.lessons?.length > 0}
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {#each selectedUnit.lessons as lesson, i (lesson.id)}
-                    <div 
+                    <div
                       role="button"
                       tabindex="0"
                       onmouseover={setScrollTop}
                       onfocus={setScrollTop}
                       class="group outline-none"
                     >
-                      <a
-                        href={`${BASE_PATH}/courses/${data.board}/${data.class}/${data.subject}/lesson/${lesson.id}`}
+                      <button
+                        style="cursor:pointer;"
+                        onclick={() => gotoLesson(lesson.id)}
                         class={`block h-full p-4 rounded-lg border transition-colors duration-150 ${
                           selectedLessonId === lesson.id
                             ? "border-blue-300 bg-blue-50 lesson-select"
@@ -223,15 +364,18 @@ import { BASE_PATH } from '$lib/app.config.js';
                         }`}
                         data-lesson-id={lesson.id}
                       >
-                       
-                       <!-- <img style="width:100%     border: 1px solid #eae6e6;
+                        <!-- <img style="width:100%     border: 1px solid #eae6e6;
     border-radius: 6px;
     box-shadow: 1px 3px 11px -2px #c9c9c9;" src={`/front-end/data/svgs/${lesson.id}.webp`} alt="" /> -->
 
-    <img  style="width:100%     border: 1px solid #eae6e6;
+                        <img
+                          style="width:100%     border: 1px solid #eae6e6;
     border-radius: 6px;
-    box-shadow: 1px 3px 11px -2px #c9c9c9;" src={`${BASE_PATH}/data/svgs/${lesson.id}.webp`} alt="" />
-                      </a>
+    box-shadow: 1px 3px 11px -2px #c9c9c9;"
+                          src={`${BASE_PATH}/data/svgs/${lesson.id}.webp`}
+                          alt=""
+                        />
+                      </button>
                     </div>
                   {/each}
                 </div>
@@ -324,19 +468,19 @@ import { BASE_PATH } from '$lib/app.config.js';
   .prose p:not(:last-child) {
     margin-bottom: 1em;
   }
-  .selected-invert{
+  .selected-invert {
     filter: invert(100%);
     transition: all 0.3s ease-in-out;
   }
 
-  .lesson-select{
+  .lesson-select {
     border: 3px solid #000000;
   }
-  .chapter-thumb:hover{
-    box-shadow: 0px 1px 9px 0px #FF5722;
+  .chapter-thumb:hover {
+    box-shadow: 0px 1px 9px 0px #ff5722;
     transition: all 0.2s ease-in-out;
   }
-  .chapter-thumb:hover{
-   box-sizing: border-box;
+  .chapter-thumb:hover {
+    box-sizing: border-box;
   }
 </style>

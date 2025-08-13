@@ -169,3 +169,28 @@
     font-weight: 600 !important;
     
   }
+
+  .answer-container.hidden{
+    display: block !important;
+  }
+
+  .answer-container{
+    display: block !important;
+  }
+
+  .show-answer-button{
+    display: none !important;
+  }
+
+  p span{
+    display: inline-block !important;
+    padding: 0px 15px !important;
+
+  }
+  h1, h3, h2, h4{
+    padding: 10px 15px !important;
+  }
+
+  #lesson-title{
+       font-size: 32px;
+  }

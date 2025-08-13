@@ -1,0 +1,429 @@
+<script lang="ts">
+  import { page } from "$app/state";
+  import type { PageData } from "./$types";
+  import { goto } from "$app/navigation";
+  import { onMount } from "svelte";
+  import { BASE_PATH,API_URL } from "$lib/app.config.js";
+  import init, { decrypt_json } from "$lib/pkg/wasm_encryptor.js";
+  let user_email = $state("");
+  let password = $state("");
+  let isShowLogin = $state(false);
+
+  async function handleSubmit(event) {
+    let lessonId = localStorage.getItem("selectedLessonId");
+    event.preventDefault();
+    const response = await fetch(API_URL+"/api/tempUserLogin", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ user_email, password }),
+    });
+
+    const result = await response.json();
+
+    if (result.status === "success") {
+      console.log("Login successful:", result);
+      if (result.userData) {
+        localStorage.setItem("userData", JSON.stringify(result.userData));
+      }
+
+      if (result.token) {
+        localStorage.setItem("studentToken", result.token);
+      }
+
+     let isAuthorized = validateUser();  
+      if( isAuthorized ) {
+       goto(
+        `${BASE_PATH}/courses/${page.params.board}/${page.params.class}/${page.params.subject}/lesson/${lessonId}`,
+      );
+      } else {
+        alert("Login failed, please try again.");
+      }
+
+
+
+    } else {
+      alert("Login failed");
+    }
+  }
+
+  function validateUser() {
+    let studentToken = localStorage.getItem("studentToken");
+    if (!studentToken) {
+      return false;
+    } else {
+      // Decrypt the token
+      try {
+        let token: any = decrypt_json(studentToken);
+        const now = new Date(token.nowDate);
+        const expiry = new Date(token.expiryDate);
+        const isExpired = now > expiry;
+        if (isExpired) {        
+          return false;
+        } else {
+          return true;
+        }
+      } catch (error) {
+        return false;
+      }
+    }
+  }
+
+  function gotoLesson(lessonId: string) {
+    localStorage.setItem("selectedLessonId", lessonId);
+    localStorage.setItem("scrollTop", window.scrollY.toString());
+    localStorage.setItem(
+      "gotoLocation",
+      `${BASE_PATH}/courses/${page.params.board}/${page.params.class}/${page.params.subject}/lesson/${lessonId}`,
+    );
+    let isAuthorized = true;  
+
+    if (!isAuthorized) {
+      isShowLogin = true;
+      return;
+    } else {
+      goto(
+        `${BASE_PATH}/courses/getting-started/lesson/${lessonId}`,
+      );
+    }
+  }
+  // Define interfaces for our data structures
+  interface Lesson {
+    id: string;
+    title: string;
+    order: number;
+    duration?: string;
+    description?: string;
+  }
+
+  interface Unit {
+    id: string;
+    name: string;
+    order: number;
+    lessons: Lesson[];
+  }
+
+  interface CourseData {
+    subject: {
+      id: string;
+      name: string;
+    };
+    units: Unit[];
+    totalLessons: number;
+  }
+
+  // The data prop contains the values returned from the load function
+  let { data } = $props<{
+    data: PageData & {
+      courseData: CourseData | null;
+      error?: string | null;
+    };
+  }>();
+  let selectedUnitId = $state("");
+  let selectedLessonId = $state("");
+  let selectedUnit = $state(null);
+
+  $effect(() => {
+    if (page.params) {
+      if (localStorage.getItem("selectedLessonId")) {
+        setTimeout(() => {
+          selectedLessonId = parseInt(localStorage.getItem("selectedLessonId"));
+          window.scrollTo({
+            top: parseInt(localStorage.getItem("scrollTop")),
+          });
+        }, 200);
+      }
+    }
+  });
+
+  // Format text by replacing underscores and dashes with spaces and capitalizing words
+  function formatText(text: string, isUnitLabel = false): string {
+    if (!text) return "";
+
+    // For unit labels, remove the 'Unit X: ' prefix if it exists
+    if (isUnitLabel) {
+      text = text.replace(/^Unit\s+\d+:\s*/i, "");
+    }
+
+    return text
+      .replace(/[_-]/g, " ")
+      .split(" ")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+      .join(" ");
+  }
+  function selectUnit(unitId: string) {
+    localStorage.setItem("selectedUnitId", unitId);
+    selectedUnitId = unitId;
+    selectedLessonId = "";
+    selectedUnit =
+      data.courseData?.units.find((unit: Unit) => unit.id === unitId) || null;
+  }
+
+  function setScrollTop() {
+    localStorage.setItem("scrollTop", window.scrollY.toString());
+  }
+
+  async function initWasm() {
+    if (typeof window !== "undefined" && !window.wasmInitialized) {
+      await init();
+    }
+  }
+
+  onMount(() => {
+    initWasm();
+    console.log(
+      data.courseData?.units[0].id,
+      "deault id",
+      localStorage.getItem("selectedUnitId"),
+      "from seesiosn",
+    );
+    if (localStorage.getItem("selectedUnitId")) {
+      selectUnit(parseInt(localStorage.getItem("selectedUnitId")));
+    } else {
+      selectUnit(data.courseData?.units[0].id);
+    }
+  });
+</script>
+
+{#if isShowLogin}
+<div class="login-popup fixed z-50 inset-0 flex items-center justify-center">
+  <div class="relative border p-8 rounded-lg shadow-xl w-full max-w-md bg-white bg-opacity-75">
+    <button
+      onclick={() => isShowLogin = false}
+      class="absolute top-2 right-3 text-red-600 hover:text-red-800 text-4xl font-bold cursor-pointer"
+      aria-label="Close"
+    >
+      &times;
+    </button>
+    <h3 class="text-2xl font-bold mb-6 text-center text-gray-900">
+      Login
+    </h3>
+    <form onsubmit={handleSubmit} class="space-y-6">
+      <div>
+        <label for="email" class="text-sm font-medium text-gray-700">Email</label>
+        <input
+          type="email"
+          id="email"
+          bind:value={user_email}
+          class="w-full px-4 py-2 mt-2 text-gray-700 bg-gray-200 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          required
+        />
+      </div>
+      <div>
+        <label for="password" class="text-sm font-medium text-gray-700">Password</label>
+        <input
+          type="password"
+          id="password"
+          bind:value={password}
+          class="w-full px-4 py-2 mt-2 text-gray-700 bg-gray-200 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          required
+        />
+      </div>
+      <div>
+        <button
+          type="submit"
+          class="cursor-pointer w-full px-4 py-2 font-bold text-white bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+        >
+          Login
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+{/if}
+
+<div class="min-h-screen bg-gray-50">
+  <div class="container mx-auto px-4 py-6 max-w-6xl">
+    {#if data.error}
+      <div class="bg-red-50 border-l-4 border-red-500 p-4 mb-6 rounded">
+        <div class="flex">
+          <div class="flex-shrink-0">
+            <svg
+              class="h-5 w-5 text-red-500"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <div class="ml-3">
+            <p class="text-sm text-red-700">
+              {data.error}
+            </p>
+          </div>
+        </div>
+      </div>
+    {/if}
+
+    <div class="flex flex-col md:flex-row gap-6">
+      <!-- Units List (Left Sidebar) -->
+     
+
+      <!-- Main Content -->
+      <div class="flex-1 min-w-0">
+        <div class="mx-auto">
+          <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8 p-0">
+            <div class="p-2 sm:p-8" style="padding: 6px;">
+              <div
+                class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 p-4"
+              >
+                <div>
+                  <h3 class="text-gray-500 mt-1">
+                    Getting Started With Web Development
+                  </h3>
+                </div>
+                <div class="flex items-center space-x-2">
+                  <span
+                    class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800"
+                  >
+                    {selectedUnit?.lessons?.length || 0}
+                    {selectedUnit?.lessons?.length === 1 ? "Lesson" : "Lessons"}
+                  </span>
+                </div>
+              </div>
+
+              {#if selectedUnit?.lessons?.length > 0}
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  {#each selectedUnit.lessons as lesson, i (lesson.id)}
+                    <div
+                      role="button"
+                      tabindex="0"
+                      onmouseover={setScrollTop}
+                      onfocus={setScrollTop}
+                      class="group outline-none"
+                    >
+                      <button
+                        style="cursor:pointer;"
+                        onclick={() => gotoLesson(lesson.id)}
+                        class={`block h-full p-4 rounded-lg border transition-colors duration-150 ${
+                          selectedLessonId === lesson.id
+                            ? "border-blue-300 bg-blue-50 lesson-select"
+                            : "border-gray-200 hover:border-blue-300 hover:bg-blue-50"
+                        }`}
+                        data-lesson-id={lesson.id}
+                      >
+                        <!-- <img style="width:100%     border: 1px solid #eae6e6;
+    border-radius: 6px;
+    box-shadow: 1px 3px 11px -2px #c9c9c9;" src={`/front-end/data/svgs/${lesson.id}.webp`} alt="" /> -->
+
+                        <img
+                          style="width:100%     border: 1px solid #eae6e6;
+    border-radius: 6px;
+    box-shadow: 1px 3px 11px -2px #c9c9c9;"
+                          src={`${BASE_PATH}/data/svgs/${lesson.id}.webp`}
+                          alt=""
+                        />
+                      </button>
+                    </div>
+                  {/each}
+                </div>
+              {/if}
+              {#if selectedUnit?.lessons?.length === 0}
+                <div class="text-center py-12">
+                  <svg
+                    class="mx-auto h-12 w-12 text-gray-400"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"
+                      d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <h3 class="mt-2 text-sm font-medium text-gray-900">
+                    No lessons available
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">
+                    This unit doesn't have any lessons yet. Please check back
+                    later.
+                  </p>
+                </div>
+              {:else}
+                <!-- <div class="text-center py-12">
+                  <svg
+                    class="mx-auto h-12 w-12 text-gray-400"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"
+                      d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <h3 class="mt-2 text-sm font-medium text-gray-900">
+                    No chapters available
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">
+                    This course doesn't have any content yet. Please check back
+                    later.
+                  </p>
+                </div> -->
+              {/if}
+            </div>
+          </div>
+          <!-- <div class="bg-white rounded-xl shadow-sm overflow-hidden mt-6">
+            <div class="p-6 sm:p-8">
+              <h2 class="text-lg font-semibold text-gray-900 mb-4">
+                About This Course
+              </h2>
+              <div class="prose max-w-none text-gray-600">
+                {#if data.courseData?.about}
+                  <p>{data.courseData.about}</p>
+                {:else}
+                  <p>
+                    This course follows the {formatText(data.board)} Board curriculum
+                    for Class {data.class}
+                    {formatText(data.subject)}. It covers all the essential
+                    topics and concepts to help students excel in their studies.
+                  </p>
+                {/if}
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Custom styles can be added here if needed */
+  :global(body) {
+    background-color: #ffffff;
+    overflow-y: auto;
+  }
+
+  .prose {
+    line-height: 1.625;
+  }
+
+  .prose p:not(:last-child) {
+    margin-bottom: 1em;
+  }
+  .selected-invert {
+    filter: invert(100%);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .lesson-select {
+    border: 3px solid #000000;
+  }
+  .chapter-thumb:hover {
+    box-shadow: 0px 1px 9px 0px #ff5722;
+    transition: all 0.2s ease-in-out;
+  }
+  .chapter-thumb:hover {
+    box-sizing: border-box;
+  }
+</style>

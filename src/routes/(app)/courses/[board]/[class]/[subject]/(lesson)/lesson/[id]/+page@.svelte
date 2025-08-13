@@ -2,12 +2,18 @@
   import { page } from '$app/state';
   import { lessonStateDB } from '$lib/db/lessonStateDB';
   import { courseDataStore } from "$lib/stores/courseStore.svelte";
+
+  import LoginPopup from '$lib/components/LoginPopup.svelte';
+  import "./page.css"
+
+
 import { codeToHtml } from "shiki";
+import LiveCodeEditorModal from '$lib/components/LiveCodeEditorModal.svelte';
   import { onMount, onDestroy, tick } from 'svelte';
   import IntroSlides from '$lib/components/IntroSlides.svelte';
     import { goto } from '$app/navigation';
     import { derived } from 'svelte/store';
-    import { BASE_PATH } from '$lib/app.config.js';
+    import { BASE_PATH, API_URL } from '$lib/app.config.js';
   interface LessonContent {
     id: string;
     title: string;
@@ -27,6 +33,13 @@ import { codeToHtml } from "shiki";
     lessonId: string;
     lesson: LessonContent | null;
     error: string | null;
+  }
+
+  function onClose() {
+    showEditorModal = false;
+    editorHtml = '';
+    editorCss = '';
+    editorJs = '';
   }
   
   // Use $props() to get the data from the parent component
@@ -73,6 +86,10 @@ async function updateIframeStyles(){
      }
 }
 }
+
+setTimeout(() => {
+showAnswers();
+}, 100);
 
 async function openGameFrame(gameId: string) {
   try {
@@ -127,26 +144,146 @@ iframeContainer.appendChild(closeButton);
   }
 }
 
+let codeMap = $state({});
+
+let showEditorModal = $state(false);
+let editorHtml = $state('');
+let editorCss = $state('');
+let editorJs = $state('');
+let editorLangs = $state([]);
+
 
 async function hilightCode(){
   var codes = document.querySelectorAll('.prose pre');
+  let idx = 0;
   for (const code of codes) {
     if(code.textContent.length > 20){
-    let codeHtml = await codeToHtml(code.textContent, {
-      lang: 'javascript',
-      theme: 'dark-plus',
-    });
-    code.parentElement.outerHTML = codeHtml;
+      // Store code content in codeMap with a unique key
+      codeMap[`block_${idx}`] = code.textContent;
+      // Create Run Code button
+      const codeOrder = code.getAttribute('code-order');
+      if(codeOrder !== null && codeOrder !== undefined){
+         const runBtn = document.createElement('button');
+      runBtn.textContent = '▶ Run Code';
+      runBtn.className = 'run-code-btn';
+      runBtn.style.cssText = `
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5em;
+        background: #2563eb;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 6px 18px;
+        margin: 12px 0 12px 0;
+        font-size: 1rem;
+        font-weight: 600;
+        box-shadow: 0 2px 8px rgba(37,99,235,0.08);
+        cursor: pointer;
+        transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
+      `;
+      runBtn.onmouseover = () => {
+        runBtn.style.background = '#1e40af';
+        runBtn.style.boxShadow = '0 4px 16px rgba(37,99,235,0.15)';
+        runBtn.style.transform = 'scale(1.04)';
+      };
+      runBtn.onmouseout = () => {
+        runBtn.style.background = '#2563eb';
+        runBtn.style.boxShadow = '0 2px 8px rgba(37,99,235,0.08)';
+        runBtn.style.transform = 'scale(1)';
+      };
+      runBtn.onclick = () => {
+        // Find all code blocks with the same code-order
+        const codeOrder = code.getAttribute('code-order');
+        if (!codeOrder) return;
+        const allBlocks = Array.from(document.querySelectorAll('.prose pre'));
+        let htmlCode = '', cssCode = '', jsCode = '';
+        for (const block of allBlocks) {
+          if (block.getAttribute('code-order') === codeOrder) {
+            const lang = (block.getAttribute('code-lang') || '').toLowerCase();
+            if (lang === 'html') htmlCode += block.textContent + '\n';
+            else if (lang === 'css') cssCode += block.textContent + '\n';
+            else if (lang === 'js' || lang === 'javascript') jsCode += block.textContent + '\n';
+          }
+        }
+        const event = new CustomEvent('run-code', {
+          detail: {
+            codeOrder,
+            html: htmlCode.trim(),
+            css: cssCode.trim(),
+            js: jsCode.trim()
+          }
+        });
+        window.dispatchEvent(event);
+      };
+      // Insert after code block
+      code.insertAdjacentElement('afterend', runBtn);
+
+      }  // Skip if no code-order attribute is present
+     
+      idx++;
+      
+      let codeHtml = await codeToHtml(code.textContent, {
+        lang: 'javascript',
+        theme: 'dark-plus',
+        meta:{
+          "code-order": code.getAttribute('code-order'),
+          "code-lang": code.getAttribute('code-lang')
+        }
+      });
+      code.outerHTML = codeHtml;
     }
-    
   }
+  console.log(codeMap, "CODE MAP");
 }
+
+
+onMount(() => {
+  const handler = (e: any) => {
+    // If new multi-block event, use html/css/js directly
+    if (e.detail && ('html' in e.detail || 'css' in e.detail || 'js' in e.detail)) {
+      editorHtml = e.detail.html || '';
+      editorCss = e.detail.css || '';
+      editorJs = e.detail.js || '';
+      // Set editorLangs based on which code blocks are present (only if non-empty and actually present in e.detail)
+      const langs = [];
+      if (typeof e.detail.html === 'string' && e.detail.html.trim() !== '') langs.push('html');
+      if (typeof e.detail.css === 'string' && e.detail.css.trim() !== '') langs.push('css');
+      if (typeof e.detail.js === 'string' && e.detail.js.trim() !== '') langs.push('js');
+      editorLangs = langs;
+      showEditorModal = true;
+      return;
+    }
+    // fallback: old single-block logic
+    const { code, blockId } = e.detail;
+    let html = '', css = '', js = '';
+    if (/</.test(code)) {
+      const cssMatch = code.match(/<style[^>]*>([\s\S]*?)<\/style>/i);
+      if (cssMatch) css = cssMatch[1];
+      const jsMatch = code.match(/<script[^>]*>([\s\S]*?)<\/script>/i);
+      if (jsMatch) js = jsMatch[1];
+      html = code.replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '').replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '');
+    } else {
+      js = code;
+    }
+    editorHtml = html.trim();
+    editorCss = css.trim();
+    editorJs = js.trim();
+    // Set editorLangs based on which code blocks are present
+    const langs = [];
+    if (editorHtml) langs.push('html');
+    if (editorCss) langs.push('css');
+    if (editorJs) langs.push('js');
+    editorLangs = langs;
+    showEditorModal = true;
+  };
+  window.addEventListener('run-code', handler);
+  return () => window.removeEventListener('run-code', handler);
+});
 
 $effect(()=>{
   if(page.params.id){
-    loadGames(localStorage.getItem('selectedUnitId'));
-   
-      
+    loadGames(localStorage.getItem('selectedUnitId')); 
     setTimeout(async() => {
     isLoading = false;
     await tick();
@@ -274,6 +411,9 @@ goto(`${BASE_PATH}/courses/${data.board}/${data.class}/${data.subject}/lesson/${
 // });
 //   }
 
+
+
+
   async function handleQuestionsShowHide() {
   const lessonId = page.params.id;
   if (!lessonId) return;
@@ -395,17 +535,21 @@ async function goToSegment(segment: string) {
 
   
   // Generate the back URL to the subject page
-  const backToChaptersUrl = $derived(`/front-end/courses/${data.board}/${data.class}/${data.subject}`);
+  const backToChaptersUrl = $derived(`${BASE_PATH}/courses/${data.board}/${data.class}/${data.subject}`);
 </script>
 
 
 <svelte:head>
-    <link rel="stylesheet" href="/css/tabs.css"> 
-	<script src="/js/custom.js"></script>    
+    <link rel="stylesheet" href="{BASE_PATH}/css/tabs.css"> 
+  <script src="{BASE_PATH}/js/custom.js"></script>    
 </svelte:head>
 
+{#if data.isAuthorized === false}
+  <LoginPopup />
+{:else}
+
 <div class="min-h-screen bg-white" style="margin:0 auto;">
-<h1>IS LOADING  {courseDataStore.isLoading}</h1>
+<!-- <h1>IS LOADING  {courseDataStore.isLoading}</h1> -->
   <div class="container mx-auto px-4 max-w-6xl py-6">
     <!-- Removed standalone back button as it's now in the tabs -->
 
@@ -596,7 +740,7 @@ async function goToSegment(segment: string) {
   </div>
   
 </div>
-
+{/if}
 <style>
   .container{
     width:85%;
@@ -693,4 +837,14 @@ async function goToSegment(segment: string) {
 
 
 
+
 </style>
+
+<LiveCodeEditorModal
+  show={showEditorModal}
+  html={editorHtml}
+  css={editorCss}
+  js={editorJs}
+  langs={editorLangs}
+  onClose={onClose}
+/>

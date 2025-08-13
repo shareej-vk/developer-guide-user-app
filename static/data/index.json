@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2025-07-16T02:04:05.010Z",
+  "exportedAt": "2025-08-07T01:48:50.696Z",
   "tables": [
     {
       "name": "boards",
@@ -23,7 +23,7 @@
     },
     {
       "name": "lessons",
-      "count": 432
+      "count": 441
     }
   ],
   "metadata": {

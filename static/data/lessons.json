@@ -3,4320 +3,4410 @@
     "id": 828,
     "unit_id": 83,
     "title": "Lesson 1: What is the DOM and It's connection with Javascript?",
-    "slug": "lesson_1:_what_is_the_dom_and_it's_connection_with_javascript?",
     "video": null,
+    "slug": "lesson_1:_what_is_the_dom_and_it's_connection_with_javascript?",
     "display_order": 1,
     "created_at": "2025-06-29 16:06:32",
-    "updated_at": "2025-07-03 09:58:48"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 829,
     "unit_id": 83,
     "title": "Lesson 2: DOM vs HTML - Understanding the Difference",
-    "slug": "lesson_2_dom_vs_html_-_understanding_the_difference",
     "video": null,
+    "slug": "lesson_2_dom_vs_html_-_understanding_the_difference",
     "display_order": 2,
     "created_at": "2025-06-29 16:06:32",
-    "updated_at": "2025-06-30 15:54:30"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 830,
     "unit_id": 83,
     "title": "Lesson 3: DOM Tree Structure",
-    "slug": "lesson_3:_dom_tree_structure",
     "video": null,
+    "slug": "lesson_3:_dom_tree_structure",
     "display_order": 3,
     "created_at": "2025-06-29 16:06:32",
-    "updated_at": "2025-06-30 16:05:55"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 831,
     "unit_id": 83,
     "title": "Lesson 4: The Window and Document Objects",
-    "slug": "lesson_4_the_window_and_document_objects",
     "video": null,
+    "slug": "lesson_4_the_window_and_document_objects",
     "display_order": 4,
     "created_at": "2025-06-29 16:06:32",
-    "updated_at": "2025-06-30 16:22:23"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 832,
     "unit_id": 83,
     "title": "Lesson 5: Accessing Elements with getElementById",
-    "slug": "lesson_5_accessing_elements_with_getelementbyid",
     "video": null,
+    "slug": "lesson_5_accessing_elements_with_getelementbyid",
     "display_order": 5,
     "created_at": "2025-06-29 16:06:32",
-    "updated_at": "2025-06-30 16:40:54"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 833,
     "unit_id": 83,
     "title": "Lesson 6: Accessing Elements with querySelector and querySelectorAll",
-    "slug": "lesson_6_accessing_elements_with_queryselector_and_queryselectorall",
     "video": null,
+    "slug": "lesson_6_accessing_elements_with_queryselector_and_queryselectorall",
     "display_order": 6,
     "created_at": "2025-06-29 16:06:32",
-    "updated_at": "2025-07-01 01:49:23"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 834,
     "unit_id": 83,
     "title": "Lesson 7: Accessing Elements with getElementsByClassName and getElementsByTagName",
-    "slug": "lesson_7_accessing_elements_with_getelementsbyclassname_and_getelementsbytagname",
     "video": null,
+    "slug": "lesson_7_accessing_elements_with_getelementsbyclassname_and_getelementsbytagname",
     "display_order": 7,
     "created_at": "2025-06-29 16:06:32",
-    "updated_at": "2025-07-01 01:56:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 835,
     "unit_id": 83,
     "title": "Lesson 8: Traversing the DOM (Parent, Child, Siblings)",
-    "slug": "lesson_8_traversing_the_dom_parent_child_siblings",
     "video": null,
+    "slug": "lesson_8_traversing_the_dom_parent_child_siblings",
     "display_order": 8,
     "created_at": "2025-06-29 16:06:32",
-    "updated_at": "2025-07-01 02:03:20"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 836,
     "unit_id": 83,
     "title": "Lesson 9: Reading and Changing Element Content (textContent, innerText, innerHTML)",
-    "slug": "lesson_9_reading_and_changing_element_content_textcontent_innertext_innerhtml",
     "video": null,
+    "slug": "lesson_9_reading_and_changing_element_content_textcontent_innertext_innerhtml",
     "display_order": 9,
     "created_at": "2025-06-29 16:06:33",
-    "updated_at": "2025-07-01 02:06:31"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 837,
     "unit_id": 83,
     "title": "Lesson 10: Changing Element Attributes (setAttribute, getAttribute, removeAttribute)",
-    "slug": "lesson_10_changing_element_attributes_setattribute_getattribute_removeattribute",
     "video": null,
+    "slug": "lesson_10_changing_element_attributes_setattribute_getattribute_removeattribute",
     "display_order": 10,
     "created_at": "2025-06-29 16:06:33",
-    "updated_at": "2025-07-01 02:09:24"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 838,
     "unit_id": 83,
     "title": "Lesson 11: Working with Classes (classList, className)",
-    "slug": "lesson_11_working_with_classes_classlist_classname",
     "video": null,
+    "slug": "lesson_11_working_with_classes_classlist_classname",
     "display_order": 11,
     "created_at": "2025-06-29 16:06:33",
-    "updated_at": "2025-07-01 02:15:27"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 839,
     "unit_id": 83,
     "title": "Lesson 12: Styling Elements with style Property",
-    "slug": "lesson_12_styling_elements_with_style_property",
     "video": null,
+    "slug": "lesson_12_styling_elements_with_style_property",
     "display_order": 12,
     "created_at": "2025-06-29 16:06:33",
-    "updated_at": "2025-07-01 02:17:35"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 840,
     "unit_id": 83,
     "title": "Lesson 13: Creating and Appending Elements (createElement, appendChild, prepend)",
-    "slug": "lesson_13_creating_and_appending_elements_createelement_appendchild_prepend",
     "video": null,
+    "slug": "lesson_13_creating_and_appending_elements_createelement_appendchild_prepend",
     "display_order": 13,
     "created_at": "2025-06-29 16:06:33",
-    "updated_at": "2025-06-30 08:22:20"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 841,
     "unit_id": 83,
     "title": "Lesson 14: Removing and Replacing Elements (remove, removeChild, replaceChild)",
-    "slug": "lesson_14_removing_and_replacing_elements_remove_removechild_replacechild",
     "video": null,
+    "slug": "lesson_14_removing_and_replacing_elements_remove_removechild_replacechild",
     "display_order": 14,
     "created_at": "2025-06-29 16:06:33",
-    "updated_at": "2025-06-30 08:25:27"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 842,
     "unit_id": 83,
     "title": "Lesson 15: Understanding the DOMContentLoaded Event",
-    "slug": "lesson_15_understanding_the_domcontentloaded_event",
     "video": null,
+    "slug": "lesson_15_understanding_the_domcontentloaded_event",
     "display_order": 15,
     "created_at": "2025-06-29 16:06:33",
-    "updated_at": "2025-06-30 08:28:42"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 843,
     "unit_id": 83,
     "title": "Lesson 16: Performance Considerations with DOM Manipulation",
-    "slug": "lesson_16_performance_considerations_with_dom_manipulation",
     "video": null,
+    "slug": "lesson_16_performance_considerations_with_dom_manipulation",
     "display_order": 16,
     "created_at": "2025-06-29 16:06:33",
-    "updated_at": "2025-06-30 08:32:16"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 844,
     "unit_id": 83,
     "title": "Lesson 17: Practical Examples: Build a Dynamic List with JavaScript",
-    "slug": "lesson_17_practical_examples_build_a_dynamic_list_with_javascript",
     "video": null,
+    "slug": "lesson_17_practical_examples_build_a_dynamic_list_with_javascript",
     "display_order": 17,
     "created_at": "2025-06-29 16:06:33",
-    "updated_at": "2025-06-30 08:35:40"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 845,
     "unit_id": 84,
     "title": "Lesson 1: The Role of JavaScript: The Brain of the Web",
-    "slug": "lesson_1_the_role_of_javascript_the_brain_of_the_web",
     "video": null,
+    "slug": "lesson_1_the_role_of_javascript_the_brain_of_the_web",
     "display_order": 1,
     "created_at": "2025-07-01 13:03:46",
-    "updated_at": "2025-07-03 04:33:07"
+    "updated_at": "2025-07-23 18:34:06"
   },
   {
     "id": 846,
     "unit_id": 84,
     "title": "Lesson 2: What JavaScript Can Do: From Static to Dynamic",
-    "slug": "lesson_2_what_javascript_can_do_from_static_to_dynamic",
     "video": null,
+    "slug": "lesson_2_what_javascript_can_do_from_static_to_dynamic",
     "display_order": 2,
     "created_at": "2025-07-01 13:03:46",
-    "updated_at": "2025-07-03 04:33:57"
+    "updated_at": "2025-07-23 18:37:09"
   },
   {
     "id": 847,
     "unit_id": 84,
     "title": "Lesson 3: Introduction to the Browser Developer Console",
-    "slug": "lesson_3_introduction_to_the_browser_developer_console",
     "video": null,
+    "slug": "lesson_3_introduction_to_the_browser_developer_console",
     "display_order": 3,
     "created_at": "2025-07-01 13:03:46",
-    "updated_at": "2025-07-03 04:35:36"
+    "updated_at": "2025-07-23 07:56:34"
   },
   {
     "id": 848,
     "unit_id": 84,
     "title": "Lesson 4: How to Add JavaScript to an HTML File",
-    "slug": "lesson_4_how_to_add_javascript_to_an_html_file",
     "video": null,
+    "slug": "lesson_4_how_to_add_javascript_to_an_html_file",
     "display_order": 4,
     "created_at": "2025-07-01 13:03:46",
-    "updated_at": "2025-07-03 10:29:05"
+    "updated_at": "2025-08-05 11:49:12"
   },
   {
     "id": 849,
     "unit_id": 84,
     "title": "Lesson 5: Linking an External JavaScript File: The Professional Method",
-    "slug": "lesson_5_linking_an_external_javascript_file_the_professional_method",
     "video": null,
+    "slug": "lesson_5_linking_an_external_javascript_file_the_professional_method",
     "display_order": 5,
     "created_at": "2025-07-01 13:03:46",
-    "updated_at": "2025-07-03 08:14:00"
+    "updated_at": "2025-07-23 08:04:51"
   },
   {
     "id": 850,
     "unit_id": 84,
     "title": "Lesson 6: Where to Place Your <script> Tag and Why",
-    "slug": "lesson_6_where_to_place_your_script_tag_and_why",
     "video": null,
+    "slug": "lesson_6_where_to_place_your_script_tag_and_why",
     "display_order": 6,
     "created_at": "2025-07-01 13:03:46",
-    "updated_at": "2025-07-03 10:29:54"
+    "updated_at": "2025-07-24 01:01:42"
   },
   {
     "id": 851,
     "unit_id": 84,
     "title": "Lesson 7: Writing Your First Line of Code with `console.log()`",
-    "slug": "lesson_7_writing_your_first_line_of_code_with_consolelog",
     "video": null,
+    "slug": "lesson_7_writing_your_first_line_of_code_with_consolelog",
     "display_order": 7,
     "created_at": "2025-07-01 13:03:46",
-    "updated_at": "2025-07-03 04:37:15"
+    "updated_at": "2025-07-23 08:07:28"
   },
   {
     "id": 852,
     "unit_id": 84,
     "title": "Lesson 8: Understanding How a Browser Executes JavaScript",
-    "slug": "lesson_8_understanding_how_a_browser_executes_javascript",
     "video": null,
+    "slug": "lesson_8_understanding_how_a_browser_executes_javascript",
     "display_order": 8,
     "created_at": "2025-07-01 13:03:46",
-    "updated_at": "2025-07-03 04:37:55"
+    "updated_at": "2025-07-23 08:09:41"
   },
   {
     "id": 853,
     "unit_id": 84,
     "title": "Lesson 9: Looking Ahead: The Need for Memory (Variables)",
-    "slug": "lesson_9_looking_ahead_the_need_for_memory_variables",
     "video": null,
+    "slug": "lesson_9_looking_ahead_the_need_for_memory_variables",
     "display_order": 9,
     "created_at": "2025-07-01 13:03:46",
-    "updated_at": "2025-07-03 04:38:35"
+    "updated_at": "2025-07-23 08:11:14"
   },
   {
     "id": 854,
     "unit_id": 85,
     "title": "Lesson 1: Introduction to Variables",
-    "slug": "lesson_1_introduction_to_variables",
     "video": null,
+    "slug": "lesson_1_introduction_to_variables",
     "display_order": 1,
     "created_at": "2025-07-03 04:57:34",
-    "updated_at": "2025-07-03 06:04:59"
+    "updated_at": "2025-07-24 01:46:54"
   },
   {
     "id": 855,
     "unit_id": 85,
     "title": "Lesson 2: Declaring Variables with let and const",
-    "slug": "lesson_2_declaring_variables_with_let_and_const",
     "video": null,
+    "slug": "lesson_2_declaring_variables_with_let_and_const",
     "display_order": 2,
     "created_at": "2025-07-03 04:57:34",
-    "updated_at": "2025-07-03 06:14:35"
+    "updated_at": "2025-07-24 01:48:27"
   },
   {
     "id": 856,
     "unit_id": 85,
     "title": "Lesson 3: Understanding var and Why It’s Legacy",
-    "slug": "lesson_3_understanding_var_and_why_its_legacy",
     "video": null,
+    "slug": "lesson_3_understanding_var_and_why_its_legacy",
     "display_order": 3,
     "created_at": "2025-07-03 04:57:34",
-    "updated_at": "2025-07-03 06:22:19"
+    "updated_at": "2025-07-24 01:50:10"
   },
   {
     "id": 857,
     "unit_id": 85,
     "title": "Lesson 4: JavaScript Data Types Overview",
-    "slug": "lesson_4_javascript_data_types_overview",
     "video": null,
+    "slug": "lesson_4_javascript_data_types_overview",
     "display_order": 4,
     "created_at": "2025-07-03 04:57:34",
-    "updated_at": "2025-07-03 06:32:36"
+    "updated_at": "2025-07-24 01:51:53"
   },
   {
     "id": 858,
     "unit_id": 85,
     "title": "Lesson 5: Working with Strings",
-    "slug": "lesson_5_working_with_strings",
     "video": null,
+    "slug": "lesson_5_working_with_strings",
     "display_order": 5,
     "created_at": "2025-07-03 04:57:34",
-    "updated_at": "2025-07-03 06:39:23"
+    "updated_at": "2025-07-24 01:53:35"
   },
   {
     "id": 859,
     "unit_id": 85,
     "title": "Lesson 6: Working with Numbers",
-    "slug": "lesson_6_working_with_numbers",
     "video": null,
+    "slug": "lesson_6_working_with_numbers",
     "display_order": 6,
     "created_at": "2025-07-03 04:57:34",
-    "updated_at": "2025-07-03 06:46:13"
+    "updated_at": "2025-07-24 01:55:38"
   },
   {
     "id": 860,
     "unit_id": 85,
     "title": "Lesson 7: Understanding Booleans",
-    "slug": "lesson_7_understanding_booleans",
     "video": null,
+    "slug": "lesson_7_understanding_booleans",
     "display_order": 7,
     "created_at": "2025-07-03 04:57:34",
-    "updated_at": "2025-07-03 06:52:45"
+    "updated_at": "2025-07-24 01:57:21"
   },
   {
     "id": 861,
     "unit_id": 85,
     "title": "Lesson 8: Null and Undefined",
-    "slug": "lesson_8_null_and_undefined",
     "video": null,
+    "slug": "lesson_8_null_and_undefined",
     "display_order": 8,
     "created_at": "2025-07-03 04:57:34",
-    "updated_at": "2025-07-03 07:05:44"
+    "updated_at": "2025-07-24 01:58:54"
   },
   {
     "id": 862,
     "unit_id": 85,
     "title": "Lesson 9: typeof Operator and Basic Type Checking",
-    "slug": "lesson_9_typeof_operator_and_basic_type_checking",
     "video": null,
+    "slug": "lesson_9_typeof_operator_and_basic_type_checking",
     "display_order": 9,
     "created_at": "2025-07-03 04:57:34",
-    "updated_at": "2025-07-03 07:13:37"
+    "updated_at": "2025-07-24 02:00:26"
   },
   {
     "id": 863,
     "unit_id": 85,
     "title": "Lesson 10: Basic Type Conversion Examples",
-    "slug": "lesson_10_basic_type_conversion_examples",
     "video": null,
+    "slug": "lesson_10_basic_type_conversion_examples",
     "display_order": 10,
     "created_at": "2025-07-03 04:57:34",
-    "updated_at": "2025-07-03 07:34:42"
+    "updated_at": "2025-07-24 02:02:39"
   },
   {
     "id": 864,
     "unit_id": 86,
     "title": "Lesson 1: Introduction to Functions",
-    "slug": "lesson_1_introduction_to_functions",
     "video": null,
+    "slug": "lesson_1_introduction_to_functions",
     "display_order": 1,
     "created_at": "2025-07-03 10:49:27",
-    "updated_at": "2025-07-03 11:29:19"
+    "updated_at": "2025-07-23 09:04:12"
   },
   {
     "id": 865,
     "unit_id": 86,
     "title": "Lesson 2: Declaring and Calling Functions",
-    "slug": "lesson_2_declaring_and_calling_functions",
     "video": null,
+    "slug": "lesson_2_declaring_and_calling_functions",
     "display_order": 2,
     "created_at": "2025-07-03 10:49:27",
-    "updated_at": "2025-07-03 17:25:55"
+    "updated_at": "2025-07-23 09:06:04"
   },
   {
     "id": 866,
     "unit_id": 86,
     "title": "Lesson 3: Function Parameters and Return Values",
-    "slug": "lesson_3_function_parameters_and_return_values",
     "video": null,
+    "slug": "lesson_3_function_parameters_and_return_values",
     "display_order": 3,
     "created_at": "2025-07-03 10:49:27",
-    "updated_at": "2025-07-03 17:33:12"
+    "updated_at": "2025-07-23 09:07:57"
   },
   {
     "id": 867,
     "unit_id": 86,
     "title": "Lesson 4: Function Expressions",
-    "slug": "lesson_4_function_expressions",
     "video": null,
+    "slug": "lesson_4_function_expressions",
     "display_order": 4,
     "created_at": "2025-07-03 10:49:27",
-    "updated_at": "2025-07-03 17:39:06"
+    "updated_at": "2025-07-23 09:09:40"
   },
   {
     "id": 868,
     "unit_id": 86,
     "title": "Lesson 5: Arrow Functions Basics",
-    "slug": "lesson_5_arrow_functions_basics",
     "video": null,
+    "slug": "lesson_5_arrow_functions_basics",
     "display_order": 5,
     "created_at": "2025-07-03 10:49:27",
-    "updated_at": "2025-07-03 17:45:13"
+    "updated_at": "2025-07-23 09:11:23"
   },
   {
     "id": 869,
     "unit_id": 86,
     "title": "Lesson 6: Function Scope vs Global Scope",
-    "slug": "lesson_6_function_scope_vs_global_scope",
     "video": null,
+    "slug": "lesson_6_function_scope_vs_global_scope",
     "display_order": 6,
     "created_at": "2025-07-03 10:49:27",
-    "updated_at": "2025-07-03 17:52:40"
+    "updated_at": "2025-07-23 09:13:16"
   },
   {
     "id": 870,
     "unit_id": 86,
     "title": "Lesson 7: Understanding Block Scope with let and const",
-    "slug": "lesson_7_understanding_block_scope_with_let_and_const",
     "video": null,
+    "slug": "lesson_7_understanding_block_scope_with_let_and_const",
     "display_order": 7,
     "created_at": "2025-07-03 10:49:27",
-    "updated_at": "2025-07-03 18:01:30"
+    "updated_at": "2025-07-23 09:14:49"
   },
   {
     "id": 871,
     "unit_id": 86,
     "title": "Lesson 8: Nested Functions and Scope Chain",
-    "slug": "lesson_8_nested_functions_and_scope_chain",
     "video": null,
+    "slug": "lesson_8_nested_functions_and_scope_chain",
     "display_order": 8,
     "created_at": "2025-07-03 10:49:27",
-    "updated_at": "2025-07-03 18:12:29"
+    "updated_at": "2025-07-23 09:20:08"
   },
   {
     "id": 872,
     "unit_id": 86,
     "title": "Lesson 9: Variable Hoisting in Functions",
-    "slug": "lesson_9_variable_hoisting_in_functions",
     "video": null,
+    "slug": "lesson_9_variable_hoisting_in_functions",
     "display_order": 9,
     "created_at": "2025-07-03 10:49:28",
-    "updated_at": "2025-07-03 18:19:11"
+    "updated_at": "2025-07-23 09:21:41"
   },
   {
     "id": 873,
     "unit_id": 86,
     "title": "Lesson 10: Best Practices for Writing Functions",
-    "slug": "lesson_10_best_practices_for_writing_functions",
     "video": null,
+    "slug": "lesson_10_best_practices_for_writing_functions",
     "display_order": 10,
     "created_at": "2025-07-03 10:49:28",
-    "updated_at": "2025-07-03 18:39:55"
+    "updated_at": "2025-07-23 09:23:04"
   },
   {
     "id": 874,
     "unit_id": 87,
     "title": "Lesson 1: What is an Array?",
-    "slug": "lesson_1_what_is_an_array",
     "video": null,
+    "slug": "lesson_1_what_is_an_array",
     "display_order": 1,
     "created_at": "2025-07-05 11:10:43",
-    "updated_at": "2025-07-05 11:59:09"
+    "updated_at": "2025-07-23 10:12:05"
   },
   {
     "id": 875,
     "unit_id": 87,
     "title": "Lesson 2: Creating Arrays with Literals",
-    "slug": "lesson_2_creating_arrays_with_literals",
     "video": null,
+    "slug": "lesson_2_creating_arrays_with_literals",
     "display_order": 2,
     "created_at": "2025-07-05 11:10:43",
-    "updated_at": "2025-07-05 12:07:28"
+    "updated_at": "2025-07-23 10:13:38"
   },
   {
     "id": 876,
     "unit_id": 87,
     "title": "Lesson 3: Accessing and Modifying Array Elements",
-    "slug": "lesson_3_accessing_and_modifying_array_elements",
     "video": null,
+    "slug": "lesson_3_accessing_and_modifying_array_elements",
     "display_order": 3,
     "created_at": "2025-07-05 11:10:43",
-    "updated_at": "2025-07-05 12:18:54"
+    "updated_at": "2025-07-23 10:15:22"
   },
   {
     "id": 877,
     "unit_id": 87,
     "title": "Lesson 4: Array Length and Index Basics",
-    "slug": "lesson_4_array_length_and_index_basics",
     "video": null,
+    "slug": "lesson_4_array_length_and_index_basics",
     "display_order": 4,
     "created_at": "2025-07-05 11:10:43",
-    "updated_at": "2025-07-05 12:25:48"
+    "updated_at": "2025-07-23 10:17:05"
   },
   {
     "id": 878,
     "unit_id": 87,
     "title": "Lesson 5: Adding and Removing Elements (push, pop)",
-    "slug": "lesson_5_adding_and_removing_elements_push_pop",
     "video": null,
+    "slug": "lesson_5_adding_and_removing_elements_push_pop",
     "display_order": 5,
     "created_at": "2025-07-05 11:10:43",
-    "updated_at": "2025-07-05 12:31:15"
+    "updated_at": "2025-07-23 10:21:01"
   },
   {
     "id": 879,
     "unit_id": 87,
     "title": "Lesson 6: Iterating with for and for...of",
-    "slug": "lesson_6_iterating_with_for_and_forof",
     "video": null,
+    "slug": "lesson_6_iterating_with_for_and_forof",
     "display_order": 6,
     "created_at": "2025-07-05 11:10:43",
-    "updated_at": "2025-07-05 12:37:55"
+    "updated_at": "2025-07-23 10:28:07"
   },
   {
     "id": 880,
     "unit_id": 87,
     "title": "Lesson 7: Using forEach for Simple Loops",
-    "slug": "lesson_7_using_foreach_for_simple_loops",
     "video": null,
+    "slug": "lesson_7_using_foreach_for_simple_loops",
     "display_order": 7,
     "created_at": "2025-07-05 11:10:43",
-    "updated_at": "2025-07-05 12:43:27"
+    "updated_at": "2025-07-23 10:29:41"
   },
   {
     "id": 881,
     "unit_id": 87,
     "title": "Lesson 8: Intro to Common Methods (slice, splice, includes)",
-    "slug": "lesson_8_intro_to_common_methods_slice_splice_includes",
     "video": null,
+    "slug": "lesson_8_intro_to_common_methods_slice_splice_includes",
     "display_order": 8,
     "created_at": "2025-07-05 11:10:43",
-    "updated_at": "2025-07-05 13:05:28"
+    "updated_at": "2025-07-23 10:38:00"
   },
   {
     "id": 882,
     "unit_id": 88,
     "title": "Lesson 1: What is an Object?",
-    "slug": "lesson_1_what_is_an_object",
     "video": null,
+    "slug": "lesson_1_what_is_an_object",
     "display_order": 1,
     "created_at": "2025-07-05 11:15:48",
-    "updated_at": "2025-07-05 13:20:57"
+    "updated_at": "2025-07-24 05:17:34"
   },
   {
     "id": 883,
     "unit_id": 88,
     "title": "Lesson 2: Creating Objects with Literal Syntax",
-    "slug": "lesson_2_creating_objects_with_literal_syntax",
     "video": null,
+    "slug": "lesson_2_creating_objects_with_literal_syntax",
     "display_order": 2,
     "created_at": "2025-07-05 11:15:48",
-    "updated_at": "2025-07-11 02:13:16"
+    "updated_at": "2025-07-24 05:19:27"
   },
   {
     "id": 884,
     "unit_id": 88,
     "title": "Lesson 3: Understanding Key-Value Pairs",
-    "slug": "lesson_3_understanding_key-value_pairs",
     "video": null,
+    "slug": "lesson_3_understanding_key-value_pairs",
     "display_order": 3,
     "created_at": "2025-07-05 11:15:48",
-    "updated_at": "2025-07-05 19:17:53"
+    "updated_at": "2025-07-24 05:21:30"
   },
   {
     "id": 885,
     "unit_id": 88,
     "title": "Lesson 4: Accessing Properties (Dot and Bracket Notation)",
-    "slug": "lesson_4_accessing_properties_dot_and_bracket_notation",
     "video": null,
+    "slug": "lesson_4_accessing_properties_dot_and_bracket_notation",
     "display_order": 4,
     "created_at": "2025-07-05 11:15:48",
-    "updated_at": "2025-07-05 14:01:30"
+    "updated_at": "2025-07-24 05:23:43"
   },
   {
     "id": 886,
     "unit_id": 88,
     "title": "Lesson 5: Adding and Updating Properties",
-    "slug": "lesson_5_adding_and_updating_properties",
     "video": null,
+    "slug": "lesson_5_adding_and_updating_properties",
     "display_order": 5,
     "created_at": "2025-07-05 11:15:48",
-    "updated_at": "2025-07-05 16:45:28"
+    "updated_at": "2025-07-24 05:25:55"
   },
   {
     "id": 887,
     "unit_id": 88,
     "title": "Lesson 6: Deleting Object Properties",
-    "slug": "lesson_6_deleting_object_properties",
     "video": null,
+    "slug": "lesson_6_deleting_object_properties",
     "display_order": 6,
     "created_at": "2025-07-05 11:15:48",
-    "updated_at": "2025-07-05 17:58:20"
+    "updated_at": "2025-07-24 05:27:38"
   },
   {
     "id": 888,
     "unit_id": 88,
     "title": "Lesson 7: Nesting Arrays and Functions in Objects",
-    "slug": "lesson_7_nesting_arrays_and_functions_in_objects",
     "video": null,
+    "slug": "lesson_7_nesting_arrays_and_functions_in_objects",
     "display_order": 7,
     "created_at": "2025-07-05 11:15:48",
-    "updated_at": "2025-07-05 18:56:36"
+    "updated_at": "2025-07-24 05:31:51"
   },
   {
     "id": 889,
     "unit_id": 88,
     "title": "Lesson 8: Intro to Object Methods and the this Keyword",
-    "slug": "lesson_8_intro_to_object_methods_and_the_this_keyword",
     "video": null,
+    "slug": "lesson_8_intro_to_object_methods_and_the_this_keyword",
     "display_order": 8,
     "created_at": "2025-07-05 11:15:48",
-    "updated_at": "2025-07-05 19:18:16"
+    "updated_at": "2025-07-24 05:35:34"
   },
   {
     "id": 890,
     "unit_id": 89,
     "title": "Lesson 1: Introduction to DOM — Is the DOM a JavaScript Object-Like Structure?",
-    "slug": "lesson_1_introduction_to_dom_is_the_dom_a_javascript_object-like_structure",
     "video": null,
+    "slug": "lesson_1_introduction_to_dom_is_the_dom_a_javascript_object-like_structure",
     "display_order": 1,
     "created_at": "2025-07-05 12:20:11",
-    "updated_at": "2025-07-11 02:20:09"
+    "updated_at": "2025-07-23 11:48:44"
   },
   {
     "id": 891,
     "unit_id": 89,
     "title": "Lesson 2: The DOM Tree and Nested Structure",
-    "slug": "lesson_2_the_dom_tree_and_nested_structure",
     "video": null,
+    "slug": "lesson_2_the_dom_tree_and_nested_structure",
     "display_order": 2,
     "created_at": "2025-07-05 12:20:11",
-    "updated_at": "2025-07-11 02:51:23"
+    "updated_at": "2025-07-23 11:57:17"
   },
   {
     "id": 892,
     "unit_id": 89,
     "title": "Lesson 3: Accessing Elements Like Object Properties",
-    "slug": "lesson_3_accessing_elements_like_object_properties",
     "video": null,
+    "slug": "lesson_3_accessing_elements_like_object_properties",
     "display_order": 3,
     "created_at": "2025-07-05 12:20:11",
-    "updated_at": "2025-07-11 02:59:15"
+    "updated_at": "2025-07-23 12:15:55"
   },
   {
     "id": 893,
     "unit_id": 89,
     "title": "Lesson 4: Selecting Elements with getElementById and querySelector",
-    "slug": "lesson_4_selecting_elements_with_getelementbyid_and_queryselector",
     "video": null,
+    "slug": "lesson_4_selecting_elements_with_getelementbyid_and_queryselector",
     "display_order": 4,
     "created_at": "2025-07-05 12:20:11",
-    "updated_at": "2025-07-11 03:29:37"
+    "updated_at": "2025-07-23 12:17:58"
   },
   {
     "id": 894,
     "unit_id": 89,
     "title": "Lesson 5: Selecting Multiple Elements with querySelectorAll",
-    "slug": "lesson_5_selecting_multiple_elements_with_queryselectorall",
     "video": null,
+    "slug": "lesson_5_selecting_multiple_elements_with_queryselectorall",
     "display_order": 5,
     "created_at": "2025-07-05 12:20:11",
-    "updated_at": "2025-07-11 03:50:16"
+    "updated_at": "2025-07-23 12:19:51"
   },
   {
     "id": 895,
     "unit_id": 89,
     "title": "Lesson 6: Reading and Modifying Content (textContent, innerHTML)",
-    "slug": "lesson_6_reading_and_modifying_content_textcontent_innerhtml",
     "video": null,
+    "slug": "lesson_6_reading_and_modifying_content_textcontent_innerhtml",
     "display_order": 6,
     "created_at": "2025-07-05 12:20:11",
-    "updated_at": "2025-07-11 03:55:35"
+    "updated_at": "2025-07-23 12:30:23"
   },
   {
     "id": 896,
     "unit_id": 89,
     "title": "Lesson 7: Updating Element Attributes Like Object Keys",
-    "slug": "lesson_7_updating_element_attributes_like_object_keys",
     "video": null,
+    "slug": "lesson_7_updating_element_attributes_like_object_keys",
     "display_order": 7,
     "created_at": "2025-07-05 12:20:11",
-    "updated_at": "2025-07-11 04:08:53"
+    "updated_at": "2025-07-23 12:35:31"
   },
   {
     "id": 897,
     "unit_id": 89,
     "title": "Lesson 8: Styling Elements via the style Object",
-    "slug": "lesson_8_styling_elements_via_the_style_object",
     "video": null,
+    "slug": "lesson_8_styling_elements_via_the_style_object",
     "display_order": 8,
     "created_at": "2025-07-05 12:20:12",
-    "updated_at": "2025-07-11 04:25:15"
+    "updated_at": "2025-07-23 12:37:44"
   },
   {
     "id": 898,
     "unit_id": 89,
     "title": "Lesson 9: Creating and Nesting Elements Dynamically",
-    "slug": "lesson_9_creating_and_nesting_elements_dynamically",
     "video": null,
+    "slug": "lesson_9_creating_and_nesting_elements_dynamically",
     "display_order": 9,
     "created_at": "2025-07-05 12:20:12",
-    "updated_at": "2025-07-11 04:39:01"
+    "updated_at": "2025-07-23 12:41:27"
   },
   {
     "id": 899,
     "unit_id": 89,
     "title": "Lesson 10: Removing Elements and Updating Structure",
-    "slug": "lesson_10_removing_elements_and_updating_structure",
     "video": null,
+    "slug": "lesson_10_removing_elements_and_updating_structure",
     "display_order": 10,
     "created_at": "2025-07-05 12:20:12",
-    "updated_at": "2025-07-11 05:10:50"
+    "updated_at": "2025-07-23 12:43:10"
   },
   {
     "id": 900,
     "unit_id": 89,
     "title": "Lesson 11: DOMContentLoaded and Script Placement in HTML",
-    "slug": "lesson_11_domcontentloaded_and_script_placement_in_html",
     "video": null,
+    "slug": "lesson_11_domcontentloaded_and_script_placement_in_html",
     "display_order": 11,
     "created_at": "2025-07-05 12:20:12",
-    "updated_at": "2025-07-11 05:40:19"
+    "updated_at": "2025-07-23 12:45:12"
   },
   {
     "id": 901,
     "unit_id": 90,
     "title": "Lesson 1: What Are Events in the Browser?",
-    "slug": "lesson_1_what_are_events_in_the_browser",
     "video": null,
+    "slug": "lesson_1_what_are_events_in_the_browser",
     "display_order": 1,
     "created_at": "2025-07-05 12:21:24",
-    "updated_at": "2025-07-11 07:08:11"
+    "updated_at": "2025-07-23 12:55:14"
   },
   {
     "id": 902,
     "unit_id": 90,
     "title": "Lesson 2: Common DOM Events (Click, Input, Submit, etc.)",
-    "slug": "lesson_2_common_dom_events_click_input_submit_etc",
     "video": null,
+    "slug": "lesson_2_common_dom_events_click_input_submit_etc",
     "display_order": 2,
     "created_at": "2025-07-05 12:21:24",
-    "updated_at": "2025-07-11 09:11:37"
+    "updated_at": "2025-07-23 12:56:47"
   },
   {
     "id": 903,
     "unit_id": 90,
     "title": "Lesson 3: The addEventListener Method",
-    "slug": "lesson_3_the_addeventlistener_method",
     "video": null,
+    "slug": "lesson_3_the_addeventlistener_method",
     "display_order": 3,
     "created_at": "2025-07-05 12:21:24",
-    "updated_at": "2025-07-11 09:17:54"
+    "updated_at": "2025-07-23 12:58:49"
   },
   {
     "id": 904,
     "unit_id": 90,
     "title": "Lesson 4: Writing Event Handler Functions",
-    "slug": "lesson_4_writing_event_handler_functions",
     "video": null,
+    "slug": "lesson_4_writing_event_handler_functions",
     "display_order": 4,
     "created_at": "2025-07-05 12:21:24",
-    "updated_at": "2025-07-11 09:23:56"
+    "updated_at": "2025-07-23 13:00:32"
   },
   {
     "id": 905,
     "unit_id": 90,
     "title": "Lesson 5: Accessing the Event Object",
-    "slug": "lesson_5_accessing_the_event_object",
     "video": null,
+    "slug": "lesson_5_accessing_the_event_object",
     "display_order": 5,
     "created_at": "2025-07-05 12:21:24",
-    "updated_at": "2025-07-11 09:29:38"
+    "updated_at": "2025-07-23 13:02:05"
   },
   {
     "id": 906,
     "unit_id": 90,
     "title": "Lesson 6: Handling Form Events",
-    "slug": "lesson_6_handling_form_events",
     "video": null,
+    "slug": "lesson_6_handling_form_events",
     "display_order": 6,
     "created_at": "2025-07-05 12:21:24",
-    "updated_at": "2025-07-11 09:48:10"
+    "updated_at": "2025-07-23 13:05:38"
   },
   {
     "id": 907,
     "unit_id": 90,
     "title": "Lesson 7: Preventing Default Behavior",
-    "slug": "lesson_7_preventing_default_behavior",
     "video": null,
+    "slug": "lesson_7_preventing_default_behavior",
     "display_order": 7,
     "created_at": "2025-07-05 12:21:24",
-    "updated_at": "2025-07-11 09:58:57"
+    "updated_at": "2025-07-23 13:07:11"
   },
   {
     "id": 908,
     "unit_id": 90,
     "title": "Lesson 8: Using Anonymous vs Named Functions in Events",
-    "slug": "lesson_8_using_anonymous_vs_named_functions_in_events",
     "video": null,
+    "slug": "lesson_8_using_anonymous_vs_named_functions_in_events",
     "display_order": 8,
     "created_at": "2025-07-05 12:21:24",
-    "updated_at": "2025-07-11 10:04:31"
+    "updated_at": "2025-07-23 13:11:44"
   },
   {
     "id": 909,
     "unit_id": 90,
     "title": "Lesson 9: Removing Event Listeners",
-    "slug": "lesson_9_removing_event_listeners",
     "video": null,
+    "slug": "lesson_9_removing_event_listeners",
     "display_order": 9,
     "created_at": "2025-07-05 12:21:24",
-    "updated_at": "2025-07-11 10:19:34"
+    "updated_at": "2025-07-23 13:14:56"
   },
   {
     "id": 910,
     "unit_id": 90,
     "title": "Lesson 10: Best Practices for Organizing Event Code",
-    "slug": "lesson_10_best_practices_for_organizing_event_code",
     "video": null,
+    "slug": "lesson_10_best_practices_for_organizing_event_code",
     "display_order": 10,
     "created_at": "2025-07-05 12:21:24",
-    "updated_at": "2025-07-11 10:31:29"
+    "updated_at": "2025-07-23 13:17:39"
   },
   {
     "id": 911,
     "unit_id": 91,
     "title": "Lesson 1: What is Event Propagation?",
-    "slug": "lesson_1_what_is_event_propagation",
     "video": null,
+    "slug": "lesson_1_what_is_event_propagation",
     "display_order": 1,
     "created_at": "2025-07-05 12:23:25",
-    "updated_at": "2025-07-11 11:08:18"
+    "updated_at": "2025-07-23 13:19:43"
   },
   {
     "id": 912,
     "unit_id": 91,
     "title": "Lesson 2: Understanding the Event Flow Model",
-    "slug": "lesson_2_understanding_the_event_flow_model",
     "video": null,
+    "slug": "lesson_2_understanding_the_event_flow_model",
     "display_order": 2,
     "created_at": "2025-07-05 12:23:25",
-    "updated_at": "2025-07-11 11:13:36"
+    "updated_at": "2025-07-23 13:21:26"
   },
   {
     "id": 913,
     "unit_id": 91,
     "title": "Lesson 3: Event Bubbling Explained",
-    "slug": "lesson_3_event_bubbling_explained",
     "video": null,
+    "slug": "lesson_3_event_bubbling_explained",
     "display_order": 3,
     "created_at": "2025-07-05 12:23:25",
-    "updated_at": "2025-07-11 11:33:04"
+    "updated_at": "2025-07-23 13:23:08"
   },
   {
     "id": 914,
     "unit_id": 91,
     "title": "Lesson 4: Event Capturing Explained",
-    "slug": "lesson_4_event_capturing_explained",
     "video": null,
+    "slug": "lesson_4_event_capturing_explained",
     "display_order": 4,
     "created_at": "2025-07-05 12:23:25",
-    "updated_at": "2025-07-11 11:43:53"
+    "updated_at": "2025-07-23 14:17:11"
   },
   {
     "id": 915,
     "unit_id": 91,
     "title": "Lesson 5: Stopping Propagation with stopPropagation",
-    "slug": "lesson_5_stopping_propagation_with_stoppropagation",
     "video": null,
+    "slug": "lesson_5_stopping_propagation_with_stoppropagation",
     "display_order": 5,
     "created_at": "2025-07-05 12:23:25",
-    "updated_at": "2025-07-11 11:49:49"
+    "updated_at": "2025-07-23 14:21:22"
   },
   {
     "id": 916,
     "unit_id": 91,
     "title": "Lesson 6: Controlling Listeners with useCapture Option",
-    "slug": "lesson_6_controlling_listeners_with_usecapture_option",
     "video": null,
+    "slug": "lesson_6_controlling_listeners_with_usecapture_option",
     "display_order": 6,
     "created_at": "2025-07-05 12:23:25",
-    "updated_at": "2025-07-11 12:03:15"
+    "updated_at": "2025-07-23 14:23:22"
   },
   {
     "id": 917,
     "unit_id": 91,
     "title": "Lesson 7: Combining Bubbling and Capturing Wisely",
-    "slug": "lesson_7_combining_bubbling_and_capturing_wisely",
     "video": null,
+    "slug": "lesson_7_combining_bubbling_and_capturing_wisely",
     "display_order": 7,
     "created_at": "2025-07-05 12:23:25",
-    "updated_at": "2025-07-11 12:13:10"
+    "updated_at": "2025-07-23 14:26:35"
   },
   {
     "id": 918,
     "unit_id": 91,
     "title": "Lesson 8: Real-World Use Cases of Event Propagation",
-    "slug": "lesson_8_real-world_use_cases_of_event_propagation",
     "video": null,
+    "slug": "lesson_8_real-world_use_cases_of_event_propagation",
     "display_order": 8,
     "created_at": "2025-07-05 12:23:25",
-    "updated_at": "2025-07-11 12:28:16"
+    "updated_at": "2025-07-23 14:27:58"
   },
   {
     "id": 919,
     "unit_id": 92,
     "title": "Lesson 1: Introduction to Logical Thinking in Code",
-    "slug": "lesson_1_introduction_to_logical_thinking_in_code",
     "video": null,
+    "slug": "lesson_1_introduction_to_logical_thinking_in_code",
     "display_order": 1,
     "created_at": "2025-07-05 12:24:30",
-    "updated_at": "2025-07-11 13:30:12"
+    "updated_at": "2025-07-23 14:30:17"
   },
   {
     "id": 920,
     "unit_id": 92,
     "title": "Lesson 2: Using if, else if, and else",
-    "slug": "lesson_2_using_if_else_if_and_else",
     "video": null,
+    "slug": "lesson_2_using_if_else_if_and_else",
     "display_order": 2,
     "created_at": "2025-07-05 12:24:30",
-    "updated_at": "2025-07-11 15:05:29"
+    "updated_at": "2025-07-23 14:32:11"
   },
   {
     "id": 921,
     "unit_id": 92,
     "title": "Lesson 3: Comparison Operators (==, ===, !=, >, <)",
-    "slug": "lesson_3_comparison_operators",
     "video": null,
+    "slug": "lesson_3_comparison_operators",
     "display_order": 3,
     "created_at": "2025-07-05 12:24:30",
-    "updated_at": "2025-07-11 15:20:09"
+    "updated_at": "2025-07-23 14:34:34"
   },
   {
     "id": 922,
     "unit_id": 92,
     "title": "Lesson 4: Logical Operators (&&, ||, !)",
-    "slug": "lesson_4_logical_operators",
     "video": null,
+    "slug": "lesson_4_logical_operators",
     "display_order": 4,
     "created_at": "2025-07-05 12:24:30",
-    "updated_at": "2025-07-11 15:26:32"
+    "updated_at": "2025-07-23 14:37:18"
   },
   {
     "id": 923,
     "unit_id": 92,
     "title": "Lesson 5: The Ternary Operator",
-    "slug": "lesson_5_the_ternary_operator",
     "video": null,
+    "slug": "lesson_5_the_ternary_operator",
     "display_order": 5,
     "created_at": "2025-07-05 12:24:30",
-    "updated_at": "2025-07-11 15:41:37"
+    "updated_at": "2025-07-23 14:39:31"
   },
   {
     "id": 924,
     "unit_id": 92,
     "title": "Lesson 6: Introduction to Loops",
-    "slug": "lesson_6_introduction_to_loops",
     "video": null,
+    "slug": "lesson_6_introduction_to_loops",
     "display_order": 6,
     "created_at": "2025-07-05 12:24:30",
-    "updated_at": "2025-07-11 15:58:55"
+    "updated_at": "2025-07-23 14:41:24"
   },
   {
     "id": 925,
     "unit_id": 92,
     "title": "Lesson 7: Using the for Loop",
-    "slug": "lesson_7_using_the_for_loop",
     "video": null,
+    "slug": "lesson_7_using_the_for_loop",
     "display_order": 7,
     "created_at": "2025-07-05 12:24:30",
-    "updated_at": "2025-07-11 16:05:11"
+    "updated_at": "2025-07-23 14:43:40"
   },
   {
     "id": 926,
     "unit_id": 92,
     "title": "Lesson 8: The while and do...while Loops",
-    "slug": "lesson_8_the_while_and_dowhile_loops",
     "video": null,
+    "slug": "lesson_8_the_while_and_dowhile_loops",
     "display_order": 8,
     "created_at": "2025-07-05 12:24:30",
-    "updated_at": "2025-07-11 16:20:06"
+    "updated_at": "2025-07-23 14:45:43"
   },
   {
     "id": 927,
     "unit_id": 92,
     "title": "Lesson 9: break and continue in Loops",
-    "slug": "lesson_9_break_and_continue_in_loops",
     "video": null,
+    "slug": "lesson_9_break_and_continue_in_loops",
     "display_order": 9,
     "created_at": "2025-07-05 12:24:30",
-    "updated_at": "2025-07-11 16:26:16"
+    "updated_at": "2025-07-23 14:47:46"
   },
   {
     "id": 928,
     "unit_id": 92,
     "title": "Lesson 10: Choosing the Right Loop for the Task",
-    "slug": "lesson_10_choosing_the_right_loop_for_the_task",
     "video": null,
+    "slug": "lesson_10_choosing_the_right_loop_for_the_task",
     "display_order": 10,
     "created_at": "2025-07-05 12:24:30",
-    "updated_at": "2025-07-11 16:59:36"
+    "updated_at": "2025-07-23 14:49:50"
   },
   {
     "id": 929,
     "unit_id": 93,
     "title": "Lesson 1: Deep Dive into `let`, `const`, and `var` (Scope and Hoisting Preview)",
-    "slug": "lesson-1-deep-dive-into-let-const-and-var-scope-and-hoisting-preview",
     "video": null,
+    "slug": "lesson-1-deep-dive-into-let-const-and-var-scope-and-hoisting-preview",
     "display_order": 0,
     "created_at": "2025-07-12 04:24:59",
-    "updated_at": "2025-07-12 09:32:36"
+    "updated_at": "2025-07-24 01:30:14"
   },
   {
     "id": 930,
     "unit_id": 93,
     "title": "Lesson 2: Primitive vs. Reference Types: The Fundamental Divide",
-    "slug": "lesson-2-primitive-vs-reference-types-the-fundamental-divide",
     "video": null,
+    "slug": "lesson-2-primitive-vs-reference-types-the-fundamental-divide",
     "display_order": 0,
     "created_at": "2025-07-12 04:24:59",
-    "updated_at": "2025-07-12 09:37:46"
+    "updated_at": "2025-07-24 01:32:27"
   },
   {
     "id": 931,
     "unit_id": 93,
     "title": "Lesson 3: Copying by Value vs. Copying by Reference",
-    "slug": "lesson-3-copying-by-value-vs-copying-by-reference",
     "video": null,
+    "slug": "lesson-3-copying-by-value-vs-copying-by-reference",
     "display_order": 0,
     "created_at": "2025-07-12 04:24:59",
-    "updated_at": "2025-07-12 09:51:05"
+    "updated_at": "2025-07-24 01:34:30"
   },
   {
     "id": 932,
     "unit_id": 93,
     "title": "Lesson 4: Techniques for \"Safe\" Copying (Spread Operator, `Object.assign`)",
-    "slug": "lesson-4-techniques-for-safe-copying-spread-operator-objectassign",
     "video": null,
+    "slug": "lesson-4-techniques-for-safe-copying-spread-operator-objectassign",
     "display_order": 0,
     "created_at": "2025-07-12 04:24:59",
-    "updated_at": "2025-07-12 10:15:58"
+    "updated_at": "2025-07-24 01:36:23"
   },
   {
     "id": 933,
     "unit_id": 93,
     "title": "Lesson 5: Implicit Type Coercion (`==`) and Its Dangers",
-    "slug": "lesson-5-implicit-type-coercion--and-its-dangers",
     "video": null,
+    "slug": "lesson-5-implicit-type-coercion--and-its-dangers",
     "display_order": 0,
     "created_at": "2025-07-12 04:24:59",
-    "updated_at": "2025-07-12 10:21:48"
+    "updated_at": "2025-07-24 01:38:16"
   },
   {
     "id": 934,
     "unit_id": 93,
     "title": "Lesson 6: Strict Equality (`===`) and Defensive Coding",
-    "slug": "lesson-6-strict-equality--and-defensive-coding",
     "video": null,
+    "slug": "lesson-6-strict-equality--and-defensive-coding",
     "display_order": 0,
     "created_at": "2025-07-12 04:24:59",
-    "updated_at": "2025-07-12 10:26:49"
+    "updated_at": "2025-07-24 01:39:49"
   },
   {
     "id": 935,
     "unit_id": 93,
     "title": "Lesson 7: Truthy and Falsy Values Deep Dive",
-    "slug": "lesson-7-truthy-and-falsy-values-deep-dive",
     "video": null,
+    "slug": "lesson-7-truthy-and-falsy-values-deep-dive",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:00",
-    "updated_at": "2025-07-12 10:30:37"
+    "updated_at": "2025-07-24 01:41:32"
   },
   {
     "id": 936,
     "unit_id": 93,
     "title": "Lesson 8: Special Primitives: `Symbol` and `BigInt` Overview",
-    "slug": "lesson-8-special-primitives-symbol-and-bigint-overview",
     "video": null,
+    "slug": "lesson-8-special-primitives-symbol-and-bigint-overview",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:00",
-    "updated_at": "2025-07-12 10:46:28"
+    "updated_at": "2025-07-24 01:42:54"
   },
   {
     "id": 937,
     "unit_id": 93,
     "title": "Lesson 9: Advanced `typeof` and Type Guards",
-    "slug": "lesson-9-advanced-typeof-and-type-guards",
     "video": null,
+    "slug": "lesson-9-advanced-typeof-and-type-guards",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:00",
-    "updated_at": "2025-07-12 11:07:06"
+    "updated_at": "2025-07-24 01:44:27"
   },
   {
     "id": 938,
     "unit_id": 94,
     "title": "Lesson 1: The Execution Context and Call Stack",
-    "slug": "lesson-1-the-execution-context-and-call-stack",
     "video": null,
+    "slug": "lesson-1-the-execution-context-and-call-stack",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:00",
-    "updated_at": "2025-07-12 11:59:02"
+    "updated_at": "2025-07-24 02:11:02"
   },
   {
     "id": 939,
     "unit_id": 94,
     "title": "Lesson 2: Function Declarations vs. Expressions vs. Arrow Functions",
-    "slug": "lesson-2-function-declarations-vs-expressions-vs-arrow-functions",
     "video": null,
+    "slug": "lesson-2-function-declarations-vs-expressions-vs-arrow-functions",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:00",
-    "updated_at": "2025-07-12 12:05:54"
+    "updated_at": "2025-07-24 02:12:45"
   },
   {
     "id": 940,
     "unit_id": 94,
     "title": "Lesson 3: Variable and Function Hoisting Explained",
-    "slug": "lesson-3-variable-and-function-hoisting-explained",
     "video": null,
+    "slug": "lesson-3-variable-and-function-hoisting-explained",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:00",
-    "updated_at": "2025-07-12 12:11:49"
+    "updated_at": "2025-07-24 02:14:58"
   },
   {
     "id": 941,
     "unit_id": 94,
     "title": "Lesson 4: The Temporal Dead Zone (`let`/`const`)",
-    "slug": "lesson-4-the-temporal-dead-zone-letconst",
     "video": null,
+    "slug": "lesson-4-the-temporal-dead-zone-letconst",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:00",
-    "updated_at": "2025-07-12 12:17:14"
+    "updated_at": "2025-07-24 02:16:51"
   },
   {
     "id": 942,
     "unit_id": 94,
     "title": "Lesson 5: Lexical Scope and the Scope Chain",
-    "slug": "lesson-5-lexical-scope-and-the-scope-chain",
     "video": null,
+    "slug": "lesson-5-lexical-scope-and-the-scope-chain",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:00",
-    "updated_at": "2025-07-12 12:23:32"
+    "updated_at": "2025-07-24 02:19:04"
   },
   {
     "id": 943,
     "unit_id": 94,
     "title": "Lesson 6: Closures: What They Are and How They Work (Lexical Scope in Action)",
-    "slug": "lesson-6-closures-what-they-are-and-how-they-work-lexical-scope-in-action",
     "video": null,
+    "slug": "lesson-6-closures-what-they-are-and-how-they-work-lexical-scope-in-action",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:00",
-    "updated_at": "2025-07-12 12:31:27"
+    "updated_at": "2025-07-24 02:21:07"
   },
   {
     "id": 944,
     "unit_id": 94,
     "title": "Lesson 7: Practical Use Cases for Closures (Data Privacy, Function Factories)",
-    "slug": "lesson-7-practical-use-cases-for-closures-data-privacy-function-factories",
     "video": null,
+    "slug": "lesson-7-practical-use-cases-for-closures-data-privacy-function-factories",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:01",
-    "updated_at": "2025-07-12 18:13:25"
+    "updated_at": "2025-07-24 02:23:10"
   },
   {
     "id": 945,
     "unit_id": 94,
     "title": "Lesson 8: Immediately Invoked Function Expressions (IIFE)",
-    "slug": "lesson-8-immediately-invoked-function-expressions-iife",
     "video": null,
+    "slug": "lesson-8-immediately-invoked-function-expressions-iife",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:01",
-    "updated_at": "2025-07-12 18:20:29"
+    "updated_at": "2025-07-24 02:25:03"
   },
   {
     "id": 946,
     "unit_id": 94,
     "title": "Lesson 9: Parameters vs. Arguments (Default, Rest, and Spread)",
-    "slug": "lesson-9-parameters-vs-arguments-default-rest-and-spread",
     "video": null,
+    "slug": "lesson-9-parameters-vs-arguments-default-rest-and-spread",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:01",
-    "updated_at": "2025-07-12 18:28:23"
+    "updated_at": "2025-07-24 02:27:16"
   },
   {
     "id": 947,
     "unit_id": 95,
     "title": "Lesson 1: Understanding `this`: A Dynamic Context",
-    "slug": "lesson-1-understanding-this-a-dynamic-context",
     "video": null,
+    "slug": "lesson-1-understanding-this-a-dynamic-context",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:01",
-    "updated_at": "2025-07-12 18:35:56"
+    "updated_at": "2025-07-24 02:55:43"
   },
   {
     "id": 948,
     "unit_id": 95,
     "title": "Lesson 2: `this` in the Global Context and in Simple Functions",
-    "slug": "lesson-2-this-in-the-global-context-and-in-simple-functions",
     "video": null,
+    "slug": "lesson-2-this-in-the-global-context-and-in-simple-functions",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:01",
-    "updated_at": "2025-07-12 18:40:53"
+    "updated_at": "2025-07-24 02:57:36"
   },
   {
     "id": 949,
     "unit_id": 95,
     "title": "Lesson 3: `this` in Object Methods (The Most Common Case)",
-    "slug": "lesson-3-this-in-object-methods-the-most-common-case",
     "video": null,
+    "slug": "lesson-3-this-in-object-methods-the-most-common-case",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:01",
-    "updated_at": "2025-07-12 18:46:32"
+    "updated_at": "2025-07-24 02:59:39"
   },
   {
     "id": 950,
     "unit_id": 95,
     "title": "Lesson 4: How Arrow Functions Handle `this` (Lexical `this`)",
-    "slug": "lesson-4-how-arrow-functions-handle-this-lexical-this",
     "video": null,
+    "slug": "lesson-4-how-arrow-functions-handle-this-lexical-this",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:01",
-    "updated_at": "2025-07-12 18:51:45"
+    "updated_at": "2025-07-24 03:01:32"
   },
   {
     "id": 951,
     "unit_id": 95,
     "title": "Lesson 5: Explicitly Binding `this` with `.call()`, `.apply()`, and `.bind()`",
-    "slug": "lesson-5-explicitly-binding-this-with-call-apply-and-bind",
     "video": null,
+    "slug": "lesson-5-explicitly-binding-this-with-call-apply-and-bind",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:01",
-    "updated_at": "2025-07-12 18:57:38"
+    "updated_at": "2025-07-24 03:03:46"
   },
   {
     "id": 952,
     "unit_id": 95,
     "title": "Lesson 6: `this` in Event Handlers",
-    "slug": "lesson-6-this-in-event-handlers",
     "video": null,
+    "slug": "lesson-6-this-in-event-handlers",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:01",
-    "updated_at": "2025-07-12 19:02:24"
+    "updated_at": "2025-07-24 03:05:39"
   },
   {
     "id": 953,
     "unit_id": 96,
     "title": "Lesson 1: Array Destructuring and the Spread Operator",
-    "slug": "lesson-1-array-destructuring-and-the-spread-operator",
     "video": null,
+    "slug": "lesson-1-array-destructuring-and-the-spread-operator",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:02",
-    "updated_at": "2025-07-12 19:24:26"
+    "updated_at": "2025-07-24 03:19:49"
   },
   {
     "id": 954,
     "unit_id": 96,
     "title": "Lesson 2: Object Destructuring and the Spread Operator",
-    "slug": "lesson-2-object-destructuring-and-the-spread-operator",
     "video": null,
+    "slug": "lesson-2-object-destructuring-and-the-spread-operator",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:02",
-    "updated_at": "2025-07-12 19:29:19"
+    "updated_at": "2025-07-24 03:21:52"
   },
   {
     "id": 955,
     "unit_id": 96,
     "title": "Lesson 3: Higher-Order Array Methods: `map`, `filter`, `reduce`",
-    "slug": "lesson-3-higher-order-array-methods-map-filter-reduce",
     "video": null,
+    "slug": "lesson-3-higher-order-array-methods-map-filter-reduce",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:02",
-    "updated_at": "2025-07-12 19:34:25"
+    "updated_at": "2025-07-24 03:24:07"
   },
   {
     "id": 956,
     "unit_id": 96,
     "title": "Lesson 4: Finding and Searching: `find`, `findIndex`, `includes`, `some`, `every`",
-    "slug": "lesson-4-finding-and-searching-find-findindex-includes-some-every",
     "video": null,
+    "slug": "lesson-4-finding-and-searching-find-findindex-includes-some-every",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:02",
-    "updated_at": "2025-07-12 19:39:24"
+    "updated_at": "2025-07-24 03:26:10"
   },
   {
     "id": 957,
     "unit_id": 96,
     "title": "Lesson 5: Mutating vs. Non-Mutating Methods (Revisited)",
-    "slug": "lesson-5-mutating-vs-non-mutating-methods-revisited",
     "video": null,
+    "slug": "lesson-5-mutating-vs-non-mutating-methods-revisited",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:02",
-    "updated_at": "2025-07-12 19:44:16"
+    "updated_at": "2025-07-24 03:28:14"
   },
   {
     "id": 958,
     "unit_id": 96,
     "title": "Lesson 6: Sorting and Reversing Arrays",
-    "slug": "lesson-6-sorting-and-reversing-arrays",
     "video": null,
+    "slug": "lesson-6-sorting-and-reversing-arrays",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:02",
-    "updated_at": "2025-07-12 19:49:00"
+    "updated_at": "2025-07-24 03:30:37"
   },
   {
     "id": 959,
     "unit_id": 96,
     "title": "Lesson 7: Working with Nested and Multi-Dimensional Arrays",
-    "slug": "lesson-7-working-with-nested-and-multi-dimensional-arrays",
     "video": null,
+    "slug": "lesson-7-working-with-nested-and-multi-dimensional-arrays",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:02",
-    "updated_at": "2025-07-12 19:53:56"
+    "updated_at": "2025-07-24 03:32:51"
   },
   {
     "id": 960,
     "unit_id": 96,
     "title": "Lesson 8: Introduction to `Map` and `Set` (Modern Data Structures)",
-    "slug": "lesson-8-introduction-to-map-and-set-modern-data-structures",
     "video": null,
+    "slug": "lesson-8-introduction-to-map-and-set-modern-data-structures",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:02",
-    "updated_at": "2025-07-12 19:59:22"
+    "updated_at": "2025-07-24 03:34:55"
   },
   {
     "id": 961,
     "unit_id": 97,
     "title": "Lesson 1: Understanding Synchronous vs. Asynchronous Behavior",
-    "slug": "lesson-1-understanding-synchronous-vs-asynchronous-behavior",
     "video": null,
+    "slug": "lesson-1-understanding-synchronous-vs-asynchronous-behavior",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:02",
-    "updated_at": "2025-07-13 02:12:32"
+    "updated_at": "2025-07-24 03:38:34"
   },
   {
     "id": 962,
     "unit_id": 97,
     "title": "Lesson 2: The Event Loop, Call Stack, and Task Queue (Conceptual Overview)",
-    "slug": "lesson-2-the-event-loop-call-stack-and-task-queue-conceptual-overview",
     "video": null,
+    "slug": "lesson-2-the-event-loop-call-stack-and-task-queue-conceptual-overview",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:03",
-    "updated_at": "2025-07-13 02:17:50"
+    "updated_at": "2025-07-24 03:43:18"
   },
   {
     "id": 963,
     "unit_id": 97,
     "title": "Lesson 3: The Classic Approach: Callbacks (`setTimeout`)",
-    "slug": "lesson-3-the-classic-approach-callbacks-settimeout",
     "video": null,
+    "slug": "lesson-3-the-classic-approach-callbacks-settimeout",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:03",
-    "updated_at": "2025-07-13 02:47:34"
+    "updated_at": "2025-07-24 03:45:12"
   },
   {
     "id": 964,
     "unit_id": 97,
     "title": "Lesson 4: The Problem: \"Callback Hell\" and Inversion of Control",
-    "slug": "lesson-4-the-problem-callback-hell-and-inversion-of-control",
     "video": null,
+    "slug": "lesson-4-the-problem-callback-hell-and-inversion-of-control",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:03",
-    "updated_at": "2025-07-13 02:53:17"
+    "updated_at": "2025-07-24 03:47:05"
   },
   {
     "id": 965,
     "unit_id": 97,
     "title": "Lesson 5: Introduction to Promises: A Better Way to Handle Async",
-    "slug": "lesson-5-introduction-to-promises-a-better-way-to-handle-async",
     "video": null,
+    "slug": "lesson-5-introduction-to-promises-a-better-way-to-handle-async",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:03",
-    "updated_at": "2025-07-13 02:58:51"
+    "updated_at": "2025-07-24 03:48:48"
   },
   {
     "id": 966,
     "unit_id": 97,
     "title": "Lesson 6: Creating and Consuming Promises (`.then()`, `.catch()`, `.finally()`)",
-    "slug": "lesson-6-creating-and-consuming-promises-then-catch-finally",
     "video": null,
+    "slug": "lesson-6-creating-and-consuming-promises-then-catch-finally",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:03",
-    "updated_at": "2025-07-13 03:04:47"
+    "updated_at": "2025-07-24 03:50:52"
   },
   {
     "id": 967,
     "unit_id": 97,
     "title": "Lesson 7: Chaining Promises for Sequential Operations",
-    "slug": "lesson-7-chaining-promises-for-sequential-operations",
     "video": null,
+    "slug": "lesson-7-chaining-promises-for-sequential-operations",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:03",
-    "updated_at": "2025-07-13 03:10:15"
+    "updated_at": "2025-07-24 03:53:05"
   },
   {
     "id": 968,
     "unit_id": 97,
     "title": "Lesson 8: Handling Multiple Promises with `Promise.all()` and `Promise.race()`",
-    "slug": "lesson-8-handling-multiple-promises-with-promiseall-and-promiserace",
     "video": null,
+    "slug": "lesson-8-handling-multiple-promises-with-promiseall-and-promiserace",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:03",
-    "updated_at": "2025-07-13 03:16:57"
+    "updated_at": "2025-07-24 03:55:19"
   },
   {
     "id": 969,
     "unit_id": 98,
     "title": "Lesson 1: `async/await`: Writing Asynchronous Code that Looks Synchronous",
-    "slug": "lesson-1-asyncawait-writing-asynchronous-code-that-looks-synchronous",
     "video": null,
+    "slug": "lesson-1-asyncawait-writing-asynchronous-code-that-looks-synchronous",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:03",
-    "updated_at": "2025-07-14 01:46:01"
+    "updated_at": "2025-07-24 04:58:49"
   },
   {
     "id": 970,
     "unit_id": 98,
     "title": "Lesson 2: Error Handling in `async/await` with `try...catch`",
-    "slug": "lesson-2-error-handling-in-asyncawait-with-trycatch",
     "video": null,
+    "slug": "lesson-2-error-handling-in-asyncawait-with-trycatch",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:04",
-    "updated_at": "2025-07-14 01:54:40"
+    "updated_at": "2025-07-24 05:00:53"
   },
   {
     "id": 971,
     "unit_id": 98,
     "title": "Lesson 3: Introduction to HTTP and APIs",
-    "slug": "lesson-3-introduction-to-http-and-apis",
     "video": null,
+    "slug": "lesson-3-introduction-to-http-and-apis",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:04",
-    "updated_at": "2025-07-14 02:00:34"
+    "updated_at": "2025-07-24 05:03:06"
   },
   {
     "id": 972,
     "unit_id": 98,
     "title": "Lesson 4: Using the `fetch()` API to Get Data",
-    "slug": "lesson-4-using-the-fetch-api-to-get-data",
     "video": null,
+    "slug": "lesson-4-using-the-fetch-api-to-get-data",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:04",
-    "updated_at": "2025-07-14 02:06:19"
+    "updated_at": "2025-07-24 05:05:17"
   },
   {
     "id": 973,
     "unit_id": 98,
     "title": "Lesson 5: Refactoring `.then()` chains to `async/await`",
-    "slug": "lesson-5-refactoring-then-chains-to-asyncawait",
     "video": null,
+    "slug": "lesson-5-refactoring-then-chains-to-asyncawait",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:04",
-    "updated_at": "2025-07-14 02:11:56"
+    "updated_at": "2025-07-24 05:07:00"
   },
   {
     "id": 974,
     "unit_id": 98,
     "title": "Lesson 6: Handling `fetch()` Errors and Non-OK Responses",
-    "slug": "lesson-6-handling-fetch-errors-and-non-ok-responses",
     "video": null,
+    "slug": "lesson-6-handling-fetch-errors-and-non-ok-responses",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:04",
-    "updated_at": "2025-07-14 02:18:03"
+    "updated_at": "2025-07-24 05:08:44"
   },
   {
     "id": 975,
     "unit_id": 98,
     "title": "Lesson 7: Making `POST` requests and working with JSON data",
-    "slug": "lesson-7-making-post-requests-and-working-with-json-data",
     "video": null,
+    "slug": "lesson-7-making-post-requests-and-working-with-json-data",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:04",
-    "updated_at": "2025-07-14 02:24:03"
+    "updated_at": "2025-07-24 05:10:38"
   },
   {
     "id": 976,
     "unit_id": 98,
     "title": "Lesson 8: Parallel vs. Sequential `await` calls",
-    "slug": "lesson-8-parallel-vs-sequential-await-calls",
     "video": null,
+    "slug": "lesson-8-parallel-vs-sequential-await-calls",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:04",
-    "updated_at": "2025-07-14 02:30:15"
+    "updated_at": "2025-07-24 05:12:21"
   },
   {
     "id": 977,
     "unit_id": 99,
     "title": "Lesson 1: Introduction to OOP Principles (Encapsulation, Inheritance)",
-    "slug": "lesson-1-introduction-to-oop-principles-encapsulation-inheritance",
     "video": null,
+    "slug": "lesson-1-introduction-to-oop-principles-encapsulation-inheritance",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:04",
-    "updated_at": "2025-07-14 02:53:39"
+    "updated_at": "2025-07-24 06:09:17"
   },
   {
     "id": 978,
     "unit_id": 99,
     "title": "Lesson 2: The \"Old Way\": Constructor Functions and the Prototype Chain",
-    "slug": "lesson-2-the-old-way-constructor-functions-and-the-prototype-chain",
     "video": null,
+    "slug": "lesson-2-the-old-way-constructor-functions-and-the-prototype-chain",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:04",
-    "updated_at": "2025-07-14 03:00:09"
+    "updated_at": "2025-07-24 06:10:51"
   },
   {
     "id": 979,
     "unit_id": 99,
     "title": "Lesson 3: The Modern Way: ES6 Classes (`class`, `constructor`)",
-    "slug": "lesson-3-the-modern-way-es6-classes-class-constructor",
     "video": null,
+    "slug": "lesson-3-the-modern-way-es6-classes-class-constructor",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:05",
-    "updated_at": "2025-07-14 03:16:22"
+    "updated_at": "2025-07-24 06:12:14"
   },
   {
     "id": 980,
     "unit_id": 99,
     "title": "Lesson 4: Inheritance with `extends` and `super`",
-    "slug": "lesson-4-inheritance-with-extends-and-super",
     "video": null,
+    "slug": "lesson-4-inheritance-with-extends-and-super",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:05",
-    "updated_at": "2025-07-14 03:21:35"
+    "updated_at": "2025-07-24 06:13:27"
   },
   {
     "id": 981,
     "unit_id": 99,
     "title": "Lesson 5: Getters, Setters, and Static Methods",
-    "slug": "lesson-5-getters-setters-and-static-methods",
     "video": null,
+    "slug": "lesson-5-getters-setters-and-static-methods",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:05",
-    "updated_at": "2025-07-14 03:37:52"
+    "updated_at": "2025-07-24 06:15:01"
   },
   {
     "id": 982,
     "unit_id": 99,
     "title": "Lesson 6: Private Fields and Methods (Using `#`)",
-    "slug": "lesson-6-private-fields-and-methods-using-",
     "video": null,
+    "slug": "lesson-6-private-fields-and-methods-using-",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:05",
-    "updated_at": "2025-07-14 03:42:51"
+    "updated_at": "2025-07-24 06:16:14"
   },
   {
     "id": 983,
     "unit_id": 100,
     "title": "Lesson 1: Core Principles: Pure Functions and Immutability",
-    "slug": "lesson-1-core-principles-pure-functions-and-immutability",
     "video": null,
+    "slug": "lesson-1-core-principles-pure-functions-and-immutability",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:05",
-    "updated_at": "2025-07-14 03:58:40"
+    "updated_at": "2025-07-24 06:20:30"
   },
   {
     "id": 984,
     "unit_id": 100,
     "title": "Lesson 2: First-Class and Higher-Order Functions (Revisited)",
-    "slug": "lesson-2-first-class-and-higher-order-functions-revisited",
     "video": null,
+    "slug": "lesson-2-first-class-and-higher-order-functions-revisited",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:05",
-    "updated_at": "2025-07-14 04:04:01"
+    "updated_at": "2025-07-24 06:22:04"
   },
   {
     "id": 985,
     "unit_id": 100,
     "title": "Lesson 3: Function Composition and Currying",
-    "slug": "lesson-3-function-composition-and-currying",
     "video": null,
+    "slug": "lesson-3-function-composition-and-currying",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:05",
-    "updated_at": "2025-07-14 04:09:15"
+    "updated_at": "2025-07-24 06:23:27"
   },
   {
     "id": 986,
     "unit_id": 100,
     "title": "Lesson 4: Writing Declarative vs. Imperative Code",
-    "slug": "lesson-4-writing-declarative-vs-imperative-code",
     "video": null,
+    "slug": "lesson-4-writing-declarative-vs-imperative-code",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:05",
-    "updated_at": "2025-07-14 04:34:02"
+    "updated_at": "2025-07-24 06:24:51"
   },
   {
     "id": 987,
     "unit_id": 100,
     "title": "Lesson 5: When to Choose a Functional Approach",
-    "slug": "lesson-5-when-to-choose-a-functional-approach",
     "video": null,
+    "slug": "lesson-5-when-to-choose-a-functional-approach",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:05",
-    "updated_at": "2025-07-14 04:41:45"
+    "updated_at": "2025-07-24 06:26:04"
   },
   {
     "id": 988,
     "unit_id": 101,
     "title": "Lesson 1: Why We Need Modules: The Problem of a Single Global Scope",
-    "slug": "lesson-1-why-we-need-modules-the-problem-of-a-single-global-scope",
     "video": null,
+    "slug": "lesson-1-why-we-need-modules-the-problem-of-a-single-global-scope",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:06",
-    "updated_at": "2025-07-14 05:14:37"
+    "updated_at": "2025-07-24 06:28:53"
   },
   {
     "id": 989,
     "unit_id": 101,
     "title": "Lesson 2: ES Modules (ESM): `import` and `export` Syntax",
-    "slug": "lesson-2-es-modules-esm-import-and-export-syntax",
     "video": null,
+    "slug": "lesson-2-es-modules-esm-import-and-export-syntax",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:06",
-    "updated_at": "2025-07-14 05:20:41"
+    "updated_at": "2025-07-24 06:30:36"
   },
   {
     "id": 990,
     "unit_id": 101,
     "title": "Lesson 3: Default vs. Named Exports",
-    "slug": "lesson-3-default-vs-named-exports",
     "video": null,
+    "slug": "lesson-3-default-vs-named-exports",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:06",
-    "updated_at": "2025-07-14 05:26:36"
+    "updated_at": "2025-07-24 06:32:00"
   },
   {
     "id": 991,
     "unit_id": 101,
     "title": "Lesson 4: Dynamic Imports with `import()`",
-    "slug": "lesson-4-dynamic-imports-with-import",
     "video": null,
+    "slug": "lesson-4-dynamic-imports-with-import",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:06",
-    "updated_at": "2025-07-14 05:40:08"
+    "updated_at": "2025-07-24 06:33:14"
   },
   {
     "id": 992,
     "unit_id": 101,
     "title": "Lesson 5: Organizing a Project with Modules",
-    "slug": "lesson-5-organizing-a-project-with-modules",
     "video": null,
+    "slug": "lesson-5-organizing-a-project-with-modules",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:06",
-    "updated_at": "2025-07-14 05:46:07"
+    "updated_at": "2025-07-24 06:34:27"
   },
   {
     "id": 993,
     "unit_id": 102,
     "title": "Lesson 1: Working with Dates: The `Date` Object",
-    "slug": "lesson-1-working-with-dates-the-date-object",
     "video": null,
+    "slug": "lesson-1-working-with-dates-the-date-object",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:06",
-    "updated_at": "2025-07-14 06:50:11"
+    "updated_at": "2025-07-24 06:39:07"
   },
   {
     "id": 994,
     "unit_id": 102,
     "title": "Lesson 2: Formatting Dates and Times (`Intl.DateTimeFormat`)",
-    "slug": "lesson-2-formatting-dates-and-times-intldatetimeformat",
     "video": null,
+    "slug": "lesson-2-formatting-dates-and-times-intldatetimeformat",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:06",
-    "updated_at": "2025-07-14 07:03:56"
+    "updated_at": "2025-07-24 06:40:30"
   },
   {
     "id": 995,
     "unit_id": 102,
     "title": "Lesson 3: Client-Side Storage: `localStorage` vs. `sessionStorage`",
-    "slug": "lesson-3-client-side-storage-localstorage-vs-sessionstorage",
     "video": null,
+    "slug": "lesson-3-client-side-storage-localstorage-vs-sessionstorage",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:06",
-    "updated_at": "2025-07-14 07:12:31"
+    "updated_at": "2025-07-24 06:42:14"
   },
   {
     "id": 996,
     "unit_id": 102,
     "title": "Lesson 4: Storing Complex Data with `JSON.stringify()` and `JSON.parse()`",
-    "slug": "lesson-4-storing-complex-data-with-jsonstringify-and-jsonparse",
     "video": null,
+    "slug": "lesson-4-storing-complex-data-with-jsonstringify-and-jsonparse",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:07",
-    "updated_at": "2025-07-14 07:19:12"
+    "updated_at": "2025-07-24 06:43:38"
   },
   {
     "id": 997,
     "unit_id": 102,
     "title": "Lesson 5: Storage Limitations and Best Practices",
-    "slug": "lesson-5-storage-limitations-and-best-practices",
     "video": null,
+    "slug": "lesson-5-storage-limitations-and-best-practices",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:07",
-    "updated_at": "2025-07-14 07:41:33"
+    "updated_at": "2025-07-24 06:44:51"
   },
   {
     "id": 998,
     "unit_id": 103,
     "title": "Lesson 1: The Iterable Protocol and Iterators",
-    "slug": "lesson-1-the-iterable-protocol-and-iterators",
     "video": null,
+    "slug": "lesson-1-the-iterable-protocol-and-iterators",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:07",
-    "updated_at": "2025-07-14 08:23:40"
+    "updated_at": "2025-07-24 06:48:51"
   },
   {
     "id": 999,
     "unit_id": 103,
     "title": "Lesson 2: Generator Functions (`function*` and `yield`)",
-    "slug": "lesson-2-generator-functions-function-and-yield",
     "video": null,
+    "slug": "lesson-2-generator-functions-function-and-yield",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:07",
-    "updated_at": "2025-07-14 09:06:43"
+    "updated_at": "2025-07-24 06:50:25"
   },
   {
     "id": 1000,
     "unit_id": 103,
     "title": "Lesson 3: JavaScript Errors: Syntax, Runtime, and Logical Errors",
-    "slug": "lesson-3-javascript-errors-syntax-runtime-and-logical-errors",
     "video": null,
+    "slug": "lesson-3-javascript-errors-syntax-runtime-and-logical-errors",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:07",
-    "updated_at": "2025-07-14 09:19:50"
+    "updated_at": "2025-07-24 06:51:48"
   },
   {
     "id": 1001,
     "unit_id": 103,
     "title": "Lesson 4: Defensive Error Handling with `try...catch...finally`",
-    "slug": "lesson-4-defensive-error-handling-with-trycatchfinally",
     "video": null,
+    "slug": "lesson-4-defensive-error-handling-with-trycatchfinally",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:07",
-    "updated_at": "2025-07-14 09:26:16"
+    "updated_at": "2025-07-24 06:53:12"
   },
   {
     "id": 1002,
     "unit_id": 103,
     "title": "Lesson 5: Creating and Throwing Custom Errors (`throw new Error()`)",
-    "slug": "lesson-5-creating-and-throwing-custom-errors-throw-new-error",
     "video": null,
+    "slug": "lesson-5-creating-and-throwing-custom-errors-throw-new-error",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:07",
-    "updated_at": "2025-07-14 09:51:05"
+    "updated_at": "2025-07-24 06:54:35"
   },
   {
     "id": 1003,
     "unit_id": 104,
     "title": "Lesson 1: Writing Clean, Readable, and Maintainable Code",
-    "slug": "lesson-1-writing-clean-readable-and-maintainable-code",
     "video": null,
+    "slug": "lesson-1-writing-clean-readable-and-maintainable-code",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:07",
-    "updated_at": "2025-07-14 13:20:37"
+    "updated_at": "2025-07-24 06:56:39"
   },
   {
     "id": 1004,
     "unit_id": 104,
     "title": "Lesson 2: Effective Naming Conventions and Commenting",
-    "slug": "lesson-2-effective-naming-conventions-and-commenting",
     "video": null,
+    "slug": "lesson-2-effective-naming-conventions-and-commenting",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:07",
-    "updated_at": "2025-07-14 13:27:44"
+    "updated_at": "2025-07-24 06:57:53"
   },
   {
     "id": 1005,
     "unit_id": 104,
     "title": "Lesson 3: Introduction to Regular Expressions (Regex) for Pattern Matching",
-    "slug": "lesson-3-introduction-to-regular-expressions-regex-for-pattern-matching",
     "video": null,
+    "slug": "lesson-3-introduction-to-regular-expressions-regex-for-pattern-matching",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:08",
-    "updated_at": "2025-07-14 13:35:41"
+    "updated_at": "2025-07-24 06:59:17"
   },
   {
     "id": 1006,
     "unit_id": 104,
     "title": "Lesson 4: Common Regex Use Cases (`test`, `match`, `replace`)",
-    "slug": "lesson-4-common-regex-use-cases-test-match-replace",
     "video": null,
+    "slug": "lesson-4-common-regex-use-cases-test-match-replace",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:08",
-    "updated_at": "2025-07-14 13:41:58"
+    "updated_at": "2025-07-24 07:01:01"
   },
   {
     "id": 1007,
     "unit_id": 104,
     "title": "Lesson 5: Mastering the Browser Console (`console.table`, `console.group`)",
-    "slug": "lesson-5-mastering-the-browser-console-consoletable-consolegroup",
     "video": null,
+    "slug": "lesson-5-mastering-the-browser-console-consoletable-consolegroup",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:08",
-    "updated_at": "2025-07-14 14:30:16"
+    "updated_at": "2025-07-24 07:02:14"
   },
   {
     "id": 1008,
     "unit_id": 104,
     "title": "Lesson 6: Debugging with Breakpoints, Watchers, and the Call Stack",
-    "slug": "lesson-6-debugging-with-breakpoints-watchers-and-the-call-stack",
     "video": null,
+    "slug": "lesson-6-debugging-with-breakpoints-watchers-and-the-call-stack",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:08",
-    "updated_at": "2025-07-14 15:10:39"
+    "updated_at": "2025-07-24 07:03:38"
   },
   {
     "id": 1009,
     "unit_id": 104,
     "title": "Lesson 7: Introduction to Linting (ESLint) and Code Formatters (Prettier)",
-    "slug": "lesson-7-introduction-to-linting-eslint-and-code-formatters-prettier",
     "video": null,
+    "slug": "lesson-7-introduction-to-linting-eslint-and-code-formatters-prettier",
     "display_order": 0,
     "created_at": "2025-07-12 04:25:08",
-    "updated_at": "2025-07-14 16:48:39"
+    "updated_at": "2025-07-24 07:04:51"
   },
   {
     "id": 1010,
     "unit_id": 105,
     "title": "Lesson 1: What is HTML? The Skeleton of Every Web Page",
-    "slug": "lesson-1-what-is-html-the-skeleton-of-every-web-page",
     "video": null,
+    "slug": "lesson-1-what-is-html-the-skeleton-of-every-web-page",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:36",
-    "updated_at": "2025-07-15 02:20:30"
+    "updated_at": "2025-07-22 03:17:19"
   },
   {
     "id": 1011,
     "unit_id": 105,
     "title": "Lesson 2: Your First Web Page: From a Text File to the Browser",
-    "slug": "lesson-2-your-first-web-page-from-a-text-file-to-the-browser",
     "video": null,
+    "slug": "lesson-2-your-first-web-page-from-a-text-file-to-the-browser",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:36",
-    "updated_at": "2025-07-15 02:24:48"
+    "updated_at": "2025-08-03 06:20:50"
   },
   {
     "id": 1012,
     "unit_id": 105,
     "title": "Lesson 3: The Anatomy of an HTML Tag: The Building Blocks",
-    "slug": "lesson-3-the-anatomy-of-an-html-tag-the-building-blocks",
     "video": null,
+    "slug": "lesson-3-the-anatomy-of-an-html-tag-the-building-blocks",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:36",
-    "updated_at": "2025-07-15 02:30:56"
+    "updated_at": "2025-07-26 19:55:14"
   },
   {
     "id": 1013,
     "unit_id": 105,
     "title": "Lesson 4: The Essential Boilerplate: The Minimum for Any Professional Page",
-    "slug": "lesson-4-the-essential-boilerplate-the-minimum-for-any-professional-page",
     "video": null,
+    "slug": "lesson-4-the-essential-boilerplate-the-minimum-for-any-professional-page",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:36",
-    "updated_at": "2025-07-15 02:48:50"
+    "updated_at": "2025-07-27 05:01:40"
   },
   {
     "id": 1014,
     "unit_id": 106,
     "title": "Lesson 1: Headings (`<h1>`-`<h6>`): Creating an Outline for a Blog Post",
-    "slug": "lesson-1-headings-h1-h6-creating-an-outline-for-a-blog-post",
     "video": null,
+    "slug": "lesson-1-headings-h1-h6-creating-an-outline-for-a-blog-post",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:36",
-    "updated_at": "2025-07-15 03:00:24"
+    "updated_at": "2025-07-24 13:09:40"
   },
   {
     "id": 1015,
     "unit_id": 106,
     "title": "Lesson 2: Paragraphs (`<p>`): The Body Text of a News Article",
-    "slug": "lesson-2-paragraphs-p-the-body-text-of-a-news-article",
     "video": null,
+    "slug": "lesson-2-paragraphs-p-the-body-text-of-a-news-article",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:36",
-    "updated_at": "2025-07-15 03:07:15"
+    "updated_at": "2025-07-24 13:10:11"
   },
   {
     "id": 1016,
     "unit_id": 106,
     "title": "Lesson 3: Making Text Stand Out (`<strong>`, `<em>`): Adding Meaning, Not Just Style",
-    "slug": "lesson-3-making-text-stand-out-strong-em-adding-meaning-not-just-style",
     "video": null,
+    "slug": "lesson-3-making-text-stand-out-strong-em-adding-meaning-not-just-style",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:36",
-    "updated_at": "2025-07-15 03:12:37"
+    "updated_at": "2025-07-22 03:37:57"
   },
   {
     "id": 1017,
     "unit_id": 106,
     "title": "Lesson 4: Line and Thematic Breaks (`<br>`, `<hr>`): Structuring a Poem or an Article",
-    "slug": "lesson-4-line-and-thematic-breaks-br-hr-structuring-a-poem-or-an-article",
     "video": null,
+    "slug": "lesson-4-line-and-thematic-breaks-br-hr-structuring-a-poem-or-an-article",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:36",
-    "updated_at": "2025-07-15 03:27:21"
+    "updated_at": "2025-07-24 13:10:52"
   },
   {
     "id": 1018,
     "unit_id": 107,
     "title": "Lesson 1: Unordered Lists (`<ul>`): Building a Website's Main Navigation Bar",
-    "slug": "lesson-1-unordered-lists-ul-building-a-websites-main-navigation-bar",
     "video": null,
+    "slug": "lesson-1-unordered-lists-ul-building-a-websites-main-navigation-bar",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:36",
-    "updated_at": "2025-07-15 03:42:46"
+    "updated_at": "2025-07-27 07:07:46"
   },
   {
     "id": 1019,
     "unit_id": 107,
     "title": "Lesson 2: Ordered Lists (`<ol>`): Creating Step-by-Step Recipe Instructions",
-    "slug": "lesson-2-ordered-lists-ol-creating-step-by-step-recipe-instructions",
     "video": null,
+    "slug": "lesson-2-ordered-lists-ol-creating-step-by-step-recipe-instructions",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:36",
-    "updated_at": "2025-07-15 03:48:29"
+    "updated_at": "2025-07-27 07:10:01"
   },
   {
     "id": 1020,
     "unit_id": 107,
     "title": "Lesson 3: The Anchor Tag (`<a>`): Linking Pages and Websites",
-    "slug": "lesson-3-the-anchor-tag-a-linking-pages-and-websites",
     "video": null,
+    "slug": "lesson-3-the-anchor-tag-a-linking-pages-and-websites",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:36",
-    "updated_at": "2025-07-15 03:53:30"
+    "updated_at": "2025-07-27 07:20:25"
   },
   {
     "id": 1021,
     "unit_id": 107,
     "title": "Lesson 4: Advanced Links: Email, Phone, and Opening in New Tabs",
-    "slug": "lesson-4-advanced-links-email-phone-and-opening-in-new-tabs",
     "video": null,
+    "slug": "lesson-4-advanced-links-email-phone-and-opening-in-new-tabs",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:36",
-    "updated_at": "2025-07-15 03:59:06"
+    "updated_at": "2025-07-27 07:22:53"
   },
   {
     "id": 1022,
     "unit_id": 108,
     "title": "Lesson 1: What are Attributes? A Deeper Look",
-    "slug": "lesson-1-what-are-attributes-a-deeper-look",
     "video": null,
+    "slug": "lesson-1-what-are-attributes-a-deeper-look",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:36",
-    "updated_at": "2025-07-15 04:31:11"
+    "updated_at": "2025-07-27 07:24:19"
   },
   {
     "id": 1023,
     "unit_id": 108,
     "title": "Lesson 2: The `class` Attribute: Labeling Elements for Styling",
-    "slug": "lesson-2-the-class-attribute-labeling-elements-for-styling",
     "video": null,
+    "slug": "lesson-2-the-class-attribute-labeling-elements-for-styling",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:36",
-    "updated_at": "2025-07-15 04:36:43"
+    "updated_at": "2025-07-27 07:24:57"
   },
   {
     "id": 1024,
     "unit_id": 108,
     "title": "Lesson 3: The `id` Attribute: Creating a Unique Identifier for Linking and Scripts",
-    "slug": "lesson-3-the-id-attribute-creating-a-unique-identifier-for-linking-and-scripts",
     "video": null,
+    "slug": "lesson-3-the-id-attribute-creating-a-unique-identifier-for-linking-and-scripts",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:36",
-    "updated_at": "2025-07-15 04:41:58"
+    "updated_at": "2025-07-27 07:35:55"
   },
   {
     "id": 1025,
     "unit_id": 108,
     "title": "Lesson 4: `class` vs. `id`: When to Use Which",
-    "slug": "lesson-4-class-vs-id-when-to-use-which",
     "video": null,
+    "slug": "lesson-4-class-vs-id-when-to-use-which",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:36",
-    "updated_at": "2025-07-15 05:53:55"
+    "updated_at": "2025-07-27 07:36:16"
   },
   {
     "id": 1026,
     "unit_id": 109,
     "title": "Lesson 1: `div` Soup vs. Semantic HTML: Why It Matters for SEO and Accessibility",
-    "slug": "lesson-1-div-soup-vs-semantic-html-why-it-matters-for-seo-and-accessibility",
     "video": null,
+    "slug": "lesson-1-div-soup-vs-semantic-html-why-it-matters-for-seo-and-accessibility",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:36",
-    "updated_at": "2025-07-12 07:08:36"
+    "updated_at": "2025-07-27 07:37:19"
   },
   {
     "id": 1027,
     "unit_id": 109,
     "title": "Lesson 2: The Core Layout: `<header>`, `<main>`, `<footer>`",
-    "slug": "lesson-2-the-core-layout-header-main-footer",
     "video": null,
+    "slug": "lesson-2-the-core-layout-header-main-footer",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:36",
-    "updated_at": "2025-07-12 07:08:36"
+    "updated_at": "2025-07-27 07:50:44"
   },
   {
     "id": 1028,
     "unit_id": 109,
     "title": "Lesson 3: `<nav>`, `<section>`, `<article>`: Organizing a Blog Homepage",
-    "slug": "lesson-3-nav-section-article-organizing-a-blog-homepage",
     "video": null,
+    "slug": "lesson-3-nav-section-article-organizing-a-blog-homepage",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:36",
-    "updated_at": "2025-07-12 07:08:36"
+    "updated_at": "2025-07-27 07:51:12"
   },
   {
     "id": 1029,
     "unit_id": 109,
     "title": "Lesson 4: `<aside>`: Creating a Sidebar for Related Links",
-    "slug": "lesson-4-aside-creating-a-sidebar-for-related-links",
     "video": null,
+    "slug": "lesson-4-aside-creating-a-sidebar-for-related-links",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:36",
-    "updated_at": "2025-07-12 07:08:36"
+    "updated_at": "2025-07-27 07:51:28"
   },
   {
     "id": 1030,
     "unit_id": 110,
     "title": "Lesson 1: Adding Images (`<img>`) to a Product Page",
-    "slug": "lesson-1-adding-images-img-to-a-product-page",
     "video": null,
+    "slug": "lesson-1-adding-images-img-to-a-product-page",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:36",
-    "updated_at": "2025-07-12 07:08:36"
+    "updated_at": "2025-07-27 08:04:07"
   },
   {
     "id": 1031,
     "unit_id": 110,
     "title": "Lesson 2: The `alt` Attribute: The Most Important Part of an Image for Accessibility",
-    "slug": "lesson-2-the-alt-attribute-the-most-important-part-of-an-image-for-accessibility",
     "video": null,
+    "slug": "lesson-2-the-alt-attribute-the-most-important-part-of-an-image-for-accessibility",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:36",
-    "updated_at": "2025-07-12 07:08:36"
+    "updated_at": "2025-07-27 08:04:59"
   },
   {
     "id": 1032,
     "unit_id": 110,
     "title": "Lesson 3: Embedding a YouTube Video with `<iframe>`",
-    "slug": "lesson-3-embedding-a-youtube-video-with-iframe",
     "video": null,
+    "slug": "lesson-3-embedding-a-youtube-video-with-iframe",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:36",
-    "updated_at": "2025-07-12 07:08:36"
+    "updated_at": "2025-07-27 08:06:29"
   },
   {
     "id": 1033,
     "unit_id": 110,
     "title": "Lesson 4: Adding Audio and Video with `<audio>` and `<video>`",
-    "slug": "lesson-4-adding-audio-and-video-with-audio-and-video",
     "video": null,
+    "slug": "lesson-4-adding-audio-and-video-with-audio-and-video",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:36",
-    "updated_at": "2025-07-12 07:08:36"
+    "updated_at": "2025-07-27 08:07:00"
   },
   {
     "id": 1034,
     "unit_id": 111,
     "title": "Lesson 1: When (and When NOT) to Use a Table: Data vs. Layout",
-    "slug": "lesson-1-when-and-when-not-to-use-a-table-data-vs-layout",
     "video": null,
+    "slug": "lesson-1-when-and-when-not-to-use-a-table-data-vs-layout",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:37",
-    "updated_at": "2025-07-12 07:08:37"
+    "updated_at": "2025-07-22 05:19:27"
   },
   {
     "id": 1035,
     "unit_id": 111,
     "title": "Lesson 2: Building a Table: `<table>`, `<tr>`, `<th>`, `<td>`",
-    "slug": "lesson-2-building-a-table-table-tr-th-td",
     "video": null,
+    "slug": "lesson-2-building-a-table-table-tr-th-td",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:37",
-    "updated_at": "2025-07-12 07:08:37"
+    "updated_at": "2025-07-27 08:08:56"
   },
   {
     "id": 1036,
     "unit_id": 111,
     "title": "Lesson 3: Making Complex Tables Accessible with `<thead>`, `<tbody>`, and `scope`",
-    "slug": "lesson-3-making-complex-tables-accessible-with-thead-tbody-and-scope",
     "video": null,
+    "slug": "lesson-3-making-complex-tables-accessible-with-thead-tbody-and-scope",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:37",
-    "updated_at": "2025-07-12 07:08:37"
+    "updated_at": "2025-07-27 08:09:13"
   },
   {
     "id": 1037,
     "unit_id": 112,
     "title": "Lesson 1: The `<form>` and `<label>`: The Foundation of Accessible Forms",
-    "slug": "lesson-1-the-form-and-label-the-foundation-of-accessible-forms",
     "video": null,
+    "slug": "lesson-1-the-form-and-label-the-foundation-of-accessible-forms",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:37",
-    "updated_at": "2025-07-12 07:08:37"
+    "updated_at": "2025-07-27 08:10:04"
   },
   {
     "id": 1038,
     "unit_id": 112,
     "title": "Lesson 2: Text Inputs: Name, Email, Password, and Search Fields",
-    "slug": "lesson-2-text-inputs-name-email-password-and-search-fields",
     "video": null,
+    "slug": "lesson-2-text-inputs-name-email-password-and-search-fields",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:37",
-    "updated_at": "2025-07-12 07:08:37"
+    "updated_at": "2025-07-27 08:13:27"
   },
   {
     "id": 1039,
     "unit_id": 112,
     "title": "Lesson 3: User Choices: Checkboxes and Radio Buttons for Surveys",
-    "slug": "lesson-3-user-choices-checkboxes-and-radio-buttons-for-surveys",
     "video": null,
+    "slug": "lesson-3-user-choices-checkboxes-and-radio-buttons-for-surveys",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:37",
-    "updated_at": "2025-07-12 07:08:37"
+    "updated_at": "2025-07-22 05:28:48"
   },
   {
     "id": 1040,
     "unit_id": 112,
     "title": "Lesson 4: The `<textarea>` and `<button>`: The Message Box and Submit",
-    "slug": "lesson-4-the-textarea-and-button-the-message-box-and-submit",
     "video": null,
+    "slug": "lesson-4-the-textarea-and-button-the-message-box-and-submit",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:37",
-    "updated_at": "2025-07-12 07:08:37"
+    "updated_at": "2025-07-22 05:30:03"
   },
   {
     "id": 1041,
     "unit_id": 113,
     "title": "Lesson 1: Dropdown Menus with `<select>` and `<option>`",
-    "slug": "lesson-1-dropdown-menus-with-select-and-option",
     "video": null,
+    "slug": "lesson-1-dropdown-menus-with-select-and-option",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:37",
-    "updated_at": "2025-07-12 07:08:37"
+    "updated_at": "2025-07-22 05:34:25"
   },
   {
     "id": 1042,
     "unit_id": 113,
     "title": "Lesson 2: Grouping Form Elements with `<fieldset>` and `<legend>`",
-    "slug": "lesson-2-grouping-form-elements-with-fieldset-and-legend",
     "video": null,
+    "slug": "lesson-2-grouping-form-elements-with-fieldset-and-legend",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:37",
-    "updated_at": "2025-07-12 07:08:37"
+    "updated_at": "2025-07-22 05:36:10"
   },
   {
     "id": 1043,
     "unit_id": 113,
     "title": "Lesson 3: Simple Client-Side Validation with `required` and `pattern`",
-    "slug": "lesson-3-simple-client-side-validation-with-required-and-pattern",
     "video": null,
+    "slug": "lesson-3-simple-client-side-validation-with-required-and-pattern",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:37",
-    "updated_at": "2025-07-12 07:08:37"
+    "updated_at": "2025-07-22 05:38:10"
   },
   {
     "id": 1044,
     "unit_id": 113,
     "title": "Lesson 4: Project: Build a Complete and Accessible Contact Form",
-    "slug": "lesson-4-project-build-a-complete-and-accessible-contact-form",
     "video": null,
+    "slug": "lesson-4-project-build-a-complete-and-accessible-contact-form",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:37",
-    "updated_at": "2025-07-12 07:08:37"
+    "updated_at": "2025-07-22 05:38:39"
   },
   {
     "id": 1045,
     "unit_id": 114,
     "title": "Lesson 1: A Deeper Look Inside the `<head>`: Title, Metatags, and the Viewport",
-    "slug": "lesson-1-a-deeper-look-inside-the-head-title-metatags-and-the-viewport",
     "video": null,
+    "slug": "lesson-1-a-deeper-look-inside-the-head-title-metatags-and-the-viewport",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:37",
-    "updated_at": "2025-07-12 07:08:37"
+    "updated_at": "2025-07-22 05:40:16"
   },
   {
     "id": 1046,
     "unit_id": 114,
     "title": "Lesson 2: Linking Your First CSS File: Preparing for Style",
-    "slug": "lesson-2-linking-your-first-css-file-preparing-for-style",
     "video": null,
+    "slug": "lesson-2-linking-your-first-css-file-preparing-for-style",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:37",
-    "updated_at": "2025-07-12 07:08:37"
+    "updated_at": "2025-07-22 05:41:09"
   },
   {
     "id": 1047,
     "unit_id": 114,
     "title": "Lesson 3: Validating Your HTML: How to Find and Fix Errors Like a Pro",
-    "slug": "lesson-3-validating-your-html-how-to-find-and-fix-errors-like-a-pro",
     "video": null,
+    "slug": "lesson-3-validating-your-html-how-to-find-and-fix-errors-like-a-pro",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:37",
-    "updated_at": "2025-07-12 07:08:37"
+    "updated_at": "2025-07-22 05:41:43"
   },
   {
     "id": 1048,
     "unit_id": 114,
     "title": "Lesson 4: The Big Picture: How HTML, CSS, and JavaScript Work Together",
-    "slug": "lesson-4-the-big-picture-how-html-css-and-javascript-work-together",
     "video": null,
+    "slug": "lesson-4-the-big-picture-how-html-css-and-javascript-work-together",
     "display_order": 0,
     "created_at": "2025-07-12 07:08:37",
-    "updated_at": "2025-07-12 07:08:37"
+    "updated_at": "2025-07-22 05:42:46"
   },
   {
     "id": 1049,
     "unit_id": 115,
     "title": "Lesson 1: What is CSS? The Art and Style of the Web",
-    "slug": "lesson-1-what-is-css-the-art-and-style-of-the-web",
     "video": null,
+    "slug": "lesson-1-what-is-css-the-art-and-style-of-the-web",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-22 06:13:18"
   },
   {
     "id": 1050,
     "unit_id": 115,
     "title": "Lesson 2: Three Ways to Add CSS and Why We Use External Stylesheets",
-    "slug": "lesson-2-three-ways-to-add-css-and-why-we-use-external-stylesheets",
     "video": null,
+    "slug": "lesson-2-three-ways-to-add-css-and-why-we-use-external-stylesheets",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-24 13:48:01"
   },
   {
     "id": 1051,
     "unit_id": 115,
     "title": "Lesson 3: The Anatomy of a CSS Rule: Selector, Property, and Value",
-    "slug": "lesson-3-the-anatomy-of-a-css-rule-selector-property-and-value",
     "video": null,
+    "slug": "lesson-3-the-anatomy-of-a-css-rule-selector-property-and-value",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-24 14:19:59"
   },
   {
     "id": 1052,
     "unit_id": 115,
     "title": "Lesson 4: Your First Styles: Changing Colors, Backgrounds, etc.",
-    "slug": "lesson-4-your-first-styles-changing-colors-backgrounds-etc",
     "video": null,
+    "slug": "lesson-4-your-first-styles-changing-colors-backgrounds-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-24 14:27:12"
   },
   {
     "id": 1053,
     "unit_id": 115,
     "title": "Lesson 5: Essential Selectors: Tag, Class, ID, Attribute, etc.",
-    "slug": "lesson-5-essential-selectors-tag-class-id-attribute-etc",
     "video": null,
+    "slug": "lesson-5-essential-selectors-tag-class-id-attribute-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-08-03 09:55:53"
   },
   {
     "id": 1054,
     "unit_id": 115,
     "title": "Lesson 6: Combining Selectors (Descendant, Child, Sibling, etc.)",
-    "slug": "lesson-6-combining-selectors-descendant-child-sibling-etc",
     "video": null,
+    "slug": "lesson-6-combining-selectors-descendant-child-sibling-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-24 14:38:15"
   },
   {
     "id": 1055,
     "unit_id": 116,
     "title": "Lesson 1: The Cascade and Inheritance: How CSS Decides Which Rule Wins",
-    "slug": "lesson-1-the-cascade-and-inheritance-how-css-decides-which-rule-wins",
     "video": null,
+    "slug": "lesson-1-the-cascade-and-inheritance-how-css-decides-which-rule-wins",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-24 14:43:45"
   },
   {
     "id": 1056,
     "unit_id": 116,
     "title": "Lesson 2: Understanding Specificity: The Scoring System for Selectors",
-    "slug": "lesson-2-understanding-specificity-the-scoring-system-for-selectors",
     "video": null,
+    "slug": "lesson-2-understanding-specificity-the-scoring-system-for-selectors",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 19:23:02"
   },
   {
     "id": 1057,
     "unit_id": 116,
     "title": "Lesson 3: Understanding Display: `block`, `inline`, and `inline-block`",
-    "slug": "lesson-3-understanding-display-block-inline-and-inline-block",
     "video": null,
+    "slug": "lesson-3-understanding-display-block-inline-and-inline-block",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 19:23:01"
   },
   {
     "id": 1058,
     "unit_id": 116,
     "title": "Lesson 4: Sizing Elements with `width`, `height`, `min/max-width`, etc.",
-    "slug": "lesson-4-sizing-elements-with-width-height-minmax-width-etc",
     "video": null,
+    "slug": "lesson-4-sizing-elements-with-width-height-minmax-width-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-24 14:53:47"
   },
   {
     "id": 1059,
     "unit_id": 116,
     "title": "Lesson 5: A Guide to CSS Units: `px`, `rem`, `%`, `vw/vh`, etc.",
-    "slug": "lesson-5-a-guide-to-css-units-px-rem--vwvh-etc",
     "video": null,
+    "slug": "lesson-5-a-guide-to-css-units-px-rem--vwvh-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-24 14:56:50"
   },
   {
     "id": 1060,
     "unit_id": 116,
     "title": "Lesson 6: The Box Model and the Magic of `box-sizing: border-box`",
-    "slug": "lesson-6-the-box-model-and-the-magic-of-box-sizing-border-box",
     "video": null,
+    "slug": "lesson-6-the-box-model-and-the-magic-of-box-sizing-border-box",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-24 15:15:58"
   },
   {
     "id": 1061,
     "unit_id": 116,
     "title": "Lesson 7: Controlling Space: A Deep Dive into `padding` and `margin`",
-    "slug": "lesson-7-controlling-space-a-deep-dive-into-padding-and-margin",
     "video": null,
+    "slug": "lesson-7-controlling-space-a-deep-dive-into-padding-and-margin",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-24 16:10:57"
   },
   {
     "id": 1062,
     "unit_id": 116,
     "title": "Lesson 8: Styling Edges with `border`, `border-radius`, etc.",
-    "slug": "lesson-8-styling-edges-with-border-border-radius-etc",
     "video": null,
+    "slug": "lesson-8-styling-edges-with-border-border-radius-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-24 16:13:52"
   },
   {
     "id": 1063,
     "unit_id": 117,
     "title": "Lesson 1: Working with `font-family`: Serif, Sans-serif, and Web-Safe Fonts",
-    "slug": "lesson-1-working-with-font-family-serif-sans-serif-and-web-safe-fonts",
     "video": null,
+    "slug": "lesson-1-working-with-font-family-serif-sans-serif-and-web-safe-fonts",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-24 16:15:22"
   },
   {
     "id": 1064,
     "unit_id": 117,
     "title": "Lesson 2: Importing Custom Fonts (Google Fonts, `@font-face`, etc.)",
-    "slug": "lesson-2-importing-custom-fonts-google-fonts-font-face-etc",
     "video": null,
+    "slug": "lesson-2-importing-custom-fonts-google-fonts-font-face-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-24 16:20:14"
   },
   {
     "id": 1065,
     "unit_id": 117,
     "title": "Lesson 3: Controlling Text Size, Weight, and Style",
-    "slug": "lesson-3-controlling-text-size-weight-and-style",
     "video": null,
+    "slug": "lesson-3-controlling-text-size-weight-and-style",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-24 16:21:44"
   },
   {
     "id": 1066,
     "unit_id": 117,
     "title": "Lesson 4: Improving Readability: `line-height`, `letter-spacing`, etc.",
-    "slug": "lesson-4-improving-readability-line-height-letter-spacing-etc",
     "video": null,
+    "slug": "lesson-4-improving-readability-line-height-letter-spacing-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-24 16:23:00"
   },
   {
     "id": 1067,
     "unit_id": 117,
     "title": "Lesson 5: Text Alignment, Decoration, `text-indent`, `text-shadow`, etc.",
-    "slug": "lesson-5-text-alignment-decoration-text-indent-text-shadow-etc",
     "video": null,
+    "slug": "lesson-5-text-alignment-decoration-text-indent-text-shadow-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-24 16:25:22"
   },
   {
     "id": 1068,
     "unit_id": 118,
     "title": "Lesson 1: Introduction to Flexbox: From `display: block` to `display: flex`",
-    "slug": "lesson-1-introduction-to-flexbox-from-display-block-to-display-flex",
     "video": null,
+    "slug": "lesson-1-introduction-to-flexbox-from-display-block-to-display-flex",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-24 16:37:48"
   },
   {
     "id": 1069,
     "unit_id": 118,
     "title": "Lesson 2: Practical Project: Building a Centered Navigation Bar",
-    "slug": "lesson-2-practical-project-building-a-centered-navigation-bar",
     "video": null,
+    "slug": "lesson-2-practical-project-building-a-centered-navigation-bar",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:18:59"
   },
   {
     "id": 1070,
     "unit_id": 118,
     "title": "Lesson 3: Controlling the Main Axis (`justify-content`, etc.)",
-    "slug": "lesson-3-controlling-the-main-axis-justify-content-etc",
     "video": null,
+    "slug": "lesson-3-controlling-the-main-axis-justify-content-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:21:12"
   },
   {
     "id": 1071,
     "unit_id": 118,
     "title": "Lesson 4: Controlling the Cross Axis (`align-items`, `align-content`, etc.)",
-    "slug": "lesson-4-controlling-the-cross-axis-align-items-align-content-etc",
     "video": null,
+    "slug": "lesson-4-controlling-the-cross-axis-align-items-align-content-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:24:04"
   },
   {
     "id": 1072,
     "unit_id": 118,
     "title": "Lesson 5: Controlling Flex Items (`flex-grow`, `flex-shrink`, `flex-basis`)",
-    "slug": "lesson-5-controlling-flex-items-flex-grow-flex-shrink-flex-basis",
     "video": null,
+    "slug": "lesson-5-controlling-flex-items-flex-grow-flex-shrink-flex-basis",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:25:28"
   },
   {
     "id": 1073,
     "unit_id": 118,
     "title": "Lesson 6: `flex-direction`, `gap`, Wrapping, and `order`",
-    "slug": "lesson-6-flex-direction-gap-wrapping-and-order",
     "video": null,
+    "slug": "lesson-6-flex-direction-gap-wrapping-and-order",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:25:58"
   },
   {
     "id": 1074,
     "unit_id": 118,
     "title": "Lesson 7: Practical Project: Creating a Row of Responsive Product Cards",
-    "slug": "lesson-7-practical-project-creating-a-row-of-responsive-product-cards",
     "video": null,
+    "slug": "lesson-7-practical-project-creating-a-row-of-responsive-product-cards",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:26:13"
   },
   {
     "id": 1075,
     "unit_id": 119,
     "title": "Lesson 1: Introduction to CSS Grid: Rows and Columns",
-    "slug": "lesson-1-introduction-to-css-grid-rows-and-columns",
     "video": null,
+    "slug": "lesson-1-introduction-to-css-grid-rows-and-columns",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:29:43"
   },
   {
     "id": 1076,
     "unit_id": 119,
     "title": "Lesson 2: Defining Your Grid (`grid-template-columns/rows`, `fr` units, etc.)",
-    "slug": "lesson-2-defining-your-grid-grid-template-columnsrows-fr-units-etc",
     "video": null,
+    "slug": "lesson-2-defining-your-grid-grid-template-columnsrows-fr-units-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:30:02"
   },
   {
     "id": 1077,
     "unit_id": 119,
     "title": "Lesson 3: Placing Items in the Grid (`grid-column/row`, `grid-area`, etc.)",
-    "slug": "lesson-3-placing-items-in-the-grid-grid-columnrow-grid-area-etc",
     "video": null,
+    "slug": "lesson-3-placing-items-in-the-grid-grid-columnrow-grid-area-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:30:56"
   },
   {
     "id": 1078,
     "unit_id": 119,
     "title": "Lesson 4: Practical Project: Building a Classic 'Holy Grail' Page Layout",
-    "slug": "lesson-4-practical-project-building-a-classic-holy-grail-page-layout",
     "video": null,
+    "slug": "lesson-4-practical-project-building-a-classic-holy-grail-page-layout",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:31:37"
   },
   {
     "id": 1079,
     "unit_id": 119,
     "title": "Lesson 5: Advanced Techniques: `minmax()`, `auto-fit`, `auto-fill`, etc.",
-    "slug": "lesson-5-advanced-techniques-minmax-auto-fit-auto-fill-etc",
     "video": null,
+    "slug": "lesson-5-advanced-techniques-minmax-auto-fit-auto-fill-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:31:58"
   },
   {
     "id": 1080,
     "unit_id": 120,
     "title": "Lesson 1: The `position` Property (`static`, `relative`, `absolute`, etc.)",
-    "slug": "lesson-1-the-position-property-static-relative-absolute-etc",
     "video": null,
+    "slug": "lesson-1-the-position-property-static-relative-absolute-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:36:45"
   },
   {
     "id": 1081,
     "unit_id": 120,
     "title": "Lesson 2: Practical Project: Creating a Pop-up Modal or Tooltip",
-    "slug": "lesson-2-practical-project-creating-a-pop-up-modal-or-tooltip",
     "video": null,
+    "slug": "lesson-2-practical-project-creating-a-pop-up-modal-or-tooltip",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:37:09"
   },
   {
     "id": 1082,
     "unit_id": 120,
     "title": "Lesson 3: The Stacking Order: Understanding `z-index`",
-    "slug": "lesson-3-the-stacking-order-understanding-z-index",
     "video": null,
+    "slug": "lesson-3-the-stacking-order-understanding-z-index",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:38:31"
   },
   {
     "id": 1083,
     "unit_id": 120,
     "title": "Lesson 4: `position: fixed` and `position: sticky` for Persistent Elements",
-    "slug": "lesson-4-position-fixed-and-position-sticky-for-persistent-elements",
     "video": null,
+    "slug": "lesson-4-position-fixed-and-position-sticky-for-persistent-elements",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:38:50"
   },
   {
     "id": 1084,
     "unit_id": 120,
     "title": "Lesson 5: Practical Project: Building a Sticky Navigation Header",
-    "slug": "lesson-5-practical-project-building-a-sticky-navigation-header",
     "video": null,
+    "slug": "lesson-5-practical-project-building-a-sticky-navigation-header",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:40:28"
   },
   {
     "id": 1085,
     "unit_id": 120,
     "title": "Lesson 6: Legacy Layout: Understanding `float` and `clear`",
-    "slug": "lesson-6-legacy-layout-understanding-float-and-clear",
     "video": null,
+    "slug": "lesson-6-legacy-layout-understanding-float-and-clear",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:40:46"
   },
   {
     "id": 1086,
     "unit_id": 121,
     "title": "Lesson 1: The Core of Responsive Design: The Viewport and Mobile-First Thinking",
-    "slug": "lesson-1-the-core-of-responsive-design-the-viewport-and-mobile-first-thinking",
     "video": null,
+    "slug": "lesson-1-the-core-of-responsive-design-the-viewport-and-mobile-first-thinking",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:49:54"
   },
   {
     "id": 1087,
     "unit_id": 121,
     "title": "Lesson 2: Introduction to Media Queries: Changing Styles Based on Screen Size",
-    "slug": "lesson-2-introduction-to-media-queries-changing-styles-based-on-screen-size",
     "video": null,
+    "slug": "lesson-2-introduction-to-media-queries-changing-styles-based-on-screen-size",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:51:40"
   },
   {
     "id": 1088,
     "unit_id": 121,
     "title": "Lesson 3: Common Breakpoints and Best Practices",
-    "slug": "lesson-3-common-breakpoints-and-best-practices",
     "video": null,
+    "slug": "lesson-3-common-breakpoints-and-best-practices",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:53:03"
   },
   {
     "id": 1089,
     "unit_id": 121,
     "title": "Lesson 4: Practical Project: Making Your Flexbox Card Layout Responsive",
-    "slug": "lesson-4-practical-project-making-your-flexbox-card-layout-responsive",
     "video": null,
+    "slug": "lesson-4-practical-project-making-your-flexbox-card-layout-responsive",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:53:11"
   },
   {
     "id": 1090,
     "unit_id": 121,
     "title": "Lesson 5: Practical Project: Adapting Your Grid Page Layout for Mobile",
-    "slug": "lesson-5-practical-project-adapting-your-grid-page-layout-for-mobile",
     "video": null,
+    "slug": "lesson-5-practical-project-adapting-your-grid-page-layout-for-mobile",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:53:20"
   },
   {
     "id": 1091,
     "unit_id": 122,
     "title": "Lesson 1: Styling with `background-image`, `background-size`, etc.",
-    "slug": "lesson-1-styling-with-background-image-background-size-etc",
     "video": null,
+    "slug": "lesson-1-styling-with-background-image-background-size-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:55:13"
   },
   {
     "id": 1092,
     "unit_id": 122,
     "title": "Lesson 2: Creating Color Gradients for Backgrounds",
-    "slug": "lesson-2-creating-color-gradients-for-backgrounds",
     "video": null,
+    "slug": "lesson-2-creating-color-gradients-for-backgrounds",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:55:30"
   },
   {
     "id": 1093,
     "unit_id": 122,
     "title": "Lesson 3: Controlling Image Behavior with `object-fit` and `object-position`",
-    "slug": "lesson-3-controlling-image-behavior-with-object-fit-and-object-position",
     "video": null,
+    "slug": "lesson-3-controlling-image-behavior-with-object-fit-and-object-position",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:57:25"
   },
   {
     "id": 1094,
     "unit_id": 122,
     "title": "Lesson 4: Creating Depth with `box-shadow` and `filter: drop-shadow()`",
-    "slug": "lesson-4-creating-depth-with-box-shadow-and-filter-drop-shadow",
     "video": null,
+    "slug": "lesson-4-creating-depth-with-box-shadow-and-filter-drop-shadow",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-22 10:10:58"
   },
   {
     "id": 1095,
     "unit_id": 122,
     "title": "Lesson 5: Practical Project: Creating a Hero Section with a Full-Bleed Image",
-    "slug": "lesson-5-practical-project-creating-a-hero-section-with-a-full-bleed-image",
     "video": null,
+    "slug": "lesson-5-practical-project-creating-a-hero-section-with-a-full-bleed-image",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 04:59:39"
   },
   {
     "id": 1096,
     "unit_id": 123,
     "title": "Lesson 1: User Action Pseudo-classes (`:hover`, `:focus`, `:active`, etc.)",
-    "slug": "lesson-1-user-action-pseudo-classes-hover-focus-active-etc",
     "video": null,
+    "slug": "lesson-1-user-action-pseudo-classes-hover-focus-active-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 05:08:49"
   },
   {
     "id": 1097,
     "unit_id": 123,
     "title": "Lesson 2: Link and Input State Pseudo-classes (`:link`, `:visited`, `:checked`, `:disabled`, etc.)",
-    "slug": "lesson-2-link-and-input-state-pseudo-classes-link-visited-checked-disabled-etc",
     "video": null,
+    "slug": "lesson-2-link-and-input-state-pseudo-classes-link-visited-checked-disabled-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 05:09:53"
   },
   {
     "id": 1098,
     "unit_id": 123,
     "title": "Lesson 3: Structural Pseudo-classes (`:first-child`, `:last-child`, `:nth-child`, `:not`, etc.)",
-    "slug": "lesson-3-structural-pseudo-classes-first-child-last-child-nth-child-not-etc",
     "video": null,
+    "slug": "lesson-3-structural-pseudo-classes-first-child-last-child-nth-child-not-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 05:10:27"
   },
   {
     "id": 1099,
     "unit_id": 123,
     "title": "Lesson 4: Pseudo-elements and Generated Content (`::before`, `::after`, `content`)",
-    "slug": "lesson-4-pseudo-elements-and-generated-content-before-after-content",
     "video": null,
+    "slug": "lesson-4-pseudo-elements-and-generated-content-before-after-content",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 05:11:41"
   },
   {
     "id": 1100,
     "unit_id": 123,
     "title": "Lesson 5: Dynamic Content with Counters and `attr()`",
-    "slug": "lesson-5-dynamic-content-with-counters-and-attr",
     "video": null,
+    "slug": "lesson-5-dynamic-content-with-counters-and-attr",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-26 05:13:19"
   },
   {
     "id": 1101,
     "unit_id": 124,
     "title": "Lesson 1: Creating Smooth Effects with `transition`",
-    "slug": "lesson-1-creating-smooth-effects-with-transition",
     "video": null,
+    "slug": "lesson-1-creating-smooth-effects-with-transition",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:00",
-    "updated_at": "2025-07-12 07:12:00"
+    "updated_at": "2025-07-22 10:22:25"
   },
   {
     "id": 1102,
     "unit_id": 124,
     "title": "Lesson 2: Moving and Resizing Elements with `transform` (`scale`, `rotate`, `translate`, etc.)",
-    "slug": "lesson-2-moving-and-resizing-elements-with-transform-scale-rotate-translate-etc",
     "video": null,
+    "slug": "lesson-2-moving-and-resizing-elements-with-transform-scale-rotate-translate-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:01",
-    "updated_at": "2025-07-12 07:12:01"
+    "updated_at": "2025-07-22 10:23:38"
   },
   {
     "id": 1103,
     "unit_id": 124,
     "title": "Lesson 3: Practical Project: Building an Animated Button with a Hover Effect",
-    "slug": "lesson-3-practical-project-building-an-animated-button-with-a-hover-effect",
     "video": null,
+    "slug": "lesson-3-practical-project-building-an-animated-button-with-a-hover-effect",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:01",
-    "updated_at": "2025-07-12 07:12:01"
+    "updated_at": "2025-07-22 10:24:30"
   },
   {
     "id": 1104,
     "unit_id": 124,
     "title": "Lesson 4: An Introduction to `@keyframes` for Basic Animations",
-    "slug": "lesson-4-an-introduction-to-keyframes-for-basic-animations",
     "video": null,
+    "slug": "lesson-4-an-introduction-to-keyframes-for-basic-animations",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:01",
-    "updated_at": "2025-07-12 07:12:01"
+    "updated_at": "2025-07-22 10:26:48"
   },
   {
     "id": 1105,
     "unit_id": 125,
     "title": "Lesson 1: The Power of CSS Custom Properties (Variables) for Theming",
-    "slug": "lesson-1-the-power-of-css-custom-properties-variables-for-theming",
     "video": null,
+    "slug": "lesson-1-the-power-of-css-custom-properties-variables-for-theming",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:01",
-    "updated_at": "2025-07-12 07:12:01"
+    "updated_at": "2025-07-22 10:28:43"
   },
   {
     "id": 1106,
     "unit_id": 125,
     "title": "Lesson 2: Organizing Your Code with Methodologies (BEM, etc.)",
-    "slug": "lesson-2-organizing-your-code-with-methodologies-bem-etc",
     "video": null,
+    "slug": "lesson-2-organizing-your-code-with-methodologies-bem-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:01",
-    "updated_at": "2025-07-12 07:12:01"
+    "updated_at": "2025-07-22 10:29:56"
   },
   {
     "id": 1107,
     "unit_id": 125,
     "title": "Lesson 3: Practical Project: Refactoring a Project to Use CSS Variables",
-    "slug": "lesson-3-practical-project-refactoring-a-project-to-use-css-variables",
     "video": null,
+    "slug": "lesson-3-practical-project-refactoring-a-project-to-use-css-variables",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:01",
-    "updated_at": "2025-07-12 07:12:01"
+    "updated_at": "2025-07-22 10:31:08"
   },
   {
     "id": 1108,
     "unit_id": 125,
     "title": "Lesson 4: A Quick Look at Preprocessors (Sass, etc.) and the Dangers of Inline Styles",
-    "slug": "lesson-4-a-quick-look-at-preprocessors-sass-etc-and-the-dangers-of-inline-styles",
     "video": null,
+    "slug": "lesson-4-a-quick-look-at-preprocessors-sass-etc-and-the-dangers-of-inline-styles",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:01",
-    "updated_at": "2025-07-12 07:12:01"
+    "updated_at": "2025-07-22 10:32:01"
   },
   {
     "id": 1109,
     "unit_id": 126,
     "title": "Lesson 1: Making Forms Beautiful: Styling `input`, `textarea`, `button`, etc.",
-    "slug": "lesson-1-making-forms-beautiful-styling-input-textarea-button-etc",
     "video": null,
+    "slug": "lesson-1-making-forms-beautiful-styling-input-textarea-button-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:01",
-    "updated_at": "2025-07-12 07:12:01"
+    "updated_at": "2025-07-22 10:45:05"
   },
   {
     "id": 1110,
     "unit_id": 126,
     "title": "Lesson 2: Advanced List Styling (`list-style-type`, `list-style-image`, etc.)",
-    "slug": "lesson-2-advanced-list-styling-list-style-type-list-style-image-etc",
     "video": null,
+    "slug": "lesson-2-advanced-list-styling-list-style-type-list-style-image-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:01",
-    "updated_at": "2025-07-12 07:12:01"
+    "updated_at": "2025-07-22 10:36:22"
   },
   {
     "id": 1111,
     "unit_id": 126,
     "title": "Lesson 3: Styling Tables (`border-collapse`, `table-layout`, etc.)",
-    "slug": "lesson-3-styling-tables-border-collapse-table-layout-etc",
     "video": null,
+    "slug": "lesson-3-styling-tables-border-collapse-table-layout-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:01",
-    "updated_at": "2025-07-12 07:12:01"
+    "updated_at": "2025-07-22 10:37:25"
   },
   {
     "id": 1112,
     "unit_id": 126,
     "title": "Lesson 4: Final Project: Build a Complete, Responsive, One-Page Portfolio",
-    "slug": "lesson-4-final-project-build-a-complete-responsive-one-page-portfolio",
     "video": null,
+    "slug": "lesson-4-final-project-build-a-complete-responsive-one-page-portfolio",
     "display_order": 0,
     "created_at": "2025-07-12 07:12:01",
-    "updated_at": "2025-07-12 07:12:01"
+    "updated_at": "2025-07-22 10:38:38"
   },
   {
     "id": 1113,
     "unit_id": 127,
     "title": "Lesson 1: Why Tailwind? Solving the Problems of Traditional CSS",
-    "slug": "lesson-1-why-tailwind-solving-the-problems-of-traditional-css",
     "video": null,
+    "slug": "lesson-1-why-tailwind-solving-the-problems-of-traditional-css",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:12",
-    "updated_at": "2025-07-12 07:33:12"
+    "updated_at": "2025-07-22 10:57:39"
   },
   {
     "id": 1114,
     "unit_id": 127,
     "title": "Lesson 2: Thinking in Utilities: From CSS Properties to Composable Classes",
-    "slug": "lesson-2-thinking-in-utilities-from-css-properties-to-composable-classes",
     "video": null,
+    "slug": "lesson-2-thinking-in-utilities-from-css-properties-to-composable-classes",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:12",
-    "updated_at": "2025-07-12 07:33:12"
+    "updated_at": "2025-07-22 10:59:52"
   },
   {
     "id": 1115,
     "unit_id": 127,
     "title": "Lesson 3: The End of Naming Things: How BEM and Other Methodologies Evolve",
-    "slug": "lesson-3-the-end-of-naming-things-how-bem-and-other-methodologies-evolve",
     "video": null,
+    "slug": "lesson-3-the-end-of-naming-things-how-bem-and-other-methodologies-evolve",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:12",
-    "updated_at": "2025-07-12 07:33:12"
+    "updated_at": "2025-07-22 11:01:45"
   },
   {
     "id": 1116,
     "unit_id": 127,
     "title": "Lesson 4: How This Prepares Us for AI-Driven Development (The Big Picture)",
-    "slug": "lesson-4-how-this-prepares-us-for-ai-driven-development-the-big-picture",
     "video": null,
+    "slug": "lesson-4-how-this-prepares-us-for-ai-driven-development-the-big-picture",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:12",
-    "updated_at": "2025-07-12 07:33:12"
+    "updated_at": "2025-07-22 11:03:27"
   },
   {
     "id": 1117,
     "unit_id": 128,
     "title": "Lesson 1: The Quick Start: Using the Play CDN for Instant Results",
-    "slug": "lesson-1-the-quick-start-using-the-play-cdn-for-instant-results",
     "video": null,
+    "slug": "lesson-1-the-quick-start-using-the-play-cdn-for-instant-results",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:12",
-    "updated_at": "2025-07-12 07:33:12"
+    "updated_at": "2025-07-22 11:09:11"
   },
   {
     "id": 1118,
     "unit_id": 128,
     "title": "Lesson 2: The Professional Method: Installing Tailwind via CLI",
-    "slug": "lesson-2-the-professional-method-installing-tailwind-via-cli",
     "video": null,
+    "slug": "lesson-2-the-professional-method-installing-tailwind-via-cli",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:12",
-    "updated_at": "2025-07-12 07:33:12"
+    "updated_at": "2025-07-22 11:11:03"
   },
   {
     "id": 1119,
     "unit_id": 128,
     "title": "Lesson 3: Understanding `tailwind.config.js`: Your Project's Design System",
-    "slug": "lesson-3-understanding-tailwindconfigjs-your-projects-design-system",
     "video": null,
+    "slug": "lesson-3-understanding-tailwindconfigjs-your-projects-design-system",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:12",
-    "updated_at": "2025-07-12 07:33:12"
+    "updated_at": "2025-07-22 11:12:36"
   },
   {
     "id": 1120,
     "unit_id": 128,
     "title": "Lesson 4: How Tailwind Works: The JIT Compiler and Purging for Production",
-    "slug": "lesson-4-how-tailwind-works-the-jit-compiler-and-purging-for-production",
     "video": null,
+    "slug": "lesson-4-how-tailwind-works-the-jit-compiler-and-purging-for-production",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:12",
-    "updated_at": "2025-07-12 07:33:12"
+    "updated_at": "2025-07-22 11:13:58"
   },
   {
     "id": 1121,
     "unit_id": 129,
     "title": "Lesson 1: From `padding` to `p-4`: The Spacing System (Padding, Margin, Gap)",
-    "slug": "lesson-1-from-padding-to-p-4-the-spacing-system-padding-margin-gap",
     "video": null,
+    "slug": "lesson-1-from-padding-to-p-4-the-spacing-system-padding-margin-gap",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:12",
-    "updated_at": "2025-07-12 07:33:12"
+    "updated_at": "2025-07-22 11:15:59"
   },
   {
     "id": 1122,
     "unit_id": 129,
     "title": "Lesson 2: From `width` to `w-full`: Sizing and Constraints",
-    "slug": "lesson-2-from-width-to-w-full-sizing-and-constraints",
     "video": null,
+    "slug": "lesson-2-from-width-to-w-full-sizing-and-constraints",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:12",
-    "updated_at": "2025-07-12 07:33:12"
+    "updated_at": "2025-07-22 11:17:32"
   },
   {
     "id": 1123,
     "unit_id": 129,
     "title": "Lesson 3: Practical Project: Building a Simple Card Component with Core Utilities",
-    "slug": "lesson-3-practical-project-building-a-simple-card-component-with-core-utilities",
     "video": null,
+    "slug": "lesson-3-practical-project-building-a-simple-card-component-with-core-utilities",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:12",
-    "updated_at": "2025-07-12 07:33:12"
+    "updated_at": "2025-07-22 11:18:55"
   },
   {
     "id": 1124,
     "unit_id": 129,
     "title": "Lesson 4: Borders, Rings, and Dividers",
-    "slug": "lesson-4-borders-rings-and-dividers",
     "video": null,
+    "slug": "lesson-4-borders-rings-and-dividers",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:12",
-    "updated_at": "2025-07-12 07:33:12"
+    "updated_at": "2025-07-22 11:20:27"
   },
   {
     "id": 1125,
     "unit_id": 129,
     "title": "Lesson 5: Creating Depth with `shadow` and `z-index`",
-    "slug": "lesson-5-creating-depth-with-shadow-and-z-index",
     "video": null,
+    "slug": "lesson-5-creating-depth-with-shadow-and-z-index",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:12",
-    "updated_at": "2025-07-12 07:33:12"
+    "updated_at": "2025-07-22 11:50:58"
   },
   {
     "id": 1126,
     "unit_id": 130,
     "title": "Lesson 1: The Tailwind Color Palette: Text, Background, and Border Colors",
-    "slug": "lesson-1-the-tailwind-color-palette-text-background-and-border-colors",
     "video": null,
+    "slug": "lesson-1-the-tailwind-color-palette-text-background-and-border-colors",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:12",
-    "updated_at": "2025-07-12 07:33:12"
+    "updated_at": "2025-07-26 19:57:24"
   },
   {
     "id": 1127,
     "unit_id": 130,
     "title": "Lesson 2: Sizing and Styling Text (`text-lg`, `font-bold`, `italic`, etc.)",
-    "slug": "lesson-2-sizing-and-styling-text-text-lg-font-bold-italic-etc",
     "video": null,
+    "slug": "lesson-2-sizing-and-styling-text-text-lg-font-bold-italic-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:12",
-    "updated_at": "2025-07-12 07:33:12"
+    "updated_at": "2025-07-22 12:00:16"
   },
   {
     "id": 1128,
     "unit_id": 130,
     "title": "Lesson 3: Improving Readability: Tracking, Leading, and More (`letter-spacing`, `line-height`)",
-    "slug": "lesson-3-improving-readability-tracking-leading-and-more-letter-spacing-line-height",
     "video": null,
+    "slug": "lesson-3-improving-readability-tracking-leading-and-more-letter-spacing-line-height",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:12",
-    "updated_at": "2025-07-12 07:33:12"
+    "updated_at": "2025-07-22 12:08:22"
   },
   {
     "id": 1129,
     "unit_id": 130,
     "title": "Lesson 4: Practical Project: Styling a Blog Post Header",
-    "slug": "lesson-4-practical-project-styling-a-blog-post-header",
     "video": null,
+    "slug": "lesson-4-practical-project-styling-a-blog-post-header",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:12",
-    "updated_at": "2025-07-12 07:33:12"
+    "updated_at": "2025-07-22 12:11:29"
   },
   {
     "id": 1130,
     "unit_id": 131,
     "title": "Lesson 1: Building with Flexbox: `flex`, `items-center`, `justify-between`, etc.",
-    "slug": "lesson-1-building-with-flexbox-flex-items-center-justify-between-etc",
     "video": null,
+    "slug": "lesson-1-building-with-flexbox-flex-items-center-justify-between-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:12",
-    "updated_at": "2025-07-12 07:33:12"
+    "updated_at": "2025-07-22 12:52:54"
   },
   {
     "id": 1131,
     "unit_id": 131,
     "title": "Lesson 2: Building with Grid: `grid`, `grid-cols-3`, `col-span-2`, etc.",
-    "slug": "lesson-2-building-with-grid-grid-grid-cols-3-col-span-2-etc",
     "video": null,
+    "slug": "lesson-2-building-with-grid-grid-grid-cols-3-col-span-2-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:12",
-    "updated_at": "2025-07-12 07:33:12"
+    "updated_at": "2025-07-22 12:55:07"
   },
   {
     "id": 1132,
     "unit_id": 131,
     "title": "Lesson 3: Flexbox vs. Grid: When to Use Which with Tailwind",
-    "slug": "lesson-3-flexbox-vs-grid-when-to-use-which-with-tailwind",
     "video": null,
+    "slug": "lesson-3-flexbox-vs-grid-when-to-use-which-with-tailwind",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:12",
-    "updated_at": "2025-07-12 07:33:12"
+    "updated_at": "2025-07-23 01:40:30"
   },
   {
     "id": 1133,
     "unit_id": 131,
     "title": "Lesson 4: Practical Project: Rebuilding a Complex Layout from the CSS Book",
-    "slug": "lesson-4-practical-project-rebuilding-a-complex-layout-from-the-css-book",
     "video": null,
+    "slug": "lesson-4-practical-project-rebuilding-a-complex-layout-from-the-css-book",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:12",
-    "updated_at": "2025-07-12 07:33:12"
+    "updated_at": "2025-07-23 01:47:07"
   },
   {
     "id": 1134,
     "unit_id": 132,
     "title": "Lesson 1: The Magic of Responsive Prefixes (`sm:`, `md:`, `lg:`, etc.)",
-    "slug": "lesson-1-the-magic-of-responsive-prefixes-sm-md-lg-etc",
     "video": null,
+    "slug": "lesson-1-the-magic-of-responsive-prefixes-sm-md-lg-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:12",
-    "updated_at": "2025-07-12 07:33:12"
+    "updated_at": "2025-07-23 15:15:59"
   },
   {
     "id": 1135,
     "unit_id": 132,
     "title": "Lesson 2: Mobile-First Design with Tailwind",
-    "slug": "lesson-2-mobile-first-design-with-tailwind",
     "video": null,
+    "slug": "lesson-2-mobile-first-design-with-tailwind",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:12",
-    "updated_at": "2025-07-12 07:33:12"
+    "updated_at": "2025-07-23 15:18:02"
   },
   {
     "id": 1136,
     "unit_id": 132,
     "title": "Lesson 3: Practical Project: Making Your Card Component Responsive",
-    "slug": "lesson-3-practical-project-making-your-card-component-responsive",
     "video": null,
+    "slug": "lesson-3-practical-project-making-your-card-component-responsive",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:13",
-    "updated_at": "2025-07-12 07:33:13"
+    "updated_at": "2025-07-23 15:20:06"
   },
   {
     "id": 1137,
     "unit_id": 132,
     "title": "Lesson 4: Customizing Your Own Breakpoints in `tailwind.config.js`",
-    "slug": "lesson-4-customizing-your-own-breakpoints-in-tailwindconfigjs",
     "video": null,
+    "slug": "lesson-4-customizing-your-own-breakpoints-in-tailwindconfigjs",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:13",
-    "updated_at": "2025-07-12 07:33:13"
+    "updated_at": "2025-07-23 15:22:09"
   },
   {
     "id": 1138,
     "unit_id": 133,
     "title": "Lesson 1: Styling on Interaction: `hover:`, `focus:`, `active:`, etc.",
-    "slug": "lesson-1-styling-on-interaction-hover-focus-active-etc",
     "video": null,
+    "slug": "lesson-1-styling-on-interaction-hover-focus-active-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:13",
-    "updated_at": "2025-07-12 07:33:13"
+    "updated_at": "2025-07-23 04:13:28"
   },
   {
     "id": 1139,
     "unit_id": 133,
     "title": "Lesson 2: Styling Based on Parent State with `group-*`",
-    "slug": "lesson-2-styling-based-on-parent-state-with-group-",
     "video": null,
+    "slug": "lesson-2-styling-based-on-parent-state-with-group-",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:13",
-    "updated_at": "2025-07-12 07:33:13"
+    "updated_at": "2025-07-23 04:15:30"
   },
   {
     "id": 1140,
     "unit_id": 133,
     "title": "Lesson 3: Styling Based on Sibling State with `peer-*`",
-    "slug": "lesson-3-styling-based-on-sibling-state-with-peer-",
     "video": null,
+    "slug": "lesson-3-styling-based-on-sibling-state-with-peer-",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:13",
-    "updated_at": "2025-07-12 07:33:13"
+    "updated_at": "2025-07-23 04:17:23"
   },
   {
     "id": 1141,
     "unit_id": 133,
     "title": "Lesson 4: Styling Form States (`disabled:`, `checked:`, `required:`, etc.)",
-    "slug": "lesson-4-styling-form-states-disabled-checked-required-etc",
     "video": null,
+    "slug": "lesson-4-styling-form-states-disabled-checked-required-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:13",
-    "updated_at": "2025-07-12 07:33:13"
+    "updated_at": "2025-07-23 04:27:17"
   },
   {
     "id": 1142,
     "unit_id": 133,
     "title": "Lesson 5: Practical Project: Building an Interactive Dropdown Menu",
-    "slug": "lesson-5-practical-project-building-an-interactive-dropdown-menu",
     "video": null,
+    "slug": "lesson-5-practical-project-building-an-interactive-dropdown-menu",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:13",
-    "updated_at": "2025-07-12 07:33:13"
+    "updated_at": "2025-07-23 04:29:19"
   },
   {
     "id": 1143,
     "unit_id": 134,
     "title": "Lesson 1: Extending the Default Theme: Adding Your Own Colors and Fonts",
-    "slug": "lesson-1-extending-the-default-theme-adding-your-own-colors-and-fonts",
     "video": null,
+    "slug": "lesson-1-extending-the-default-theme-adding-your-own-colors-and-fonts",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:13",
-    "updated_at": "2025-07-12 07:33:13"
+    "updated_at": "2025-07-23 04:36:42"
   },
   {
     "id": 1144,
     "unit_id": 134,
     "title": "Lesson 2: Using Arbitrary Values for One-Off Styles",
-    "slug": "lesson-2-using-arbitrary-values-for-one-off-styles",
     "video": null,
+    "slug": "lesson-2-using-arbitrary-values-for-one-off-styles",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:13",
-    "updated_at": "2025-07-12 07:33:13"
+    "updated_at": "2025-07-23 04:38:44"
   },
   {
     "id": 1145,
     "unit_id": 134,
     "title": "Lesson 3: Using Plugins (Typography, Forms, etc.)",
-    "slug": "lesson-3-using-plugins-typography-forms-etc",
     "video": null,
+    "slug": "lesson-3-using-plugins-typography-forms-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:13",
-    "updated_at": "2025-07-12 07:33:13"
+    "updated_at": "2025-07-23 04:40:57"
   },
   {
     "id": 1146,
     "unit_id": 134,
     "title": "Lesson 4: Practical Project: Creating a Branded Button with Custom Styles",
-    "slug": "lesson-4-practical-project-creating-a-branded-button-with-custom-styles",
     "video": null,
+    "slug": "lesson-4-practical-project-creating-a-branded-button-with-custom-styles",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:13",
-    "updated_at": "2025-07-12 07:33:13"
+    "updated_at": "2025-07-23 04:42:40"
   },
   {
     "id": 1147,
     "unit_id": 135,
     "title": "Lesson 1: When to Extract Components with `@apply`",
-    "slug": "lesson-1-when-to-extract-components-with-apply",
     "video": null,
+    "slug": "lesson-1-when-to-extract-components-with-apply",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:13",
-    "updated_at": "2025-07-12 07:33:13"
+    "updated_at": "2025-07-23 04:47:55"
   },
   {
     "id": 1148,
     "unit_id": 135,
     "title": "Lesson 2: Understanding the Pros and Cons of `@apply`",
-    "slug": "lesson-2-understanding-the-pros-and-cons-of-apply",
     "video": null,
+    "slug": "lesson-2-understanding-the-pros-and-cons-of-apply",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:13",
-    "updated_at": "2025-07-12 07:33:13"
+    "updated_at": "2025-07-23 04:49:48"
   },
   {
     "id": 1149,
     "unit_id": 135,
     "title": "Lesson 3: Functions and Directives (`@tailwind`, `theme()`, etc.)",
-    "slug": "lesson-3-functions-and-directives-tailwind-theme-etc",
     "video": null,
+    "slug": "lesson-3-functions-and-directives-tailwind-theme-etc",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:13",
-    "updated_at": "2025-07-12 07:33:13"
+    "updated_at": "2025-07-23 04:51:41"
   },
   {
     "id": 1150,
     "unit_id": 135,
     "title": "Lesson 4: Implementing Dark Mode with `dark:` Prefixes",
-    "slug": "lesson-4-implementing-dark-mode-with-dark-prefixes",
     "video": null,
+    "slug": "lesson-4-implementing-dark-mode-with-dark-prefixes",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:13",
-    "updated_at": "2025-07-12 07:33:13"
+    "updated_at": "2025-07-23 04:53:23"
   },
   {
     "id": 1151,
     "unit_id": 136,
     "title": "Lesson 1: Project Scoping: Building a Full Landing Page with Tailwind CSS",
-    "slug": "lesson-1-project-scoping-building-a-full-landing-page-with-tailwind-css",
     "video": null,
+    "slug": "lesson-1-project-scoping-building-a-full-landing-page-with-tailwind-css",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:13",
-    "updated_at": "2025-07-12 07:33:13"
+    "updated_at": "2025-07-23 05:03:16"
   },
   {
     "id": 1152,
     "unit_id": 136,
     "title": "Lesson 2: The Final Build: Putting All the Concepts Together",
-    "slug": "lesson-2-the-final-build-putting-all-the-concepts-together",
     "video": null,
+    "slug": "lesson-2-the-final-build-putting-all-the-concepts-together",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:13",
-    "updated_at": "2025-07-12 07:33:13"
+    "updated_at": "2025-07-23 05:44:54"
   },
   {
     "id": 1153,
     "unit_id": 136,
     "title": "Lesson 3: Review: How Tailwind's Declarative Syntax Enables Agentic Workflows",
-    "slug": "lesson-3-review-how-tailwinds-declarative-syntax-enables-agentic-workflows",
     "video": null,
+    "slug": "lesson-3-review-how-tailwinds-declarative-syntax-enables-agentic-workflows",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:13",
-    "updated_at": "2025-07-12 07:33:13"
+    "updated_at": "2025-07-23 05:46:50"
   },
   {
     "id": 1154,
     "unit_id": 136,
     "title": "Lesson 4: Preparing for the Next Step: Putting Theory into Practice with 'Front End Development - Core 100 Projects'",
-    "slug": "lesson-4-preparing-for-the-next-step-putting-theory-into-practice-with-front-end-development---core-100-projects",
     "video": null,
+    "slug": "lesson-4-preparing-for-the-next-step-putting-theory-into-practice-with-front-end-development---core-100-projects",
     "display_order": 0,
     "created_at": "2025-07-12 07:33:13",
-    "updated_at": "2025-07-12 07:33:13"
+    "updated_at": "2025-07-23 05:47:53"
   },
   {
     "id": 1155,
     "unit_id": 137,
     "title": "Project 1: Simple Counter (Variables & Event Listeners)",
-    "slug": "project-1-simple-counter-variables--event-listeners",
     "video": null,
+    "slug": "project-1-simple-counter-variables--event-listeners",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1156,
     "unit_id": 137,
     "title": "Project 2: Hex Color Flipper (Random Number Generation & DOM Styling)",
-    "slug": "project-2-hex-color-flipper-random-number-generation--dom-styling",
     "video": null,
+    "slug": "project-2-hex-color-flipper-random-number-generation--dom-styling",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1157,
     "unit_id": 137,
     "title": "Project 3: Pass the Message (Input Values & Text Content)",
-    "slug": "project-3-pass-the-message-input-values--text-content",
     "video": null,
+    "slug": "project-3-pass-the-message-input-values--text-content",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1158,
     "unit_id": 137,
     "title": "Project 4: Character Counter (The `length` Property & Keyboard Events)",
-    "slug": "project-4-character-counter-the-length-property--keyboard-events",
     "video": null,
+    "slug": "project-4-character-counter-the-length-property--keyboard-events",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1159,
     "unit_id": 137,
     "title": "Project 5: Modal Window (Event Handlers & `classList.toggle`)",
-    "slug": "project-5-modal-window-event-handlers--classlisttoggle",
     "video": null,
+    "slug": "project-5-modal-window-event-handlers--classlisttoggle",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1160,
     "unit_id": 137,
     "title": "Project 6: Light/Dark Mode Theme Switcher (CSS Variable Manipulation)",
-    "slug": "project-6-lightdark-mode-theme-switcher-css-variable-manipulation",
     "video": null,
+    "slug": "project-6-lightdark-mode-theme-switcher-css-variable-manipulation",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1161,
     "unit_id": 137,
     "title": "Project 7: Simple Calculator (Handling User Input & Basic Arithmetic)",
-    "slug": "project-7-simple-calculator-handling-user-input--basic-arithmetic",
     "video": null,
+    "slug": "project-7-simple-calculator-handling-user-input--basic-arithmetic",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1162,
     "unit_id": 137,
     "title": "Project 8: Accordion/FAQ Toggle (Looping and Event Delegation)",
-    "slug": "project-8-accordionfaq-toggle-looping-and-event-delegation",
     "video": null,
+    "slug": "project-8-accordionfaq-toggle-looping-and-event-delegation",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1163,
     "unit_id": 137,
     "title": "Project 9: Image Carousel (Array Indexing & Timers)",
-    "slug": "project-9-image-carousel-array-indexing--timers",
     "video": null,
+    "slug": "project-9-image-carousel-array-indexing--timers",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1164,
     "unit_id": 137,
     "title": "Project 10: Digital Clock (`Date` Object & `setInterval`)",
-    "slug": "project-10-digital-clock-date-object--setinterval",
     "video": null,
+    "slug": "project-10-digital-clock-date-object--setinterval",
     "display_order": 10,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:23:44"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1165,
     "unit_id": 137,
     "title": "Project 11: Tip Calculator (Number Conversion & Form Events)",
-    "slug": "project-11-tip-calculator-number-conversion--form-events",
     "video": null,
+    "slug": "project-11-tip-calculator-number-conversion--form-events",
     "display_order": 11,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:24:22"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1166,
     "unit_id": 137,
     "title": "Project 12: Temperature Converter (Mathematical Formulas in JS)",
-    "slug": "project-12-temperature-converter-mathematical-formulas-in-js",
     "video": null,
+    "slug": "project-12-temperature-converter-mathematical-formulas-in-js",
     "display_order": 12,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:24:29"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1167,
     "unit_id": 137,
     "title": "Project 13: Review Scroller (Object Arrays and DOM Updates)",
-    "slug": "project-13-review-scroller-object-arrays-and-dom-updates",
     "video": null,
+    "slug": "project-13-review-scroller-object-arrays-and-dom-updates",
     "display_order": 13,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:24:40"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1168,
     "unit_id": 137,
     "title": "Project 14: Background Image Slider (Modifying CSS with JS)",
-    "slug": "project-14-background-image-slider-modifying-css-with-js",
     "video": null,
+    "slug": "project-14-background-image-slider-modifying-css-with-js",
     "display_order": 14,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:24:53"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1169,
     "unit_id": 137,
     "title": "Project 15: Input Field with Live Search (The `input` Event)",
-    "slug": "project-15-input-field-with-live-search-the-input-event",
     "video": null,
+    "slug": "project-15-input-field-with-live-search-the-input-event",
     "display_order": 15,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:25:02"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1170,
     "unit_id": 138,
     "title": "Project 16: Render a List of User Cards (The `.map()` Method)",
-    "slug": "project-16-render-a-list-of-user-cards-the-map-method",
     "video": null,
+    "slug": "project-16-render-a-list-of-user-cards-the-map-method",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1171,
     "unit_id": 138,
     "title": "Project 17: Live User Search Filter (The `.filter()` Method)",
-    "slug": "project-17-live-user-search-filter-the-filter-method",
     "video": null,
+    "slug": "project-17-live-user-search-filter-the-filter-method",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1172,
     "unit_id": 138,
     "title": "Project 18: Calculate a Shopping Cart Total (The `.reduce()` Method)",
-    "slug": "project-18-calculate-a-shopping-cart-total-the-reduce-method",
     "video": null,
+    "slug": "project-18-calculate-a-shopping-cart-total-the-reduce-method",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1173,
     "unit_id": 138,
     "title": "Project 19: Sort a List of Bands by Name (The `.sort()` Method)",
-    "slug": "project-19-sort-a-list-of-bands-by-name-the-sort-method",
     "video": null,
+    "slug": "project-19-sort-a-list-of-bands-by-name-the-sort-method",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1174,
     "unit_id": 138,
     "title": "Project 20: Check for Riches (The `.some()` and `.every()` Methods)",
-    "slug": "project-20-check-for-riches-the-some-and-every-methods",
     "video": null,
+    "slug": "project-20-check-for-riches-the-some-and-every-methods",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1175,
     "unit_id": 138,
     "title": "Project 21: Find a Specific User (The `.find()` Method)",
-    "slug": "project-21-find-a-specific-user-the-find-method",
     "video": null,
+    "slug": "project-21-find-a-specific-user-the-find-method",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1176,
     "unit_id": 138,
     "title": "Project 22: Interactive To-Do List (Array Manipulation: Add, Delete, Update)",
-    "slug": "project-22-interactive-to-do-list-array-manipulation-add-delete-update",
     "video": null,
+    "slug": "project-22-interactive-to-do-list-array-manipulation-add-delete-update",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1177,
     "unit_id": 138,
     "title": "Project 23: Movie Seat Booking App (Working with Indexes & Multiple Arrays)",
-    "slug": "project-23-movie-seat-booking-app-working-with-indexes--multiple-arrays",
     "video": null,
+    "slug": "project-23-movie-seat-booking-app-working-with-indexes--multiple-arrays",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1178,
     "unit_id": 138,
     "title": "Project 24: Testimonial Slider (Iterating through an Array of Objects)",
-    "slug": "project-24-testimonial-slider-iterating-through-an-array-of-objects",
     "video": null,
+    "slug": "project-24-testimonial-slider-iterating-through-an-array-of-objects",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1179,
     "unit_id": 138,
     "title": "Project 25: Recipe Book (Rendering Nested Data Structures)",
-    "slug": "project-25-recipe-book-rendering-nested-data-structures",
     "video": null,
+    "slug": "project-25-recipe-book-rendering-nested-data-structures",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1180,
     "unit_id": 138,
     "title": "Project 26: Expense Tracker (Form Submission & Data Aggregation)",
-    "slug": "project-26-expense-tracker-form-submission--data-aggregation",
     "video": null,
+    "slug": "project-26-expense-tracker-form-submission--data-aggregation",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1181,
     "unit_id": 138,
     "title": "Project 27: Double an Array of Numbers (Map Challenge)",
-    "slug": "project-27-double-an-array-of-numbers-map-challenge",
     "video": null,
+    "slug": "project-27-double-an-array-of-numbers-map-challenge",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1182,
     "unit_id": 138,
     "title": "Project 28: Filter out the Adults (Filter Challenge)",
-    "slug": "project-28-filter-out-the-adults-filter-challenge",
     "video": null,
+    "slug": "project-28-filter-out-the-adults-filter-challenge",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1183,
     "unit_id": 138,
     "title": "Project 29: Sum of All Prices (Reduce Challenge)",
-    "slug": "project-29-sum-of-all-prices-reduce-challenge",
     "video": null,
+    "slug": "project-29-sum-of-all-prices-reduce-challenge",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1184,
     "unit_id": 138,
     "title": "Project 30: Client-Side Pagination for a List",
-    "slug": "project-30-client-side-pagination-for-a-list",
     "video": null,
+    "slug": "project-30-client-side-pagination-for-a-list",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1185,
     "unit_id": 138,
     "title": "Project 31: Dynamic Menu from an Array of Objects",
-    "slug": "project-31-dynamic-menu-from-an-array-of-objects",
     "video": null,
+    "slug": "project-31-dynamic-menu-from-an-array-of-objects",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1186,
     "unit_id": 138,
     "title": "Project 32: Generate a Dynamic Table from Data",
-    "slug": "project-32-generate-a-dynamic-table-from-data",
     "video": null,
+    "slug": "project-32-generate-a-dynamic-table-from-data",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1187,
     "unit_id": 138,
     "title": "Project 33: Key-Value Pairs to List (Object Iteration)",
-    "slug": "project-33-key-value-pairs-to-list-object-iteration",
     "video": null,
+    "slug": "project-33-key-value-pairs-to-list-object-iteration",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1188,
     "unit_id": 138,
     "title": "Project 34: Find Highest-Rated Item (Data Traversal)",
-    "slug": "project-34-find-highest-rated-item-data-traversal",
     "video": null,
+    "slug": "project-34-find-highest-rated-item-data-traversal",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1189,
     "unit_id": 138,
     "title": "Project 35: Unique Tag Extractor (Sets and Spread Operator)",
-    "slug": "project-35-unique-tag-extractor-sets-and-spread-operator",
     "video": null,
+    "slug": "project-35-unique-tag-extractor-sets-and-spread-operator",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1190,
     "unit_id": 138,
     "title": "Project 36: Filter Products by Price Range",
-    "slug": "project-36-filter-products-by-price-range",
     "video": null,
+    "slug": "project-36-filter-products-by-price-range",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1191,
     "unit_id": 138,
     "title": "Project 37: Grouping Items by Category",
-    "slug": "project-37-grouping-items-by-category",
     "video": null,
+    "slug": "project-37-grouping-items-by-category",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1192,
     "unit_id": 138,
     "title": "Project 38: Tic-Tac-Toe Game Board (2D Array Logic)",
-    "slug": "project-38-tic-tac-toe-game-board-2d-array-logic",
     "video": null,
+    "slug": "project-38-tic-tac-toe-game-board-2d-array-logic",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1193,
     "unit_id": 138,
     "title": "Project 39: Sales Data Chart (Data Visualization from an Object)",
-    "slug": "project-39-sales-data-chart-data-visualization-from-an-object",
     "video": null,
+    "slug": "project-39-sales-data-chart-data-visualization-from-an-object",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1194,
     "unit_id": 138,
     "title": "Project 40: Flashcard App (Toggling between Question and Answer)",
-    "slug": "project-40-flashcard-app-toggling-between-question-and-answer",
     "video": null,
+    "slug": "project-40-flashcard-app-toggling-between-question-and-answer",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1195,
     "unit_id": 139,
     "title": "Project 41: Form Validation Engine (RegEx & Conditional Logic)",
-    "slug": "project-41-form-validation-engine-regex--conditional-logic",
     "video": null,
+    "slug": "project-41-form-validation-engine-regex--conditional-logic",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1196,
     "unit_id": 139,
     "title": "Project 42: Show/Hide Password Input",
-    "slug": "project-42-showhide-password-input",
     "video": null,
+    "slug": "project-42-showhide-password-input",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1197,
     "unit_id": 139,
     "title": "Project 43: A Multi-Step Form (Managing State Across Views)",
-    "slug": "project-43-a-multi-step-form-managing-state-across-views",
     "video": null,
+    "slug": "project-43-a-multi-step-form-managing-state-across-views",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1198,
     "unit_id": 139,
     "title": "Project 44: Password Strength Meter (Real-time Input Analysis)",
-    "slug": "project-44-password-strength-meter-real-time-input-analysis",
     "video": null,
+    "slug": "project-44-password-strength-meter-real-time-input-analysis",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1199,
     "unit_id": 139,
     "title": "Project 45: Credit Card Formatter",
-    "slug": "project-45-credit-card-formatter",
     "video": null,
+    "slug": "project-45-credit-card-formatter",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1200,
     "unit_id": 139,
     "title": "Project 46: Loan Calculator (Complex Mathematical Logic)",
-    "slug": "project-46-loan-calculator-complex-mathematical-logic",
     "video": null,
+    "slug": "project-46-loan-calculator-complex-mathematical-logic",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1201,
     "unit_id": 139,
     "title": "Project 47: Bill Splitter App",
-    "slug": "project-47-bill-splitter-app",
     "video": null,
+    "slug": "project-47-bill-splitter-app",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1202,
     "unit_id": 139,
     "title": "Project 48: Interactive Survey Form with Results",
-    "slug": "project-48-interactive-survey-form-with-results",
     "video": null,
+    "slug": "project-48-interactive-survey-form-with-results",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1203,
     "unit_id": 139,
     "title": "Project 49: Form with Auto-Save to Local Storage",
-    "slug": "project-49-form-with-auto-save-to-local-storage",
     "video": null,
+    "slug": "project-49-form-with-auto-save-to-local-storage",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1204,
     "unit_id": 139,
     "title": "Project 50: User Profile Editor Form",
-    "slug": "project-50-user-profile-editor-form",
     "video": null,
+    "slug": "project-50-user-profile-editor-form",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1205,
     "unit_id": 139,
     "title": "Project 51: Dynamic Dropdown Menus (Dependent Selects)",
-    "slug": "project-51-dynamic-dropdown-menus-dependent-selects",
     "video": null,
+    "slug": "project-51-dynamic-dropdown-menus-dependent-selects",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1206,
     "unit_id": 139,
     "title": "Project 52: Event Registration Form with Validation",
-    "slug": "project-52-event-registration-form-with-validation",
     "video": null,
+    "slug": "project-52-event-registration-form-with-validation",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1207,
     "unit_id": 139,
     "title": "Project 53: Weight/Height Converter (BMI Calculator)",
-    "slug": "project-53-weightheight-converter-bmi-calculator",
     "video": null,
+    "slug": "project-53-weightheight-converter-bmi-calculator",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1208,
     "unit_id": 139,
     "title": "Project 54: Real-time Form Field Character Limits",
-    "slug": "project-54-real-time-form-field-character-limits",
     "video": null,
+    "slug": "project-54-real-time-form-field-character-limits",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1209,
     "unit_id": 139,
     "title": "Project 55: Custom Select Dropdown Component",
-    "slug": "project-55-custom-select-dropdown-component",
     "video": null,
+    "slug": "project-55-custom-select-dropdown-component",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1210,
     "unit_id": 139,
     "title": "Project 56: Checkbox 'Select All' Functionality",
-    "slug": "project-56-checkbox-select-all-functionality",
     "video": null,
+    "slug": "project-56-checkbox-select-all-functionality",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1211,
     "unit_id": 139,
     "title": "Project 57: Age Calculator from Date of Birth",
-    "slug": "project-57-age-calculator-from-date-of-birth",
     "video": null,
+    "slug": "project-57-age-calculator-from-date-of-birth",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1212,
     "unit_id": 139,
     "title": "Project 58: Shipping Cost Calculator",
-    "slug": "project-58-shipping-cost-calculator",
     "video": null,
+    "slug": "project-58-shipping-cost-calculator",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1213,
     "unit_id": 139,
     "title": "Project 59: User Settings Form (Managing Boolean State)",
-    "slug": "project-59-user-settings-form-managing-boolean-state",
     "video": null,
+    "slug": "project-59-user-settings-form-managing-boolean-state",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1214,
     "unit_id": 139,
     "title": "Project 60: Form Reset and Clear Functionality",
-    "slug": "project-60-form-reset-and-clear-functionality",
     "video": null,
+    "slug": "project-60-form-reset-and-clear-functionality",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1215,
     "unit_id": 140,
     "title": "Project 61: Random Quote Generator (Your First API Call)",
-    "slug": "project-61-random-quote-generator-your-first-api-call",
     "video": null,
+    "slug": "project-61-random-quote-generator-your-first-api-call",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1216,
     "unit_id": 140,
     "title": "Project 62: Weather App (Fetching Data & Handling API Keys)",
-    "slug": "project-62-weather-app-fetching-data--handling-api-keys",
     "video": null,
+    "slug": "project-62-weather-app-fetching-data--handling-api-keys",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1217,
     "unit_id": 140,
     "title": "Project 63: GitHub Profile Viewer (Dynamic API Endpoints)",
-    "slug": "project-63-github-profile-viewer-dynamic-api-endpoints",
     "video": null,
+    "slug": "project-63-github-profile-viewer-dynamic-api-endpoints",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1218,
     "unit_id": 140,
     "title": "Project 64: Recipe Search App (Handling Complex JSON Responses)",
-    "slug": "project-64-recipe-search-app-handling-complex-json-responses",
     "video": null,
+    "slug": "project-64-recipe-search-app-handling-complex-json-responses",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1219,
     "unit_id": 140,
     "title": "Project 65: Infinite Scroll Image Gallery (API Pagination & Scroll Events)",
-    "slug": "project-65-infinite-scroll-image-gallery-api-pagination--scroll-events",
     "video": null,
+    "slug": "project-65-infinite-scroll-image-gallery-api-pagination--scroll-events",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1220,
     "unit_id": 140,
     "title": "Project 66: Currency Converter (Working with Multiple API Fetches)",
-    "slug": "project-66-currency-converter-working-with-multiple-api-fetches",
     "video": null,
+    "slug": "project-66-currency-converter-working-with-multiple-api-fetches",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1221,
     "unit_id": 140,
     "title": "Project 67: Lyrics Search App (Promises, `async/await`, and Error Handling)",
-    "slug": "project-67-lyrics-search-app-promises-asyncawait-and-error-handling",
     "video": null,
+    "slug": "project-67-lyrics-search-app-promises-asyncawait-and-error-handling",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1222,
     "unit_id": 140,
     "title": "Project 68: Movie Database Search (Displaying a Grid of API Data)",
-    "slug": "project-68-movie-database-search-displaying-a-grid-of-api-data",
     "video": null,
+    "slug": "project-68-movie-database-search-displaying-a-grid-of-api-data",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1223,
     "unit_id": 140,
     "title": "Project 69: Random Dog Photo Generator",
-    "slug": "project-69-random-dog-photo-generator",
     "video": null,
+    "slug": "project-69-random-dog-photo-generator",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1224,
     "unit_id": 140,
     "title": "Project 70: Wikipedia Search App",
-    "slug": "project-70-wikipedia-search-app",
     "video": null,
+    "slug": "project-70-wikipedia-search-app",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1225,
     "unit_id": 140,
     "title": "Project 71: Displaying a Map with a Map API",
-    "slug": "project-71-displaying-a-map-with-a-map-api",
     "video": null,
+    "slug": "project-71-displaying-a-map-with-a-map-api",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1226,
     "unit_id": 140,
     "title": "Project 72: COVID-19 Stats Tracker",
-    "slug": "project-72-covid-19-stats-tracker",
     "video": null,
+    "slug": "project-72-covid-19-stats-tracker",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1227,
     "unit_id": 140,
     "title": "Project 73: ISS Location Tracker",
-    "slug": "project-73-iss-location-tracker",
     "video": null,
+    "slug": "project-73-iss-location-tracker",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1228,
     "unit_id": 140,
     "title": "Project 74: Joke Teller (Text-to-Speech + Joke API)",
-    "slug": "project-74-joke-teller-text-to-speech--joke-api",
     "video": null,
+    "slug": "project-74-joke-teller-text-to-speech--joke-api",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:04",
-    "updated_at": "2025-07-12 08:00:04"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1229,
     "unit_id": 140,
     "title": "Project 75: IP Address Locator",
-    "slug": "project-75-ip-address-locator",
     "video": null,
+    "slug": "project-75-ip-address-locator",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1230,
     "unit_id": 140,
     "title": "Project 76: Unsplash Image Search",
-    "slug": "project-76-unsplash-image-search",
     "video": null,
+    "slug": "project-76-unsplash-image-search",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1231,
     "unit_id": 140,
     "title": "Project 77: Country Information App (REST Countries API)",
-    "slug": "project-77-country-information-app-rest-countries-api",
     "video": null,
+    "slug": "project-77-country-information-app-rest-countries-api",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1232,
     "unit_id": 140,
     "title": "Project 78: Dictionary App",
-    "slug": "project-78-dictionary-app",
     "video": null,
+    "slug": "project-78-dictionary-app",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1233,
     "unit_id": 140,
     "title": "Project 79: Await vs. Promise.all() Comparison",
-    "slug": "project-79-await-vs-promiseall-comparison",
     "video": null,
+    "slug": "project-79-await-vs-promiseall-comparison",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1234,
     "unit_id": 140,
     "title": "Project 80: POST Request to a Mock API",
-    "slug": "project-80-post-request-to-a-mock-api",
     "video": null,
+    "slug": "project-80-post-request-to-a-mock-api",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1235,
     "unit_id": 141,
     "title": "Project 81: Local Note-Taking App (Web Storage API - `localStorage`)",
-    "slug": "project-81-local-note-taking-app-web-storage-api---localstorage",
     "video": null,
+    "slug": "project-81-local-note-taking-app-web-storage-api---localstorage",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1236,
     "unit_id": 141,
     "title": "Project 82: Pomodoro Timer (`Date` Object & `setInterval`)",
-    "slug": "project-82-pomodoro-timer-date-object--setinterval",
     "video": null,
+    "slug": "project-82-pomodoro-timer-date-object--setinterval",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1237,
     "unit_id": 141,
     "title": "Project 83: Simple Drawing App (HTML Canvas API)",
-    "slug": "project-83-simple-drawing-app-html-canvas-api",
     "video": null,
+    "slug": "project-83-simple-drawing-app-html-canvas-api",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1238,
     "unit_id": 141,
     "title": "Project 84: Hangman Game (Complex Game Logic & State Management)",
-    "slug": "project-84-hangman-game-complex-game-logic--state-management",
     "video": null,
+    "slug": "project-84-hangman-game-complex-game-logic--state-management",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1239,
     "unit_id": 141,
     "title": "Project 85: Drag and Drop To-Do Board (Drag and Drop API)",
-    "slug": "project-85-drag-and-drop-to-do-board-drag-and-drop-api",
     "video": null,
+    "slug": "project-85-drag-and-drop-to-do-board-drag-and-drop-api",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1240,
     "unit_id": 141,
     "title": "Project 86: Speech-to-Text Dictation (Web Speech API)",
-    "slug": "project-86-speech-to-text-dictation-web-speech-api",
     "video": null,
+    "slug": "project-86-speech-to-text-dictation-web-speech-api",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1241,
     "unit_id": 141,
     "title": "Project 87: Music Player (Audio API)",
-    "slug": "project-87-music-player-audio-api",
     "video": null,
+    "slug": "project-87-music-player-audio-api",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1242,
     "unit_id": 141,
     "title": "Project 88: Palindrome Checker (String Manipulation Algorithms)",
-    "slug": "project-88-palindrome-checker-string-manipulation-algorithms",
     "video": null,
+    "slug": "project-88-palindrome-checker-string-manipulation-algorithms",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1243,
     "unit_id": 141,
     "title": "Project 89: Meal Planner with Calorie Counter (Advanced Data Interaction)",
-    "slug": "project-89-meal-planner-with-calorie-counter-advanced-data-interaction",
     "video": null,
+    "slug": "project-89-meal-planner-with-calorie-counter-advanced-data-interaction",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1244,
     "unit_id": 141,
     "title": "Project 90: Breakout Game (Collision Detection & Game Loop with `requestAnimationFrame`)",
-    "slug": "project-90-breakout-game-collision-detection--game-loop-with-requestanimationframe",
     "video": null,
+    "slug": "project-90-breakout-game-collision-detection--game-loop-with-requestanimationframe",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1245,
     "unit_id": 141,
     "title": "Project 91: Memory Card Game (Logic and Timers)",
-    "slug": "project-91-memory-card-game-logic-and-timers",
     "video": null,
+    "slug": "project-91-memory-card-game-logic-and-timers",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1246,
     "unit_id": 141,
     "title": "Project 92: 'Scroll to Top' Button (Window Scroll Events)",
-    "slug": "project-92-scroll-to-top-button-window-scroll-events",
     "video": null,
+    "slug": "project-92-scroll-to-top-button-window-scroll-events",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1247,
     "unit_id": 141,
     "title": "Project 93: Animated Progress Bar on Scroll",
-    "slug": "project-93-animated-progress-bar-on-scroll",
     "video": null,
+    "slug": "project-93-animated-progress-bar-on-scroll",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1248,
     "unit_id": 141,
     "title": "Project 94: Lazy Loading Images (Intersection Observer API)",
-    "slug": "project-94-lazy-loading-images-intersection-observer-api",
     "video": null,
+    "slug": "project-94-lazy-loading-images-intersection-observer-api",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1249,
     "unit_id": 141,
     "title": "Project 95: Custom Video Player Interface (Video API)",
-    "slug": "project-95-custom-video-player-interface-video-api",
     "video": null,
+    "slug": "project-95-custom-video-player-interface-video-api",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1250,
     "unit_id": 141,
     "title": "Project 96: Geolocation-based Weather",
-    "slug": "project-96-geolocation-based-weather",
     "video": null,
+    "slug": "project-96-geolocation-based-weather",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1251,
     "unit_id": 141,
     "title": "Project 97: Simple Web Component (Custom Elements)",
-    "slug": "project-97-simple-web-component-custom-elements",
     "video": null,
+    "slug": "project-97-simple-web-component-custom-elements",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1252,
     "unit_id": 141,
     "title": "Project 98: Minesweeper Game (2D Array Traversal and Recursion)",
-    "slug": "project-98-minesweeper-game-2d-array-traversal-and-recursion",
     "video": null,
+    "slug": "project-98-minesweeper-game-2d-array-traversal-and-recursion",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1253,
     "unit_id": 141,
     "title": "Project 99: Regular Expression Matcher Tool",
-    "slug": "project-99-regular-expression-matcher-tool",
     "video": null,
+    "slug": "project-99-regular-expression-matcher-tool",
     "display_order": 0,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:00:05"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1254,
     "unit_id": 141,
     "title": "Project 100: Final Capstone: Putting It All Together in a Portfolio Piece",
-    "slug": "project-100-final-capstone-putting-it-all-together-in-a-portfolio-piece",
     "video": null,
+    "slug": "project-100-final-capstone-putting-it-all-together-in-a-portfolio-piece",
     "display_order": 100,
     "created_at": "2025-07-12 08:00:05",
-    "updated_at": "2025-07-12 08:29:11"
+    "updated_at": "2025-07-17 12:17:08"
   },
   {
     "id": 1255,
     "unit_id": 142,
-    "title": "Lesson 1:  Introduction: The Three Pillars of the Web",
-    "slug": "lesson_1:_introduction:_the_three_pillars_of_the_web",
+    "title": "Lesson 1:   What is an Application? The World of Data",
     "video": null,
+    "slug": "lesson_1:_what_is_an_application?_the_world_of_data",
     "display_order": 0,
     "created_at": "2025-07-15 07:26:36",
-    "updated_at": "2025-07-15 08:58:14"
+    "updated_at": "2025-08-02 18:19:40"
   },
   {
     "id": 1256,
     "unit_id": 142,
-    "title": "Lesson 2:  Your First Webpage",
-    "slug": "lesson_2:_your_first_webpage",
+    "title": "Lesson 2:  Data Object in Detail",
     "video": null,
+    "slug": "lesson_2:_data_object_in_detail",
     "display_order": 0,
     "created_at": "2025-07-15 07:29:35",
-    "updated_at": "2025-07-15 12:48:51"
+    "updated_at": "2025-08-02 18:19:48"
   },
   {
     "id": 1257,
     "unit_id": 142,
-    "title": "Lesson 3:  A Splash of Color - Styling your Webpage",
-    "slug": "lesson_3:_a_splash_of_color_-_styling_your_webpage",
+    "title": "Lesson 3:  Arrays Inside Data Objects",
     "video": null,
+    "slug": "lesson_3:_arrays_inside_data_objects",
     "display_order": 0,
     "created_at": "2025-07-15 07:33:21",
-    "updated_at": "2025-07-15 13:13:51"
+    "updated_at": "2025-08-02 18:19:54"
   },
   {
     "id": 1258,
     "unit_id": 142,
-    "title": "Lesson 4: The Problem of Specificity - Selection Of Elements To style",
-    "slug": "lesson_4:_the_problem_of_specificity_-_selection_of_elements_to_style",
+    "title": "Lesson 4: Nested Objects and Array of Nested Objects",
     "video": null,
+    "slug": "lesson_4:_nested_objects_and_array_of_nested_objects",
     "display_order": 0,
     "created_at": "2025-07-15 07:35:18",
-    "updated_at": "2025-07-15 16:16:17"
+    "updated_at": "2025-08-02 18:20:02"
   },
   {
     "id": 1259,
     "unit_id": 142,
-    "title": "Lesson 5: The Magic Button- Adding Intractivity to your webpage",
-    "slug": "lesson_5:_the_magic_button-_adding_intractivity_to_your_webpage",
+    "title": "Lesson 5: Functions Inside Data Object",
     "video": null,
+    "slug": "lesson_5:_functions_inside_data_object",
     "display_order": 0,
     "created_at": "2025-07-15 07:37:24",
-    "updated_at": "2025-07-15 07:37:24"
+    "updated_at": "2025-08-02 18:20:08"
+  },
+  {
+    "id": 1260,
+    "unit_id": 142,
+    "title": "Lesson 6: Functions with arguments",
+    "video": null,
+    "slug": "lesson_6:_functions_with_arguments",
+    "display_order": 0,
+    "created_at": "2025-08-02 13:31:33",
+    "updated_at": "2025-08-02 18:20:15"
+  },
+  {
+    "id": 1261,
+    "unit_id": 142,
+    "title": "Lesson 7: Modifying Data Object",
+    "video": null,
+    "slug": "lesson_7:_modifying_data_object",
+    "display_order": 0,
+    "created_at": "2025-08-02 18:09:50",
+    "updated_at": "2025-08-02 18:22:21"
+  },
+  {
+    "id": 1262,
+    "unit_id": 142,
+    "title": "Lesson 8: Getting Started With HTML",
+    "video": null,
+    "slug": "lesson_8:_getting_started_with_html",
+    "display_order": 0,
+    "created_at": "2025-08-03 02:41:30",
+    "updated_at": "2025-08-03 05:40:38"
+  },
+  {
+    "id": 1263,
+    "unit_id": 142,
+    "title": "Lesson 9: Styling The Web - Introduction To CSS",
+    "video": null,
+    "slug": "lesson_9:_styling_the_web_-_introduction_to_css",
+    "display_order": 0,
+    "created_at": "2025-08-03 02:43:00",
+    "updated_at": "2025-08-04 03:34:39"
+  },
+  {
+    "id": 1264,
+    "unit_id": 142,
+    "title": "Lesson 10: what is DOM ? how Data Objects connected with the inner working of Browser ",
+    "video": null,
+    "slug": "lesson_10:_what_is_dom_?_how_data_objects_connected_with_the_inner_working_of_browser",
+    "display_order": 10,
+    "created_at": "2025-08-03 02:45:02",
+    "updated_at": "2025-08-05 09:06:31"
+  },
+  {
+    "id": 1265,
+    "unit_id": 142,
+    "title": "Lesson 11: Java Script - The engine that  powers webpages.",
+    "video": null,
+    "slug": "lesson_11:_java_script_-_the_engine_that_powers_webpages.",
+    "display_order": 11,
+    "created_at": "2025-08-03 02:47:31",
+    "updated_at": "2025-08-05 12:24:39"
+  },
+  {
+    "id": 1266,
+    "unit_id": 142,
+    "title": "Lesson 12 - DOM manipulation using Javascript",
+    "video": null,
+    "slug": "lesson_12_-_dom_manipulation_using_javascript",
+    "display_order": 12,
+    "created_at": "2025-08-03 02:49:51",
+    "updated_at": "2025-08-06 11:52:08"
+  },
+  {
+    "id": 1267,
+    "unit_id": 142,
+    "title": "Data Object Revision",
+    "video": null,
+    "slug": "data_object_revision",
+    "display_order": 9,
+    "created_at": "2025-08-04 03:49:12",
+    "updated_at": "2025-08-04 04:03:17"
+  },
+  {
+    "id": 1268,
+    "unit_id": 142,
+    "title": "Lesson 13: Making Web Interactive - Introduction to User Events ",
+    "video": null,
+    "slug": "lesson_13:_making_web_interactive_-_introduction_to_user_events",
+    "display_order": 13,
+    "created_at": "2025-08-07 01:47:48",
+    "updated_at": "2025-08-07 01:48:22"
   }
 ]
